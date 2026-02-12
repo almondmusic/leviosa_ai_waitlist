@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import WaitlistModalProvider from "@/components/WaitlistModalProvider";
 
 export const metadata: Metadata = {
   title: "레비오사 AI | 온라인 셀러를 위한 AI 에이전트",
@@ -21,7 +22,9 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css"
         />
       </head>
-      <body className="font-pretendard antialiased">{children}</body>
+      <body className="font-pretendard antialiased">
+        <WaitlistModalProvider>{children}</WaitlistModalProvider>
+      </body>
     </html>
   );
 }

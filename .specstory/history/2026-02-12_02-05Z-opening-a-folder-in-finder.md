@@ -1931,6 +1931,109 @@ cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run dev 2>&1 &
 sleep 5
 curl -s -o /dev/null -w "%{http_code}" http://localhost:3000 2>/dev/null || echo "Server might not be ready"
 ```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 dev
+&gt; next dev
+
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ✓ Ready in 1583ms
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+ ⚠ Port 3000 is in use, trying 3001 instead.
+  ▲ Next.js 14.2.18
+  - Local:        http://localhost:3001
+
+ ✓ Starting...
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ✓ Ready in 1071ms
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ○ Compiling /_not-found ...
+500Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ✓ Compiled /_not-found in 1923ms (450 modules)
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+Watchpack Error (watcher): Error: EMFILE: too many open files, watch
+ ✓ Compiled in 145ms (450 modules)
+ GET /__webpack_hmr 404 in 2170ms
+ GET /__webpack_hmr 404 in 16ms
+ GET /__webpack_hmr 404 in 19ms
+(eval):1: nice(5) failed: operation not permitted
+
+```
 </details>
 </tool-use>
 
@@ -2007,6 +2110,21321 @@ Status: **completed**
 
 
 </details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I see several potential issues:
+
+1. **Port 3000 is in use** - The server started on port 3001 instead
+2. **EMFILE: too many open files** - This is a system limit issue on macOS, common when running dev servers. It can cause weird behavior.
+3. **500 error** - There was a 500 response when compiling /_not-found, which might indicate an issue
+4. **GET /__webpack_hmr 404** - HMR might be having issues
+
+The main issues could be:
+1. The user might be trying to access localhost:3000 but the server is on 3001
+2. The waitlist page might have a bug - the searchParams in Next.js 14 App Router: For page components, searchParams is passed as a prop but the type might differ. In Next.js 14, for dynamic routes, searchParams is a Promise. Let me check - actually in Next.js 14.2, the page props might be different. The searchParams could be causing issues if the page is statically generated.
+
+Let me check the Next.js 14 docs - in App Router, for pages that use searchParams, the page needs to be dynamic. The issue might be that we're using `React.use(searchParams)` - React.use() is for unwrapping promises. In Next.js 15, searchParams became a Promise. But in Next.js 14.2, I think searchParams might still be a plain object. Let me check - in Next.js 14, the page props are:
+- params
+- searchParams
+
+And they're plain objects, not Promises. So using React.use(searchParams) when searchParams is not a Promise could cause issues!
+
+That's likely the bug. In Next.js 14.2, searchParams is NOT a Promise - it's a plain object. So we shouldn't use React.use(). Let me fix the waitlist page to work with Next.js 14's searchParams (plain object).
+</details></think>
+
+---
+
+
+Next.js 14에서는 `searchParams`가 Promise가 아니라 일반 객체입니다. `React.use()` 사용으로 오류가 발생한 것으로 보입니다.
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Yes - in Next.js 14.2, searchParams is a plain object `{ [key: string]: string | string[] | undefined }`, not a Promise. Using React.use() on a non-Promise will cause issues. Let me fix this to use searchParams directly as an object.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good. Now let me also add `export const dynamic = 'force-dynamic'` or ensure the page works - actually in Next.js 14, pages that use searchParams are automatically dynamic. Let me verify the build works.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.79 kB        95.9 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            137 B          87.3 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-467ae39c9b747755.js       31.6 kB
+  ├ chunks/fd9d1056-7d9b70e9456442b8.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeds. Let me give the user clear instructions on how to run, and mention the potential issues: port 3001 if 3000 is in use, and EMFILE errors.
+</details></think>
+
+---
+
+
+`searchParams`를 Next.js 14 방식에 맞게 수정했습니다. (Next.js 14에서는 Promise가 아니라 일반 객체입니다.)
+
+## 실행 방법
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist
+npm run dev
+```
+
+실행 후 브라우저에서 아래 주소로 접속하세요.
+- 메인: **http://localhost:3000**
+- 웨이트리스트: **http://localhost:3000/waitlist**
+
+3000 포트가 사용 중이면 **http://localhost:3001** 로 올라갈 수 있습니다. 콘솔에 출력된 URL을 확인하면 됩니다.
+
+## EMFILE 오류가 보일 때
+
+`EMFILE: too many open files` 가 뜨면 macOS의 열 수 있는 파일 개수 제한 때문입니다. 터미널에서 아래를 실행해 보세요.
+
+```bash
+ulimit -n 10240
+```
+
+그다음 다시 `npm run dev`를 실행하세요.
+
+---
+
+_**User**_
+
+비즈니스 PT 대기 신청
+현재 수강을 위해 대기 중인 인원은
+총 1,826 명 입니다.
+트레이닝 받으실 시간은 언제가 좋으세요?
+
+*오프라인 트레이닝은 매주 같은 요일 같은 시간에 진행해야 합니다. 트레이닝 받으실 수 있는 시간대를 2개 이상 선택해 주세요.
+*예상 대기일은 상황에 따라 변동될 수 있습니다.
+
+평일 낮(적정)
+
+대기 예상: 약 30일(332명 대기 중)
+
+
+평일 오후(여유)
+
+대기 예상: 약 17일(344명 대기 중)
+
+
+평일 야간(적정)
+
+대기 예상: 약 30일(680명 대기 중)
+
+
+주말(혼잡)
+
+대기 예상: 약 64일(489명 대기 중)
+
+대기신청을 클릭했을 때 이와 같이 팝업이 뜨고 팝업 안에 이런 식으로 선택하는 플로우가 있거든
+
+총 4개의 플로우이고 마지막 페이지는 인사하는 내용이고 1페이지는 12개 질문으로 길어서 2개 이미지로 첨부했어
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user wants to implement a waitlist flow similar to the Business PT (비즈니스 PT) one they've shown in the images. When the user clicks "대기신청" (Waitlist application), a popup/modal should open with a multi-step flow:
+
+**Total: 4 steps/flows**
+
+1. **Step 1 (Page 1)**: ~12 questions - shown in 2 images:
+   - Intro note: "This information will be used as basic data to help members achieve monetization faster."
+   - Q1: Current occupation (회사원, 주부, 자영업 등...) with "기타" + text input
+   - Q2: Previous occupation (same options)
+   - Q3: Education (중졸 이하, 고졸, 대학 중퇴, 학사, 석사, 박사 이상)
+   - Q3-1: Major (text input)
+   - Q4-Q10: Yes/No questions (있음/없음) - hobby, selling experience, offline meetings, "could do better" product, satisfied product, face exposure disqualification, SNS experience
+   - Q11: (from image 2) - SNS experience
+   - Q12: Monthly revenue goal (100만 이하, 300만, 500만, 1000만, 1000만 이상)
+   - Q13: Timeframe for goal (3개월 이상, 6개월, 9개월, 1년 이상, 될 때까지 한다)
+
+2. **Step 2**: Time slot selection
+   - "트레이닝 받으실 시간은 언제가 좋으세요?"
+   - Total waitlist count: 1,826
+   - 4 options in 2x2 grid:
+     - 평일 낮(적정): ~30일, 332명 대기
+     - 평일 오후(여유): ~17일, 344명 대기
+     - 평일 야간(적정): ~30일, 680명 대기
+     - 주말(혼잡): ~64일, 489명 대기
+   - User must select 2+ time slots
+   - "다음 단계" button
+
+3. **Step 3**: Phone call availability
+   - "수강 등록을 위한 통화 가능한 요일과 시간을 선택해 주세요."
+   - Warning about Alimtalk notification and cancellation if unreachable
+   - 3 priority slots: Day, Start time, End time (dropdowns)
+   - 1순위, 2순위, 3순위
+   - 이전 단계 / 다음 단계 buttons
+
+4. **Step 4**: Thank you / goodbye message (인사하는 내용)
+
+I need to:
+1. Create a modal/popup component that opens when "대기신청" is clicked
+2. Implement 4 steps inside the modal
+3. Step 1: Form with all 12+ questions (occupation, education, yes/no questions, revenue goal, timeframe)
+4. Step 2: Time slot selection (2+ required) with the 4 options
+5. Step 3: Call availability - 3 priority time slots with day, start, end
+6. Step 4: Thank you message
+
+Let me adapt the content for Leviosa AI (온라인 셀러를 위한 AI 에이전트) instead of Business PT. So:
+- Title: "레비오사 AI 대기 신청"
+- Step 2 could be "베타 사용 가능 시간" or similar (we might not have "트레이닝 시간" - could be "선호하는 연락 시간" or keep similar structure for consistency)
+- Questions in Step 1: Some can stay (occupation, experience), others adapt to seller/AI context (revenue goal → seller revenue goal, etc.)
+
+I'll create:
+1. `WaitlistModal.tsx` - the modal wrapper with 4 steps, progress indicator
+2. Step 1: Long form with all questions
+3. Step 2: Time slot selection (for Leviosa AI maybe "선호 연락 시간대" or keep as "베타 사용 가능 시간대")
+4. Step 3: Call/schedule preference (3 priorities)
+5. Step 4: Thank you
+
+I'll use the existing waitlist page or the main page - the user said "대기신청을 클릭했을 때 이와 같이 팝업이 뜨고" - so the CTA buttons should open this modal instead of scrolling to a form. So I need to:
+- Add the modal to the app (either on main page or waitlist page)
+- When user clicks 대기신청, open modal
+- Modal contains the 4-step flow
+
+Let me build this. I'll put the modal in a component and use it on both the main page and the waitlist page (or just the waitlist page). Actually the user has two pages - / and /waitlist. The /waitlist page has the form. So I should add the modal to the waitlist page and when they click "대기 신청" or "지금 대기 신청하기", open the modal instead of showing the inline form. Or we could have both - the modal for the full flow and the simple form as fallback. I'll go with: on the waitlist page, the main CTA opens the modal with 4 steps. The modal collects all the data and on step 4 we submit.
+
+Implementing.
+</details></think>
+
+---
+
+
+대기신청 클릭 시 4단계 플로우 모달을 구현합니다. 비즈니스 PT 구조를 참고해 레비오사 AI에 맞게 적용합니다.
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [-] Create WaitlistModal with 4-step flow and progress indicator
+- [ ] Step 1: 12-question form (occupation, education, yes/no, goals)
+- [ ] Step 2: Time slot selection (2+ required) with wait stats
+- [ ] Step 3: Call availability (3 priority slots)
+- [ ] Step 4: Thank you message + submit
+- [ ] Wire modal open to 대기신청 buttons on waitlist page
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I need to create a comprehensive modal with 4 steps. Let me create the WaitlistModal component and the step components. I'll use client-side state and at the end submit to the API.
+
+Structure:
+1. WaitlistModal - open/close state, currentStep (1-4), form data state
+2. Step1 - 12 questions (occupation, prev occupation, education, major, Q4-Q13)
+3. Step2 - time slots (4 options, select 2+), total wait count
+4. Step3 - 3 priority call time slots (day, start, end)
+5. Step4 - thank you message
+
+For Leviosa AI we adapt:
+- Title: "레비오사 AI 대기 신청"
+- Step 2: "베타 사용 가능한 시간대" or "연락 가능 시간대" with similar 4 slots
+- Step 3: "온보딩 통화 가능한 요일과 시간" 
+- Questions can be seller-focused (current job, experience, revenue goal, etc.)
+
+Let me create the modal component file(s). I'll put everything in one file first for simplicity, then we can split if needed.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModal.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I need to:
+1. Update the API to accept FormData with nested objects (we're sending JSON for callSlot1/2/3 and arrays as comma-separated)
+2. Wire the modal to the waitlist page - add state for modal open and make "대기 신청" buttons open the modal instead of/in addition to the inline form.
+
+Let me update the API route to handle the new FormData format, then update the waitlist page to use the modal.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [x] Create WaitlistModal with 4-step flow and progress indicator
+- [x] Step 1: 12-question form (occupation, education, yes/no, goals)
+- [x] Step 2: Time slot selection (2+ required) with wait stats
+- [x] Step 3: Call availability (3 priority slots)
+- [x] Step 4: Thank you message + submit
+- [-] Wire modal open to 대기신청 buttons on waitlist page
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api/waitlist/route.ts</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+The modal submits via fetch with FormData, so the API receives POST body as FormData. But when we use fetch with FormData, the body is FormData - so in the API we still use request.formData(). The modal sends:
+- occupation, occupationOther, prevOccupation, etc.
+- timeSlots as comma-separated
+- callSlot1, callSlot2, callSlot3 as JSON strings
+- name, email, phone
+
+So the API should parse formData.get() for all these. For redirect we can't use redirect when the request is from fetch (AJAX). So the API should return JSON for fetch requests. Let me check - the modal does fetch("/api/waitlist", { method: "POST", body }) and then checks res.ok and redirects client-side. So we need the API to return JSON with success/error instead of redirect when the request is from fetch. We can check request.headers.get("accept") or just return JSON for API and the modal will handle it. Actually the modal doesn't follow redirect - it checks res.ok. So we need the API to return 200 + JSON for success and 4xx/5xx for error. Let me update the API to return JSON when it's an API call (e.g. when there's no redirect needed). Actually the simplest is: when the request comes from our form (form action post), we redirect. When it comes from fetch (modal), we return JSON. We can detect by Accept header or by a header we send from the modal. Let me add a header in the modal: "X-Requested-With": "WaitlistModal" and in the API if that's set, return JSON; otherwise redirect.
+</details></think>
+
+---
+
+
+API를 모달 제출에 맞게 수정하고, 웨이트리스트 페이지에 모달을 연결하는 중입니다.
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api/waitlist/route.ts</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModal.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Fetch with FormData doesn't allow setting custom headers in some cases - actually we can set headers with fetch. But FormData body might cause the browser to set Content-Type to multipart/form-data and ignore our custom header. Let me check - we're only setting X-Requested-With which is a custom header, so it should be sent. Good.
+
+Now I need to fix the API - when we send FormData via fetch, the request.formData() will work. But we're sending "X-Requested-With": "WaitlistModal" - when you use fetch with FormData, you typically don't set Content-Type (browser sets it with boundary). So the header X-Requested-With should still be there. Good.
+
+Now wire the modal to the waitlist page. The waitlist page is a server component (it uses searchParams). So I need a client wrapper that holds the modal state and the button that opens it. I'll create a small client component that wraps the CTA buttons and the modal, and include it in the waitlist page. Or I can make the waitlist page have a client component that wraps the whole thing - but that would require moving a lot. Easier: create a client component "WaitlistCTA" that renders the modal + a trigger button, and we can use it in the header and in the CTA sections. Actually the user said "대기신청을 클릭했을 때" - so any "대기 신청" or "지금 대기 신청하기" button should open the modal. So I need to:
+1. Add state to the waitlist page for modal open. But the page is a server component. So I need a client component that wraps the content that needs to open the modal. The simplest is: one client component that wraps the entire page content and provides the modal + openModal function, and we pass openModal to all buttons. But that would require changing the page to pass children and buttons. Simpler: a client component that wraps just the modal and the buttons that should open it. So we have a wrapper like:
+
+<WaitlistModalTrigger>
+  <button>대기 신청</button>  <!-- in header -->
+  ...
+  <button>지금 대기 신청하기</button>  <!-- in form section -->
+</WaitlistModalTrigger>
+
+That way any button inside can open the modal. We can use React context: WaitlistModalContext with openModal, and the modal is rendered by the provider. Any child can call useWaitlistModal().open(). So:
+1. WaitlistModalProvider - wraps the page, renders modal and provides openModal
+2. useWaitlistModal() - returns { openModal }
+3. Buttons call openModal() on click
+
+Let me do that. Create WaitlistModalProvider that takes children and renders the modal + context. On the waitlist page we wrap the content in the provider and replace the buttons with buttons that call openModal(). So we need to make the waitlist page a client component or have a client section. Actually the simplest is: the waitlist page stays server component, and we have one client component at the top that includes (1) the modal (2) and a function to open it. We expose the open function via context. Then we need the header and the CTA buttons to be inside that provider and use the context. So the structure would be:
+
+WaitlistPage (server) ->
+  <WaitlistModalProvider>
+    <Header openWaitlistModal={...} />  // but we can't pass from provider to server component children easily
+  </WaitlistModalProvider>
+
+Actually the easiest is: make the whole waitlist page a client component, or have a single client wrapper that includes both the modal and all the buttons. So the client component would be something like:
+
+export function WaitlistPageContent({ searchParams }) {
+  const [modalOpen, setModalOpen] = useState(false);
+  return (
+    <>
+      <div>... entire page content ...</div>
+      <WaitlistModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
+      {/* All buttons that should open modal: onClick={() => setModalOpen(true)} */}
+    </>
+  );
+}
+
+So we need to change the waitlist page to use a client component for the content that has the modal state, and replace every "대기 신청" / "지금 대기 신청하기" and the form submit button with buttons that open the modal. The inline form we can hide when we have the modal, or keep as fallback. I'll hide the inline form and use only the modal for the flow. So:
+1. Waitlist page: we'll have a client component that receives searchParams and renders the full page. In that component we have useState for modalOpen. We render WaitlistModal with isOpen and onClose. We change every link/button that says 대기 신청 to button with onClick={() => setModalOpen(true)}.
+2. The hero CTA "대기 신청하고 먼저 쓰기" -> open modal
+3. The header "대기 신청" -> open modal
+4. The form section - we can show a single CTA button "지금 대기 신청하기" that opens the modal instead of the inline form. Or show both: "상세 신청 (모달)" and "간단 신청 (인라인 폼)". I'll go with: one prominent button that opens the modal. We can keep the success/error messages from params.
+5. Footer "대기 신청하기" -> open modal
+
+So I need to convert the waitlist page to use a client component for the part that has the modal. The simplest way: create a wrapper client component that takes the page content as children and injects the modal and openModal. But the buttons are inside the content. So we need either:
+- Pass openModal via context and use it in child components (but the page is server component, so we can't use hooks in the same tree unless we split into client components for each button).
+- Or make the entire page a client component.
+
+I'll make the waitlist page a client component. We need to pass searchParams - in Next.js 14, page.tsx can be async and receive searchParams. If we make the default export a client component, we need to pass searchParams from the server. So we have:
+
+page.tsx (server):
+export default async function WaitlistPage({ searchParams }) {
+  const params = await searchParams; // or just searchParams in 14
+  return <WaitlistPageClient params={params} />;
+}
+
+WaitlistPageClient (client): has modal state, renders full UI and modal.
+
+Let me do that - server page that just forwards to client with params. Then the client has the full page and modal.
+</details></think>
+
+---
+
+
+웨이트리스트 페이지를 모달이 열리도록 수정합니다. 페이지를 클라이언트 컴포넌트로 분리합니다.
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I'll create a client component WaitlistPageClient that contains the modal state and the entire page content, with all CTA buttons changed to open the modal. Then the server page will just render WaitlistPageClient with params.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now update the waitlist page.tsx to use WaitlistPageClient and pass searchParams.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+API route - when we send FormData from fetch we don't send multipart/form-data with file, we send as multipart/form-data with fields. So request.formData() should work. But wait - when we do body.append(k, JSON.stringify(v)) for callSlot1, the value might have curly braces and the API might need to parse it. We're already doing JSON.parse(callSlot1) in the API. We need to handle the case when the string is empty - we have callSlot1 ? JSON.parse(callSlot1) : null. Good.
+
+Let me fix the API - when parsing callSlot1/2/3, wrap in try/catch in case of invalid JSON.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api/waitlist/route.ts</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api/waitlist/route.ts</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now let me fix the API - when the modal submits, we're using fetch with FormData. So the request body is FormData. But in Next.js, when you do fetch with FormData, the Content-Type is set automatically to multipart/form-data with boundary. So the API will receive it and request.formData() will work. But we're also sending a custom header X-Requested-With. When you use fetch() with FormData, you're allowed to set other headers - but some browsers might not allow setting Content-Type when using FormData (browser sets it). So X-Requested-With should be fine. Let me verify the modal sends all form fields - we're iterating over formData and appending. So we have occupation, prevOccupation, education, major, q4-q11, revenueGoal, goalPeriod, timeSlots, callSlot1, callSlot2, callSlot3, name, email, phone. Good.
+
+Let me run build to make sure nothing is broken.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.79 kB        95.9 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            7.62 kB        94.8 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-e881abe2c0a0c050.js       31.6 kB
+  ├ chunks/fd9d1056-7d9b70e9456442b8.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints">
+<details>
+<summary>Tool use: **read_lints**</summary>
+
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModal.tsx"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModal.tsx"
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeded. Let me add a small fix: the API expects FormData from fetch. When we use fetch with FormData, we cannot set Content-Type (browser sets it). So the server receives multipart/form-data. But wait - in the modal we're doing:
+fetch("/api/waitlist", {
+  method: "POST",
+  headers: { "X-Requested-With": "WaitlistModal" },
+  body,
+});
+When body is FormData, in some browsers you cannot set Content-Type at all (and we're not setting it). So the only custom header is X-Requested-With. Good.
+
+One more thing: in Next.js 14, when the page is a server component that receives searchParams, it might be that searchParams is a Promise in some versions. Let me check - we're not using async in the page. So we have export default function WaitlistPage({ searchParams }). In Next.js 14.2, I believe searchParams is still a plain object. So we're good.
+
+Let me mark the todo as complete and give the user a summary.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [x] Create WaitlistModal with 4-step flow and progress indicator
+- [x] Step 1: 12-question form (occupation, education, yes/no, goals)
+- [x] Step 2: Time slot selection (2+ required) with wait stats
+- [x] Step 3: Call availability (3 priority slots)
+- [x] Step 4: Thank you message + submit
+- [x] Wire modal open to 대기신청 buttons on waitlist page
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+All done. Let me provide a concise summary for the user.
+</details></think>
+
+---
+
+
+비즈니스 PT처럼 **대기신청** 클릭 시 4단계 플로우 팝업이 뜨도록 적용해 두었습니다.
+
+## 구현 내용
+
+### 1단계 (12개 문항)
+- 상단 안내: "이 정보는 회원이 더 빠르게 수익화할 수 있도록 기초 자료로 활용됩니다."
+- **1~2.** 현재 직업 / 이전 직업 (회사원, 주부, 자영업 등 + 기타 입력)
+- **3.** 학력 (중졸 이하 ~ 박사 이상) + **3-1.** 전공 입력
+- **4~11.** 있음/없음 질문 8개 (취미·특기, 판매 경험, 오프라인 모임, SNS 경험 등)
+- **12.** 매출 목표(월): 100만 원 이하 ~ 1,000만 원 이상
+- **13.** 목표 달성 기간: 3개월 이상 ~ 될 때까지 한다
+
+### 2단계 (시간대 선택)
+- 문구: "현재 대기 중인 인원은 총 **1,826** 명 입니다."
+- "베타 사용 가능한 시간대를 2개 이상 선택해 주세요."
+- 4개 옵션: 평일 낮(적정) / 평일 오후(여유) / 평일 야간(적정) / 주말(혼잡)  
+  - 각각 대기 예상일·대기 인원, 하단 컬러 바(주황/초록/빨강)
+
+### 3단계 (통화 가능 시간)
+- "온보딩을 위한 통화 가능한 요일과 시간을 선택해 주세요."
+- 알림톡 안내 + 부재 시 대기 취소 안내
+- 1·2·3순위 각각: 요일 / 시작 시간 / 종료 시간 드롭다운
+
+### 4단계 (인사 + 제출)
+- 이름(선택), 이메일*, 연락처(선택)
+- "대기 신청이 완료되면 베타 오픈 시 순서대로 연락드리겠습니다. 감사합니다."
+- **대기 신청 완료** 버튼 → API 제출 후 `/waitlist?success=1`로 이동
+
+### 공통
+- 하단 **진행 단계 표시** (4개 점, 현재 단계 빨간색)
+- **이전 단계** / **다음 단계** 버튼
+- 1단계는 필수 항목 모두 입력, 2단계는 2개 이상 선택 시에만 다음 단계 가능
+
+헤더·히어로·본문·푸터의 **대기 신청**, **대기 신청하고 먼저 쓰기**, **지금 대기 신청하기** 버튼을 누르면 모두 이 모달이 열리도록 연결해 두었습니다.  
+`npm run dev` 후 `/waitlist`에서 동작을 확인하면 됩니다.
+
+---
+
+_**User**_
+
+TypeError: __webpack_modules__[moduleId] is not a function
+
+
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user is encountering a webpack error: "TypeError: __webpack_modules__[moduleId] is not a function". This is typically a webpack/bundling issue that can occur due to:
+
+1. Corrupted cache
+2. Version mismatch between dependencies
+3. Circular dependencies
+4. Module resolution issues
+5. Next.js cache corruption
+
+Let me suggest common fixes. Usually clearing the .next cache and node_modules/.cache and rebuilding helps.
+</details></think>
+
+---
+
+
+캐시를 삭제하고 재빌드합니다.
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && rm -rf .next && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && rm -rf .next && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.79 kB        95.9 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            7.62 kB        94.8 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-e881abe2c0a0c050.js       31.6 kB
+  ├ chunks/fd9d1056-7d9b70e9456442b8.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeded. The user might be seeing the error when running `npm run dev`. The `__webpack_modules__[moduleId] is not a function` error often happens in dev mode due to HMR (Hot Module Replacement) issues or when the dev server has stale modules. Let me suggest they:
+1. Stop the dev server
+2. Delete .next
+3. Restart npm run dev
+
+I already ran rm -rf .next and npm run build - that succeeded. So the user should try:
+1. Stop the current dev server (Ctrl+C)
+2. Run: rm -rf .next
+3. Run: npm run dev
+
+Or maybe the issue is with a specific import. Let me check if there could be any problematic imports in the WaitlistModal - like maybe we're exporting something that causes issues, or there's a circular dependency.
+
+Actually, looking at the WaitlistModal - we have TIME_SLOTS used in the Step 2 section but we're mapping over TIME_SLOTS and using `slot` - inside the map we reference `slot` for barColor but the slot variable is from the outer map. Let me check - in the map we have:
+TIME_SLOTS.map((slot) => { ... slot.barColor ... })
+So we need slot from the map. Good.
+
+Another possibility: the error might occur when accessing a specific page. The user said they have "cd /Users/joohadam/Documents/dev/leviosa_ai_waitlistnpm run dev" - notice there's no space between "leviosa_ai_waitlist" and "npm" - that might be a typo in the terminal display. Let me provide clear instructions.
+</details></think>
+
+---
+
+
+빌드는 정상적으로 완료됐습니다. `__webpack_modules__[moduleId] is not a function` 오류는 보통 dev 서버 캐시 때문입니다. 아래처럼 시도해보세요.
+
+## 해결 방법
+
+**1. dev 서버 중지**  
+실행 중인 터미널에서 `Ctrl+C`로 dev 서버를 종료합니다.
+
+**2. 캐시 삭제 후 다시 실행**
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist
+rm -rf .next
+npm run dev
+```
+
+**3. 여전히 오류가 나면**
+```bash
+rm -rf .next node_modules/.cache
+npm run dev
+```
+
+**4. 그래도 안 되면**
+```bash
+rm -rf .next node_modules
+npm install
+npm run dev
+```
+
+위 순서대로 진행해보시고, 오류가 계속되면 어떤 페이지(예: `/waitlist`)에서 발생하는지 알려주시면 원인 파악에 도움이 됩니다.
+
+---
+
+_**User**_
+
+대기 신청 폼을 팝업 형태로 바꿔줘 지금은 버튼 눌러도 동작을 안하네 
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user wants:
+1. Change the waitlist form to popup/modal form
+2. The button isn't working when clicked
+
+So there are two issues:
+1. The form should open as a popup (we already have WaitlistModal - maybe it's not showing or there's an issue)
+2. The button click doesn't work - could be the webpack error they mentioned earlier, or the modal isn't opening
+
+Let me check the current implementation. The WaitlistPageClient has:
+- setModalOpen state
+- buttons with onClick={() => setModalOpen(true)}
+- WaitlistModal with isOpen={modalOpen}
+
+And we have WaitlistModal component. So the modal should open when buttons are clicked. If it's not working, it could be:
+1. The webpack error is preventing the client component from loading
+2. There might be duplicate WaitlistModal - in WaitlistPageClient we have both WaitlistPageClient content AND WaitlistModal at the bottom. Let me check the structure...
+
+Looking at WaitlistPageClient.tsx - we have:
+```
+return (
+  <>
+    <div>... page content with buttons that setModalOpen(true) ...</div>
+    <WaitlistModal isOpen={modalOpen} onClose={() => setModalOpen(false)} onSuccess={...} />
+  </>
+);
+```
+
+Wait, we have WaitlistModal rendered twice! At the end of WaitlistPageClient we have:
+```jsx
+<WaitlistModal
+  isOpen={modalOpen}
+  onClose={() => setModalOpen(false)}
+  onSuccess={() => {
+    setModalOpen(false);
+    window.location.href = "/waitlist?success=1";
+  }}
+/>
+```
+
+So we have the modal. But the buttons call setModalOpen(true). So it should work. Unless the client component isn't loading due to the webpack error.
+
+The user also shared images - one shows a CTA section with "비즈니스 PT 대기신청하기" button, and another shows the modal popup with time slot selection. So they want:
+1. When clicking the main CTA button, a popup/modal should open (like in the Business PT design)
+2. The button currently doesn't work
+
+Let me also check - maybe the main page (/) also has waitlist buttons that need to open the modal? The user might be on the main page (/) not the waitlist page (/waitlist). The main page has different structure - it has Header, TabNav, CTAButton, etc. The CTAButton scrolls to the form. So if the user is on the main page (/), the "대기신청" button would scroll to the form, not open a modal. We need to add the modal to the main page too and make the CTA buttons open the modal instead.
+
+Let me re-read the user's message: "대기 신청 폼을 팝업 형태로 바꿔줘 지금은 버튼 눌러도 동작을 안하네"
+- Change the waitlist form to popup form
+- The button doesn't work when clicked
+
+So I need to:
+1. Ensure the modal/popup works when button is clicked
+2. Fix whatever is preventing the button from working
+
+The main page (/) has:
+- CTAButton - which scrolls to waitlist-form
+- WaitlistForm - inline form
+- Fixed bottom CTA bar with CTAButton
+
+The waitlist page (/waitlist) has:
+- WaitlistPageClient with modal
+- Buttons that should open the modal
+
+If the user is on the main page, we need to add the modal there too and change CTAButton to open the modal. If they're on the waitlist page, we need to fix why the modal isn't opening.
+
+Let me check both pages and add modal support to the main page as well. The main page layout is different - it has the viewtrap-style design. I'll:
+
+1. Add WaitlistModal to the main page
+2. Create a client wrapper or use a client component for the CTA buttons that opens the modal
+3. Make sure the modal opens when any "대기신청" button is clicked
+
+For the main page, we need a client component that:
+- Renders the modal
+- Provides a way to open it
+- The CTAButton and other waitlist buttons should open the modal
+
+Let me create a WaitlistModalProvider or add the modal to the layout so it's available everywhere. Actually, we could add it to the root layout and use a context to open/close it. That way both / and /waitlist can trigger the modal.
+
+Let me implement:
+1. Create WaitlistModalProvider - client component that wraps the app, provides modal state and openModal function via context
+2. Add modal to the provider
+3. Update main page CTAButton to use openModal
+4. Update waitlist page - the WaitlistPageClient already has the modal, so that should work. But maybe the issue is the modal is inside WaitlistPageClient and there's something wrong with the structure.
+
+Actually, looking at WaitlistPageClient again - we have the modal at the end. But we're rendering it inside the fragment. The structure is:
+```
+<>
+  <div>...page content...</div>
+  <WaitlistModal ... />
+</>
+```
+
+So the modal should render. When user clicks a button, setModalOpen(true) is called, and WaitlistModal receives isOpen={true}. So it should show.
+
+Maybe the issue is that the modal needs to be rendered in a portal to appear on top? Let me check WaitlistModal - it has `position: fixed` and `z-50`, so it should overlay. The structure is:
+```jsx
+if (!isOpen) return null;
+return (
+  <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+    <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={onClose} />
+    <div className="relative ...">modal content</div>
+  </div>
+);
+```
+
+That looks correct. Maybe the issue is the webpack error - the entire client bundle might be failing to load, so nothing works.
+
+Let me focus on:
+1. Adding the modal to the main page as well (so both pages have it)
+2. Using a shared approach - maybe put the modal in the root layout with a client component that uses URL or state to control it
+3. Simplifying - perhaps use a single client component that wraps everything and provides the modal
+
+Actually, the simplest fix: put the WaitlistModal in the root layout, and use a client component that reads a URL param or uses global state to open it. When user clicks "대기신청", we could navigate to ?modal=waitlist or use a simple React context.
+
+Let me try a simpler approach: use the native browser approach - when clicking "대기신청", we could use window.open or a hash. Or we use React context.
+
+I'll create:
+1. WaitlistModalContext - provides { isOpen, openModal, closeModal }
+2. Root layout or a wrapper that includes the provider and the modal
+3. All pages use the context to open the modal
+
+But wait - the root layout is a server component. So we need a client component wrapper. Let me create a ClientProviders component that wraps children with the modal provider and renders the modal. We'll add it to the layout.
+</details></think>
+
+---
+
+
+대기 신청 버튼 클릭 시 팝업이 열리도록 수정 중입니다.
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/layout.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I see. The main page (/) uses CTAButton which scrolls to #waitlist-form. The main page doesn't have the WaitlistModal - it has the old inline form. So when the user clicks "대기신청" on the main page, it scrolls to the form. But the user wants a popup instead.
+
+I need to:
+1. Add WaitlistModal to the main page
+2. Change CTAButton to open the modal instead of scrolling
+3. Add a global way to open the modal - use React Context so both pages can trigger it
+
+The cleanest approach: Create a WaitlistModalProvider that wraps the entire app in the layout. It provides openModal via context. Any page can use useWaitlistModal() to get openModal and call it when CTA is clicked. The modal is rendered by the provider.
+
+Let me create:
+1. WaitlistModalContext.tsx - React context + provider + hook
+2. Layout wraps children with WaitlistModalProvider
+3. CTAButton uses useWaitlistModal and opens modal on click
+4. Main page - wrap in a client component or use a client CTA that opens modal
+5. The main page has server components (Header, TabNav, etc.) - so we need a client wrapper for the parts that need to open the modal
+
+Actually the main page is a server component. CTAButton is a client component (it has onClick). So CTAButton can use useWaitlistModal - but it needs to be inside the provider. So we need the provider in the layout. Let me add WaitlistModalProvider to the layout. The layout's children will be inside the provider, so CTAButton (used in the main page) will have access to the context.
+
+Let me implement:
+1. WaitlistModalProvider - client component, wraps children, renders WaitlistModal, provides openModal/closeModal via context
+2. Update layout to wrap body content with WaitlistModalProvider
+3. Update CTAButton to use useWaitlistModal and call openModal on click
+4. Update the main page - remove the inline WaitlistForm or keep it as fallback, but the CTA should open modal
+5. For the fixed bottom bar - it also uses CTAButton, so it should work
+
+Let me also check - the CTAButton currently does:
+```
+const handleClick = () => {
+  const formEl = document.getElementById("waitlist-form");
+  if (formEl) {
+    formEl.scrollIntoView({ behavior: "smooth" });
+  }
+};
+```
+So it scrolls to the form. We need to change this to open the modal. So CTAButton needs to use the context and call openModal().
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [-] Create WaitlistModalProvider and context for global modal
+- [ ] Wire CTAButton and main page to open modal popup
+- [ ] Add dark CTA section like Business PT image
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I need to:
+1. Create WaitlistModalProvider - context + provider + modal
+2. Add provider to layout
+3. Update CTAButton to use the context and open modal
+4. Update main page - we might want to add a link to /waitlist or open modal. The user wants popup, so CTAButton should open modal. The main page will need the provider in layout for CTAButton to work.
+5. For /waitlist page - it already has its own modal in WaitlistPageClient. So both will work - the layout provider will make the modal available app-wide, and CTAButton will open it. But WaitlistPageClient has its own modal - we could either use the global one or keep the local one. To avoid duplication, let's use the global modal. So WaitlistPageClient should also use the context to open the modal, and we can remove the local modal from WaitlistPageClient - or we keep both modals but they're the same. Actually simpler: use one global modal. The provider renders it. CTAButton and WaitlistPageClient buttons both call openModal from context.
+
+Let me create the provider and update everything.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModalProvider.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/layout.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Wait - the layout is a server component, but we're importing WaitlistModalProvider which is a client component. That's fine - we can import client components into server components, they'll be rendered on the client. Good.
+
+But there might be an issue - when we wrap children with WaitlistModalProvider in the layout, the children are the page content. The WaitlistModalProvider needs to wrap the app. So the structure is:
+<html>
+  <body>
+    <WaitlistModalProvider>
+      {children}  // page content
+    </WaitlistModalProvider>
+  </body>
+</html>
+
+So CTAButton (used in the main page) will be inside WaitlistModalProvider, and it can use useWaitlistModal(). Good.
+
+Now I need to update WaitlistPageClient to also use the global modal instead of having its own. So we remove the local modal from WaitlistPageClient and use useWaitlistModal() for the buttons. Let me do that.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I need to fix the useWaitlistModal fallback. When the component is NOT inside WaitlistModalProvider (which shouldn't happen since we wrap the whole app), it redirects to /waitlist. But actually the provider wraps the body content in the layout, so all pages should be inside it. Good.
+
+One potential issue: The layout imports WaitlistModalProvider. In Next.js, when you have a client component in the layout, the layout might need to be careful about hydration. Actually, WaitlistModalProvider is a client component, and we're using it in the layout. The layout is a server component by default. So we're rendering a client component (WaitlistModalProvider) in a server component (layout). That's fine - the client component will hydrate on the client. Good.
+
+Let me run build to verify everything works. But wait - there might be an issue with the layout. In Next.js 13+ App Router, you can't use client components in the root layout in some cases... Actually you can. Let me check if there are any issues.
+
+Actually, I just realized - we're wrapping {children} with WaitlistModalProvider in the body. So the structure is:
+<body>
+  <WaitlistModalProvider>
+    {children}
+  </WaitlistModalProvider>
+</body>
+
+But we changed it to:
+<body className="font-pretendard antialiased">
+  <WaitlistModalProvider>{children}</WaitlistModalProvider>
+</body>
+
+So we lost the antialiased class on body. Let me add it to the provider's wrapper or keep it on body. Actually looking at my edit, we have:
+```
+<body className="font-pretendard antialiased">
+  <WaitlistModalProvider>{children}</WaitlistModalProvider>
+</body>
+```
+
+So the body still has the class. Good.
+
+Let me run the build.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && rm -rf .next && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && rm -rf .next && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    8.79 kB         100 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            4.01 kB        95.6 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-bde8c795999afe41.js       31.6 kB
+  ├ chunks/fd9d1056-1f723dc9829e03b9.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints">
+<details>
+<summary>Tool use: **read_lints**</summary>
+
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModalProvider.tsx",
+    "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistModalProvider.tsx"
+    },
+    {
+      "relativeWorkspacePath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx"
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeded. Let me add a dark CTA section like in the Business PT image - the user shared an image showing a dark section with "비즈니스 PT 대기신청하기" button. We could add something similar for Leviosa AI. But the user said "대기 신청 폼을 팝업 형태로 바꿔줘 지금은 버튼 눌러도 동작을 안하네" - so the main request was:
+1. Change form to popup - DONE
+2. Fix button not working - DONE
+
+I'll mark the todos complete and provide a summary. The dark CTA section might be nice but the user didn't explicitly ask for it - they asked for the popup and fixing the button. So I'll skip adding that unless they ask.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [x] Create WaitlistModalProvider and context for global modal
+- [x] Wire CTAButton and main page to open modal popup
+- [!] Add dark CTA section like Business PT image
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+All done. Let me provide a summary.
+</details></think>
+
+---
+
+
+적용했습니다. **대기 신청** 버튼을 누르면 4단계 팝업 모달이 열리도록 수정했습니다.
+
+## 변경 사항
+
+### 1. 전역 팝업 모달
+- `WaitlistModalProvider`를 추가해 앱 전체에서 모달을 사용하도록 구성
+- Layout에서 `WaitlistModalProvider`로 children을 감싸 전역에서 사용 가능하도록 수정
+
+### 2. 버튼 동작 수정
+- **CTAButton** (메인 페이지, 하단 고정 바): 클릭 시 스크롤 대신 **팝업 모달** 열기
+- **WaitlistPageClient** (웨이트리스트 페이지) 버튼: 모두 **팝업 모달** 열기
+- `useWaitlistModal()` 훅으로 `openModal()` 호출
+
+### 3. 동작 방식
+- 메인 페이지 (`/`): 대기신청, 무료 강의 지금 받기, 하단 고정 바 → **팝업 모달**
+- 웨이트리스트 페이지 (`/waitlist`): 대기 신청, 대기 신청하고 먼저 쓰기, 지금 대기 신청하기 → **팝업 모달**
+
+dev 서버를 한 번 재시작해 보세요.
+
+```bash
+# 터미널에서 Ctrl+C로 중지 후
+rm -rf .next
+npm run dev
+```
+
+---
+
+_**User**_
+
+배너를 이 느낌처럼 색깔이랑 내 이미지로 변경해주라
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user wants to change the banner to match the feeling/style of the images they shared - the colors and incorporate "my image". Let me understand:
+
+1. First image: A dark professional banner with:
+   - Dark charcoal/black gradient background with subtle geometric patterns
+   - Left side: Large white text in 3 lines "조용히 돈 쓸어모으는 / 사람들의 / '유튜브 성공 공식'"
+   - Smaller text below: "비즈니스 PT 전속 강사 주언규 PD"
+   - Right side: Professional headshot of a man (smiling, black shirt, well-lit face)
+   - Clean, sophisticated, modern feel
+
+2. Second image: Formal event - different context but shows professional/welcoming vibe
+
+The user wants to apply this style to their Leviosa AI banner - dark background, white text, and incorporate "내 이미지" (my image) - meaning they want to use their own image in the banner, similar to the headshot on the right in the first image.
+
+I need to find where the hero/banner is in the Leviosa AI waitlist project and update it to:
+1. Dark background (charcoal/black gradient)
+2. White text
+3. Left-aligned text block
+4. Space for user's image on the right
+5. For "내 이미지" - the user will need to provide their image. I can create a placeholder or use a path they specify. I'll create a structure where they can put their image in /public or similar.
+
+Let me search for the hero/banner sections in the project. There are two pages - main (/) and waitlist (/waitlist). Both have hero sections.
+
+Main page (page.tsx): Has a hero with "온라인 셀러의 / 업무를 바꾸는 / AI 에이전트" and gradient background
+Waitlist page (WaitlistPageClient): Has hero with "셀러의 하루를 / '자동화'로 바꾸는 순간" and black background with radial gradient
+
+I need to update these hero sections to match the style:
+- Dark charcoal/black gradient background (possibly with subtle geometric patterns)
+- Large white text on the left
+- Space for image on the right
+- Founder/creator name below the main title (like "비즈니스 PT 전속 강사 주언규 PD")
+
+For Leviosa AI, the equivalent might be something like:
+- "조용히 매출 늘리는" / "온라인 셀러들의" / "'AI 에이전트'" or similar
+- "레비오사 AI 창업자 주하담" or similar (the founder was mentioned in the founder story as 주하담)
+
+The user said "내 이미지" (my image) - they want to use their own image. I should:
+1. Create a placeholder for the image - e.g. /public/founder.jpg or similar
+2. Or use a div/placeholder that they can replace
+3. Add instructions for where to put their image
+
+Let me check the project structure for public folder and existing images.
+</details></think>
+
+---
+
+
+이미지 스타일(어두운 배경, 흰색 텍스트, 오른쪽 인물 사진)을 배너에 적용합니다. 프로젝트 구조 확인 중입니다.
+
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="list_dir_v2">
+<details>
+<summary>Tool use: **list_dir_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "targetDirectory": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist"
+}
+```
+Result:
+
+```json
+{
+  "directoryTreeRoot": {
+    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist",
+    "childrenDirs": [
+      {
+        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next",
+        "childrenDirs": [
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/cache",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/cache/webpack",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/cache/webpack/client-development",
+                    "childrenFiles": [
+                      {
+                        "name": "0.pack.gz"
+                      },
+                      {
+                        "name": "1.pack.gz"
+                      },
+                      {
+                        "name": "2.pack.gz"
+                      },
+                      {
+                        "name": "index.pack.gz"
+                      },
+                      {
+                        "name": "index.pack.gz.old"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/cache/webpack/server-development",
+                    "childrenFiles": [
+                      {
+                        "name": "0.pack.gz"
+                      },
+                      {
+                        "name": "1.pack.gz"
+                      },
+                      {
+                        "name": "index.pack.gz"
+                      },
+                      {
+                        "name": "index.pack.gz.old"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/server",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/server/app",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/server/app/_not-found",
+                    "childrenFiles": [
+                      {
+                        "name": "page_client-reference-manifest.js"
+                      },
+                      {
+                        "name": "page.js"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenFiles": [
+                  {
+                    "name": "page_client-reference-manifest.js"
+                  },
+                  {
+                    "name": "page.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/server/vendor-chunks",
+                "childrenFiles": [
+                  {
+                    "name": "@swc.js"
+                  },
+                  {
+                    "name": "next.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "app-paths-manifest.json"
+              },
+              {
+                "name": "interception-route-rewrite-manifest.js"
+              },
+              {
+                "name": "middleware-build-manifest.js"
+              },
+              {
+                "name": "middleware-manifest.json"
+              },
+              {
+                "name": "middleware-react-loadable-manifest.js"
+              },
+              {
+                "name": "next-font-manifest.js"
+              },
+              {
+                "name": "next-font-manifest.json"
+              },
+              {
+                "name": "pages-manifest.json"
+              },
+              {
+                "name": "server-reference-manifest.js"
+              },
+              {
+                "name": "server-reference-manifest.json"
+              },
+              {
+                "name": "webpack-runtime.js"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/chunks",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/chunks/app",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/chunks/app/_not-found",
+                        "childrenFiles": [
+                          {
+                            "name": "page.js"
+                          }
+                        ],
+                        "childrenWereProcessed": true
+                      }
+                    ],
+                    "childrenFiles": [
+                      {
+                        "name": "layout.js"
+                      },
+                      {
+                        "name": "page.js"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenFiles": [
+                  {
+                    "name": "app-pages-internals.js"
+                  },
+                  {
+                    "name": "main-app.js"
+                  },
+                  {
+                    "name": "polyfills.js"
+                  },
+                  {
+                    "name": "webpack.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/css",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/css/app",
+                    "childrenFiles": [
+                      {
+                        "name": "layout.css"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/development",
+                "childrenFiles": [
+                  {
+                    "name": "_buildManifest.js"
+                  },
+                  {
+                    "name": "_ssgManifest.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/webpack",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/static/webpack/app",
+                    "childrenFiles": [
+                      {
+                        "name": "layout.b41eb74f6afcccc9.hot-update.js"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenFiles": [
+                  {
+                    "name": "633457081244afec._.hot-update.json"
+                  },
+                  {
+                    "name": "b41eb74f6afcccc9.webpack.hot-update.json"
+                  },
+                  {
+                    "name": "d592aa780331d3fb.webpack.hot-update.json"
+                  },
+                  {
+                    "name": "webpack.b41eb74f6afcccc9.hot-update.js"
+                  },
+                  {
+                    "name": "webpack.d592aa780331d3fb.hot-update.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/types",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.next/types/app",
+                "childrenFiles": [
+                  {
+                    "name": "layout.ts"
+                  },
+                  {
+                    "name": "page.ts"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "package.json"
+              }
+            ],
+            "childrenWereProcessed": true
+          }
+        ],
+        "childrenFiles": [
+          {
+            "name": "app-build-manifest.json"
+          },
+          {
+            "name": "build-manifest.json"
+          },
+          {
+            "name": "package.json"
+          },
+          {
+            "name": "react-loadable-manifest.json"
+          },
+          {
+            "name": "trace"
+          }
+        ],
+        "childrenWereProcessed": true
+      },
+      {
+        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.specstory",
+        "childrenDirs": [
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/.specstory/history",
+            "childrenFiles": [
+              {
+                "name": "2025-09-09_15-42Z-수정할-github-링크-설정하기.md"
+              },
+              {
+                "name": "2026-02-12_02-05Z-opening-a-folder-in-finder.md"
+              }
+            ],
+            "childrenWereProcessed": true
+          }
+        ],
+        "childrenFiles": [
+          {
+            "name": ".gitignore"
+          }
+        ],
+        "childrenWereProcessed": true
+      },
+      {
+        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules",
+        "childrenDirs": [
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@alloc",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@alloc/quick-lru",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc/conf",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".cjs": 2,
+                      ".map": 2
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc/lib",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc/lib/config-array",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/eslintrc/lib/shared",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 7
+                        },
+                        "numFiles": 7
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 18
+                    },
+                    "numFiles": 18
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 21,
+                  ".json": 1,
+                  ".md": 1,
+                  ".cjs": 2,
+                  ".map": 2,
+                  "": 1
+                },
+                "numFiles": 28
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/js",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/js/src",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint/js/src/configs",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3
+                    },
+                    "numFiles": 3
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 24,
+              ".json": 2,
+              ".md": 2,
+              ".cjs": 2,
+              ".map": 2,
+              "": 2
+            },
+            "numFiles": 34
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint-community",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint-community/eslint-utils",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".map": 2,
+                  ".mjs": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 1,
+                  ".mts": 1,
+                  "": 1
+                },
+                "numFiles": 9
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@eslint-community/regexpp",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".map": 2,
+                  ".mjs": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 8
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".map": 4,
+              ".mjs": 2,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2,
+              "": 2,
+              ".mts": 1
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/config-array",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/module-importer",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/module-importer/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".cjs": 1,
+                      ".js": 1,
+                      ".cts": 1
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/module-importer/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".cjs": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 2,
+                  ".js": 2,
+                  ".json": 1,
+                  ".md": 2,
+                  ".ts": 1,
+                  ".cts": 1,
+                  "": 1
+                },
+                "numFiles": 10
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/object-schema",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@humanwhocodes/object-schema/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4,
+                  ".json": 1,
+                  ".md": 2,
+                  "": 1
+                },
+                "numFiles": 8
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 7,
+              ".json": 3,
+              ".md": 5,
+              "": 3,
+              ".cjs": 2,
+              ".ts": 1,
+              ".cts": 1
+            },
+            "numFiles": 22
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui/build",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui/build/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1,
+                      ".cjs": 1,
+                      ".cts": 1
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui/node_modules",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui/node_modules/ansi-regex",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".json": 1,
+                          ".md": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@isaacs/cliui/node_modules/strip-ansi",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".json": 1,
+                          ".md": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 5
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 2,
+                      ".json": 2,
+                      ".md": 2,
+                      ".js": 2,
+                      "": 2
+                    },
+                    "numFiles": 10
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".txt": 1,
+                  ".js": 3,
+                  ".cjs": 1,
+                  ".cts": 1,
+                  ".mjs": 1,
+                  ".json": 3,
+                  ".md": 3,
+                  ".ts": 2,
+                  "": 2
+                },
+                "numFiles": 17
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".txt": 1,
+              ".js": 3,
+              ".cjs": 1,
+              ".cts": 1,
+              ".mjs": 1,
+              ".json": 3,
+              ".md": 3,
+              ".ts": 2,
+              "": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/gen-mapping",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/gen-mapping/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/gen-mapping/dist/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 4
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1,
+                      ".mjs": 1,
+                      ".map": 2,
+                      ".ts": 4
+                    },
+                    "numFiles": 8
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/gen-mapping/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/gen-mapping/types",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 8,
+                      ".mts": 4,
+                      ".cts": 4
+                    },
+                    "numFiles": 16
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 8,
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 1,
+                  ".mjs": 1,
+                  ".map": 10,
+                  "": 1,
+                  ".mts": 4,
+                  ".cts": 4
+                },
+                "numFiles": 31
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/resolve-uri",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/resolve-uri/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/resolve-uri/dist/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 2,
+                      ".mjs": 1,
+                      ".ts": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".map": 2,
+                  ".mjs": 1,
+                  ".ts": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 8
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/sourcemap-codec",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/sourcemap-codec/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 2,
+                      ".mjs": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/sourcemap-codec/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/sourcemap-codec/types",
+                    "fullSubtreeExtensionCounts": {
+                      ".mts": 4,
+                      ".cts": 4,
+                      ".map": 8
+                    },
+                    "numFiles": 16
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 4,
+                  ".json": 1,
+                  ".md": 1,
+                  ".map": 10,
+                  ".mjs": 1,
+                  ".js": 1,
+                  "": 1,
+                  ".mts": 4,
+                  ".cts": 4
+                },
+                "numFiles": 27
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/trace-mapping",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/trace-mapping/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".mjs": 1,
+                      ".js": 1,
+                      ".map": 2
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/trace-mapping/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 9
+                    },
+                    "numFiles": 9
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@jridgewell/trace-mapping/types",
+                    "fullSubtreeExtensionCounts": {
+                      ".cts": 9,
+                      ".map": 18,
+                      ".mts": 9
+                    },
+                    "numFiles": 36
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 9,
+                  ".json": 1,
+                  ".md": 1,
+                  ".mjs": 1,
+                  ".js": 1,
+                  ".map": 20,
+                  "": 1,
+                  ".cts": 9,
+                  ".mts": 9
+                },
+                "numFiles": 52
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 4,
+              ".md": 4,
+              ".map": 42,
+              ".mjs": 4,
+              ".ts": 22,
+              ".js": 4,
+              "": 4,
+              ".mts": 17,
+              ".cts": 17
+            },
+            "numFiles": 118
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/env",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/env/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/eslint-plugin-next",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/eslint-plugin-next/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/eslint-plugin-next/dist/rules",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 21
+                        },
+                        "numFiles": 21
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/eslint-plugin-next/dist/utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 26
+                    },
+                    "numFiles": 26
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 26
+                },
+                "numFiles": 28
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@next/swc-darwin-arm64",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".node": 1,
+                  ".md": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".node": 1,
+              ".md": 3,
+              ".ts": 1,
+              ".js": 27
+            },
+            "numFiles": 35
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir/out",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir/out/adapters",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir/out/providers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 3,
+                          ".js": 3
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir/out/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.scandir/out/utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".ts": 2
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 10,
+                      ".ts": 10
+                    },
+                    "numFiles": 20
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 10,
+                  ".ts": 10,
+                  "": 1
+                },
+                "numFiles": 23
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.stat",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.stat/out",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.stat/out/adapters",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.stat/out/providers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 2,
+                          ".js": 2
+                        },
+                        "numFiles": 4
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.stat/out/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 6,
+                      ".ts": 6
+                    },
+                    "numFiles": 12
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 6,
+                  ".ts": 6,
+                  "": 1
+                },
+                "numFiles": 15
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.walk",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.walk/out",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.walk/out/providers",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4,
+                          ".ts": 4
+                        },
+                        "numFiles": 8
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.walk/out/readers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 4,
+                          ".js": 4
+                        },
+                        "numFiles": 8
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nodelib/fs.walk/out/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 11,
+                      ".ts": 11
+                    },
+                    "numFiles": 22
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 11,
+                  ".ts": 11,
+                  "": 1
+                },
+                "numFiles": 25
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 3,
+              ".js": 27,
+              ".ts": 27,
+              "": 3
+            },
+            "numFiles": 63
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nolyfill",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@nolyfill/is-core-module",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@pkgjs",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@pkgjs/parseargs",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@pkgjs/parseargs/examples",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".mjs": 1
+                    },
+                    "numFiles": 6
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@pkgjs/parseargs/internal",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 11,
+                  ".mjs": 1,
+                  ".json": 1,
+                  ".md": 2,
+                  "": 2
+                },
+                "numFiles": 17
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 11,
+              ".mjs": 1,
+              ".json": 1,
+              ".md": 2,
+              "": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rtsao",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rtsao/scc",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 1,
+                  ".flow": 1,
+                  ".md": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".flow": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch/lib",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch/lib/eslint-bulk-suppressions",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch/lib/eslint-bulk-suppressions/cli",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch/lib/eslint-bulk-suppressions/cli/utils",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 4,
+                                  ".map": 8,
+                                  ".js": 4
+                                },
+                                "numFiles": 16
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 16,
+                              ".js": 8,
+                              ".ts": 8
+                            },
+                            "numFiles": 32
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 30,
+                          ".ts": 15,
+                          ".js": 15
+                        },
+                        "numFiles": 60
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@rushstack/eslint-patch/lib/exports",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 2,
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 20,
+                      ".map": 40,
+                      ".js": 20
+                    },
+                    "numFiles": 80
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 2,
+                  ".js": 24,
+                  ".ts": 20,
+                  ".map": 40,
+                  ".md": 2,
+                  "": 1
+                },
+                "numFiles": 89
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              ".js": 24,
+              ".ts": 20,
+              ".map": 40,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 89
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/counter",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 2,
+                  ".js": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_apply_decorated_descriptor",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_apply_decs_2203_r",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_array_like_to_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_array_with_holes",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_array_without_holes",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_assert_this_initialized",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_async_generator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_async_generator_delegate",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_async_iterator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_async_to_generator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_await_async_generator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_await_value",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_check_private_redeclaration",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_apply_descriptor_destructure",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_apply_descriptor_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_apply_descriptor_set",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_apply_descriptor_update",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_call_check",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_check_private_static_access",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_check_private_static_field_descriptor",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_extract_field_descriptor",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_name_tdz_error",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_destructure",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_init",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_loose_base",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_loose_key",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_set",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_field_update",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_method_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_method_init",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_private_method_set",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_static_private_field_destructure",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_static_private_field_spec_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_static_private_field_spec_set",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_static_private_field_update",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_class_static_private_method_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_construct",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_create_class",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_create_for_of_iterator_helper_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_create_super",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_decorate",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_defaults",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_define_enumerable_properties",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_define_property",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_dispose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_export_star",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_extends",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_get",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_get_prototype_of",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_inherits",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_inherits_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_initializer_define_property",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_initializer_warning_helper",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_instanceof",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_interop_require_default",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_interop_require_wildcard",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_is_native_function",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_is_native_reflect_construct",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_iterable_to_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_iterable_to_array_limit",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_iterable_to_array_limit_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_jsx",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_new_arrow_check",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_non_iterable_rest",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_non_iterable_spread",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_object_destructuring_empty",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_object_spread",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_object_spread_props",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_object_without_properties",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_object_without_properties_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_possible_constructor_return",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_read_only_error",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_set",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_set_prototype_of",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_skip_first_generator_next",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_sliced_to_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_sliced_to_array_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_super_prop_base",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_tagged_template_literal",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_tagged_template_literal_loose",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_throw",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_to_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_to_consumable_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_to_primitive",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_to_property_key",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_ts_decorate",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_ts_generator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_ts_metadata",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_ts_param",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_ts_values",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_type_of",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_unsupported_iterable_to_array",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_update",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_using",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_wrap_async_generator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_wrap_native_super",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/_write_only_error",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/_/index",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 99
+                    },
+                    "numFiles": 99
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/cjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".cjs": 99
+                    },
+                    "numFiles": 99
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 99
+                    },
+                    "numFiles": 99
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/scripts",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@swc/helpers/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".mjs": 99
+                    },
+                    "numFiles": 99
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 99,
+                  ".mjs": 99,
+                  ".js": 103,
+                  ".json": 100,
+                  "": 1
+                },
+                "numFiles": 402
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 101,
+              ".md": 2,
+              ".js": 104,
+              ".cjs": 99,
+              ".mjs": 99,
+              "": 1
+            },
+            "numFiles": 406
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/json5",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 2,
+                  ".md": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/assert",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/compatibility",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/dns",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/fs",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/readline",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/stream",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/timers",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/ts5.6",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/node/web-globals",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 4
+                    },
+                    "numFiles": 4
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 66,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 69
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/prop-types",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/react",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/react/ts5.0",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 6
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 12,
+                  "": 1,
+                  ".json": 1,
+                  ".md": 1
+                },
+                "numFiles": 15
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/react-dom",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@types/react-dom/test-utils",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 6,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 86,
+              "": 4,
+              ".json": 6,
+              ".md": 5
+            },
+            "numFiles": 101
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/configs",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/configs/eslintrc",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 13,
+                              ".js": 13
+                            },
+                            "numFiles": 26
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/configs/flat",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 13,
+                              ".js": 13
+                            },
+                            "numFiles": 26
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 27,
+                          ".js": 27
+                        },
+                        "numFiles": 54
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/rules",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/rules/enum-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1,
+                              ".ts": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/rules/naming-convention-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 8,
+                              ".js": 8
+                            },
+                            "numFiles": 16
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/rules/prefer-optional-chain-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5,
+                              ".ts": 5
+                            },
+                            "numFiles": 10
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 149,
+                          ".ts": 149
+                        },
+                        "numFiles": 298
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/util",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/dist/util/class-scope-analyzer",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 3,
+                              ".js": 3
+                            },
+                            "numFiles": 6
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 49,
+                          ".ts": 49
+                        },
+                        "numFiles": 98
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 227,
+                      ".js": 227,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 455
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/node_modules",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore",
+                        "fullSubtreeExtensionCounts": {
+                          "": 1,
+                          ".ts": 1,
+                          ".json": 1,
+                          ".md": 1,
+                          ".js": 2
+                        },
+                        "numFiles": 6
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      "": 1,
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 2
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 231,
+                  ".json": 2,
+                  ".md": 2,
+                  "": 2,
+                  ".js": 229,
+                  ".tsbuildinfo": 1
+                },
+                "numFiles": 467
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/parser",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/parser/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2,
+                      ".ts": 2,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 2,
+                  ".ts": 2,
+                  ".tsbuildinfo": 1,
+                  "": 1
+                },
+                "numFiles": 8
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/project-service",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/project-service/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3,
+                      ".js": 3,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 7
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".ts": 3,
+                  ".js": 3,
+                  ".tsbuildinfo": 1,
+                  "": 1
+                },
+                "numFiles": 10
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist/definition",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 15,
+                          ".js": 15
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 110,
+                          ".js": 110
+                        },
+                        "numFiles": 220
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist/referencer",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 10,
+                          ".ts": 10
+                        },
+                        "numFiles": 20
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist/scope",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 22,
+                          ".ts": 22
+                        },
+                        "numFiles": 44
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/scope-manager/dist/variable",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 5,
+                          ".js": 5
+                        },
+                        "numFiles": 10
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 167,
+                      ".js": 167,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 335
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".ts": 167,
+                  ".js": 167,
+                  ".tsbuildinfo": 1,
+                  "": 1
+                },
+                "numFiles": 338
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/tsconfig-utils",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/tsconfig-utils/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3,
+                      ".ts": 3,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 7
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 3,
+                  ".ts": 3,
+                  ".tsbuildinfo": 1,
+                  "": 1
+                },
+                "numFiles": 10
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/type-utils",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/type-utils/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/type-utils/dist/typeOrValueSpecifiers",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4,
+                          ".ts": 4
+                        },
+                        "numFiles": 8
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 22,
+                      ".ts": 22,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 45
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".js": 22,
+                  ".ts": 22,
+                  ".tsbuildinfo": 1,
+                  "": 1
+                },
+                "numFiles": 48
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/types",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/types/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/types/dist/generated",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 5,
+                      ".tsbuildinfo": 1,
+                      ".js": 5
+                    },
+                    "numFiles": 11
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".ts": 5,
+                  ".tsbuildinfo": 1,
+                  ".js": 5,
+                  "": 1
+                },
+                "numFiles": 14
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/dist/create-program",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 11,
+                          ".js": 11
+                        },
+                        "numFiles": 22
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/dist/jsx",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/dist/parseSettings",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 8,
+                          ".ts": 8
+                        },
+                        "numFiles": 16
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/dist/ts-estree",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3,
+                          ".ts": 3
+                        },
+                        "numFiles": 6
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 43,
+                      ".ts": 43,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 87
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/brace-expansion/.github",
+                            "fullSubtreeExtensionCounts": {
+                              ".yml": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".yml": 1,
+                          ".json": 1,
+                          ".md": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/dist",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/dist/commonjs",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 12,
+                                  ".js": 6,
+                                  ".ts": 6,
+                                  ".json": 1
+                                },
+                                "numFiles": 25
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/typescript-estree/node_modules/minimatch/dist/esm",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 12,
+                                  ".js": 6,
+                                  ".ts": 6,
+                                  ".json": 1
+                                },
+                                "numFiles": 25
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 24,
+                              ".js": 12,
+                              ".ts": 12,
+                              ".json": 2
+                            },
+                            "numFiles": 50
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 3,
+                          ".md": 1,
+                          ".map": 24,
+                          ".js": 12,
+                          ".ts": 12,
+                          "": 1
+                        },
+                        "numFiles": 53
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 4,
+                      ".md": 2,
+                      ".map": 24,
+                      ".js": 13,
+                      ".ts": 12,
+                      "": 2,
+                      ".yml": 1
+                    },
+                    "numFiles": 58
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 5,
+                  ".md": 3,
+                  ".map": 24,
+                  ".js": 56,
+                  ".ts": 55,
+                  "": 3,
+                  ".yml": 1,
+                  ".tsbuildinfo": 1
+                },
+                "numFiles": 148
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/ast-utils",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/ast-utils/eslint-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 6,
+                              ".js": 6
+                            },
+                            "numFiles": 12
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 10,
+                          ".js": 10
+                        },
+                        "numFiles": 20
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/eslint-utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 8,
+                          ".js": 8
+                        },
+                        "numFiles": 16
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/ts-eslint",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/ts-eslint/eslint",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".ts": 3
+                            },
+                            "numFiles": 6
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 15,
+                          ".js": 15
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/utils/dist/ts-utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 3,
+                          ".js": 3
+                        },
+                        "numFiles": 6
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 39,
+                      ".js": 39,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 79
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".ts": 39,
+                  ".js": 39,
+                  "": 1,
+                  ".tsbuildinfo": 1
+                },
+                "numFiles": 82
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys/dist",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3,
+                      ".ts": 3,
+                      ".tsbuildinfo": 1
+                    },
+                    "numFiles": 7
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys/node_modules",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys/dist",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 2,
+                              ".cjs": 1,
+                              ".cts": 1
+                            },
+                            "numFiles": 4
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@typescript-eslint/visitor-keys/node_modules/eslint-visitor-keys/lib",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".json": 1,
+                          ".md": 1,
+                          ".ts": 2,
+                          ".cjs": 1,
+                          ".cts": 1,
+                          "": 1
+                        },
+                        "numFiles": 9
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2,
+                      ".json": 1,
+                      ".md": 1,
+                      ".ts": 2,
+                      ".cjs": 1,
+                      ".cts": 1,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 2,
+                  ".md": 2,
+                  ".js": 5,
+                  ".ts": 5,
+                  ".cjs": 1,
+                  ".cts": 1,
+                  "": 2,
+                  ".tsbuildinfo": 1
+                },
+                "numFiles": 19
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 16,
+              ".md": 14,
+              ".js": 531,
+              ".ts": 532,
+              ".cjs": 1,
+              ".cts": 1,
+              "": 14,
+              ".tsbuildinfo": 10,
+              ".map": 24,
+              ".yml": 1
+            },
+            "numFiles": 1144
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap/structured-clone",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap/structured-clone/.github",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap/structured-clone/.github/workflows",
+                        "fullSubtreeExtensionCounts": {
+                          ".yml": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap/structured-clone/cjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".json": 1
+                    },
+                    "numFiles": 6
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@ungap/structured-clone/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 11,
+                  ".json": 2,
+                  ".yml": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 16
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 11,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@unrs",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/@unrs/resolver-binding-darwin-arm64",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 1,
+                  ".node": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".node": 1
+            },
+            "numFiles": 3
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/acorn",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/acorn/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/acorn/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".mts": 1,
+                  ".js": 2,
+                  ".ts": 1,
+                  ".mjs": 1
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".mts": 1,
+              ".js": 2,
+              ".ts": 1,
+              ".mjs": 1,
+              "": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/acorn-jsx",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".map": 1,
+                  ".js": 2
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/lib/compile",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 10
+                    },
+                    "numFiles": 10
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/lib/dot",
+                    "fullSubtreeExtensionCounts": {
+                      ".jst": 25,
+                      ".def": 5
+                    },
+                    "numFiles": 30
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/lib/dotjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 26,
+                      ".md": 1
+                    },
+                    "numFiles": 27
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/lib/refs",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 5
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 41,
+                  ".md": 1,
+                  ".json": 5,
+                  ".ts": 1,
+                  ".jst": 25,
+                  ".def": 5
+                },
+                "numFiles": 78
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ajv/scripts",
+                "fullSubtreeExtensionCounts": {
+                  "": 4,
+                  ".js": 2,
+                  ".yml": 1
+                },
+                "numFiles": 7
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 46,
+              ".md": 2,
+              ".json": 6,
+              ".ts": 1,
+              ".jst": 25,
+              ".def": 5,
+              "": 5,
+              ".yml": 1,
+              ".map": 1
+            },
+            "numFiles": 92
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ansi-regex",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ansi-styles",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/any-promise",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/any-promise/register",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 10,
+                  ".js": 10
+                },
+                "numFiles": 20
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 16,
+              ".ts": 13,
+              ".json": 1,
+              ".md": 1,
+              "": 3
+            },
+            "numFiles": 34
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/anymatch",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/arg",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/argparse",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/argparse/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc/roles",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc/roles/abstract",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 12
+                            },
+                            "numFiles": 12
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc/roles/dpub",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 41
+                            },
+                            "numFiles": 41
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc/roles/graphics",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/etc/roles/literal",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 86
+                            },
+                            "numFiles": 86
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 146
+                        },
+                        "numFiles": 146
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 146
+                    },
+                    "numFiles": 146
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/aria-query/lib/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 154
+                },
+                "numFiles": 154
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 154,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 157
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-buffer-byte-length",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-buffer-byte-length/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-buffer-byte-length/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-includes",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-includes/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array-includes/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlast",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlast/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlast/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlastindex",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlastindex/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.findlastindex/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flat",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flat/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flat/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flatmap",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flatmap/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.flatmap/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.tosorted",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.tosorted/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/array.prototype.tosorted/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/arraybuffer.prototype.slice",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/arraybuffer.prototype.slice/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ast-types-flow",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ast-types-flow/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/async-function",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/async-function/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/async-function/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".mjs": 2,
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 3,
+              ".mts": 1
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/autoprefixer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/autoprefixer/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/autoprefixer/data",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/autoprefixer/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/autoprefixer/lib/hacks",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 59
+                    },
+                    "numFiles": 59
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 77,
+                  ".ts": 1
+                },
+                "numFiles": 78
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 78,
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 2
+            },
+            "numFiles": 83
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/available-typed-arrays",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/available-typed-arrays/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/available-typed-arrays/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axe-core",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axe-core/locales",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 19,
+                  ".md": 1
+                },
+                "numFiles": 20
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 2,
+              ".json": 21,
+              ".txt": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 28
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axobject-query",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axobject-query/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axobject-query/lib/etc",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axobject-query/lib/etc/objects",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 124
+                        },
+                        "numFiles": 124
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 124
+                    },
+                    "numFiles": 124
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/axobject-query/lib/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 131
+                },
+                "numFiles": 131
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 131,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 134
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/balanced-match",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/balanced-match/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/baseline-browser-mapping",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/baseline-browser-mapping/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 2,
+                  ".cjs": 1
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".txt": 1,
+              ".json": 1,
+              ".md": 1,
+              ".ts": 1,
+              ".js": 2,
+              ".cjs": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/binary-extensions",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".json": 2,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/brace-expansion",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/braces",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/braces/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 7,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/browserslist",
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".ts": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/.github",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/.github/workflows",
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/bench",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/lib/types",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/busboy/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 17,
+              ".yml": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 22
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 4,
+              ".js": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind-apply-helpers",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind-apply-helpers/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bind-apply-helpers/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 6,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 7
+            },
+            "numFiles": 21
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bound",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bound/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/call-bound/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/callsites",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/camelcase-css",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/data",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/data/features",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 582
+                    },
+                    "numFiles": 582
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/data/regions",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 240
+                    },
+                    "numFiles": 240
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 826
+                },
+                "numFiles": 826
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/dist/lib",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/caniuse-lite/dist/unpacker",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 7
+                    },
+                    "numFiles": 7
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 9
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 835,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 838
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chalk",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chalk/source",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 3,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chokidar",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chokidar/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chokidar/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chokidar/node_modules/glob-parent",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1,
+                      ".md": 2,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 2,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/chokidar/types",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".json": 2,
+              ".md": 3,
+              "": 2,
+              ".ts": 1
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/client-only",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1
+            },
+            "numFiles": 3
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/color-convert",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 3,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/color-name",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/commander",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/commander/typings",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1,
+              ".ts": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/concat-map",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/concat-map/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/concat-map/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".markdown": 1,
+              ".js": 3,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cross-spawn",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cross-spawn/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cross-spawn/lib/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3
+                    },
+                    "numFiles": 3
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cssesc",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cssesc/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/cssesc/man",
+                "fullSubtreeExtensionCounts": {
+                  ".1": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".txt": 1,
+              "": 1,
+              ".js": 1,
+              ".1": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/csstype",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".flow": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/damerau-levenshtein",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/damerau-levenshtein/scripts",
+                "fullSubtreeExtensionCounts": {
+                  ".sh": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/damerau-levenshtein/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".sh": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-buffer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-buffer/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-buffer/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-length",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-length/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-length/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-offset",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-offset/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/data-view-byte-offset/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/debug",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/debug/src",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/deep-is",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/deep-is/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/deep-is/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".markdown": 1,
+              ".js": 5,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/define-data-property",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/define-data-property/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/define-data-property/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/define-properties",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/define-properties/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/didyoumean",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/dlv",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/dlv/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".map": 3,
+                  ".js": 3
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 4,
+              ".map": 3
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/doctrine",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/doctrine/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".esprima": 1,
+              ".js": 3,
+              ".json": 1,
+              ".md": 2,
+              ".closure-compiler": 1,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/dunder-proto",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/dunder-proto/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/dunder-proto/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 3,
+              ".json": 2,
+              ".js": 5,
+              ".yml": 1,
+              ".md": 2,
+              ".ts": 2
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eastasianwidth",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".js": 1,
+              ".md": 1
+            },
+            "numFiles": 3
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/electron-to-chromium",
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".json": 5,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/emoji-regex",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/emoji-regex/es2015",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3,
+                  ".js": 3
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 6,
+              ".js": 6,
+              ".json": 1,
+              ".md": 1,
+              ".txt": 1
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/.claude",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2015",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2015/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 135
+                },
+                "numFiles": 135
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2016",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2016/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 142
+                },
+                "numFiles": 142
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2017",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2017/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 150
+                },
+                "numFiles": 150
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2018",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2018/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 162
+                },
+                "numFiles": 162
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2019",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2019/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 166
+                },
+                "numFiles": 166
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2020",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2020/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2020/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2020/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 228
+                },
+                "numFiles": 228
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2021",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2021/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2021/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2021/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 242
+                },
+                "numFiles": 242
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2022",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2022/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2022/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2022/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 255
+                },
+                "numFiles": 255
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2023",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2023/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 18
+                    },
+                    "numFiles": 18
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2023/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2023/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 265
+                },
+                "numFiles": 265
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2024",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2024/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 18
+                    },
+                    "numFiles": 18
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2024/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2024/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 284
+                },
+                "numFiles": 284
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2025",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2025/BigInt",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 18
+                    },
+                    "numFiles": 18
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2025/Number",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 20
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/2025/tables",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 301
+                },
+                "numFiles": 301
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/5",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 45
+                },
+                "numFiles": 45
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/helpers",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/helpers/records",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 10
+                    },
+                    "numFiles": 10
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 69,
+                  ".json": 1
+                },
+                "numFiles": 70
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-abstract/operations",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 12
+                },
+                "numFiles": 12
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 2472,
+              ".mjs": 1,
+              ".json": 3,
+              "": 3,
+              ".md": 2
+            },
+            "numFiles": 2481
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-define-property",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-define-property/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-define-property/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-errors",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-errors/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-errors/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 8,
+              ".ts": 7,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              "": 2
+            },
+            "numFiles": 22
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/aos",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.concat",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.from",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.constructor",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.drop",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.every",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.filter",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.find",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.flatMap",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.forEach",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.map",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.reduce",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.some",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.take",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.prototype.toArray",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.zip",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/Iterator.zipKeyed",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/IteratorHelperPrototype",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/test",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/test/helpers",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 23
+                },
+                "numFiles": 23
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-iterator-helpers/WrapForValidIteratorPrototype",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 122,
+              ".mjs": 1,
+              ".json": 2,
+              "": 2,
+              ".yml": 1,
+              ".md": 2
+            },
+            "numFiles": 130
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-object-atoms",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-object-atoms/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-object-atoms/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".ts": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              "": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-set-tostringtag",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-set-tostringtag/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-shim-unscopables",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-shim-unscopables/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-shim-unscopables/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 3
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-to-primitive",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-to-primitive/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-to-primitive/helpers",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/es-to-primitive/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              ".ts": 4,
+              "": 5,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2
+            },
+            "numFiles": 23
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/escalade",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/escalade/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".mjs": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/escalade/sync",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".mjs": 1,
+                  ".js": 1,
+                  ".mts": 1
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".mjs": 2,
+              ".js": 2,
+              ".mts": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/escape-string-regexp",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/bin",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/conf",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 2,
+                  ".js": 3
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/cli-engine",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/cli-engine/formatters",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 11,
+                          ".json": 1
+                        },
+                        "numFiles": 12
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 18,
+                      ".json": 1
+                    },
+                    "numFiles": 19
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/config",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/eslint",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/linter",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/linter/code-path-analysis",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 7
+                        },
+                        "numFiles": 7
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 19
+                    },
+                    "numFiles": 19
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/rule-tester",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/rules",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/rules/utils",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/rules/utils/patterns",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/rules/utils/unicode",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5
+                            },
+                            "numFiles": 5
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 11
+                        },
+                        "numFiles": 11
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 303
+                    },
+                    "numFiles": 303
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/shared",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 12
+                    },
+                    "numFiles": 12
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/source-code",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/lib/source-code/token-store",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 13
+                        },
+                        "numFiles": 13
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 15
+                    },
+                    "numFiles": 15
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 383,
+                  ".json": 1
+                },
+                "numFiles": 384
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint/messages",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 15
+                },
+                "numFiles": 15
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 4,
+              ".js": 402,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 408
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-config-next",
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".json": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-node",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-node/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-node/node_modules/debug",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-node/node_modules/debug/src",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".json": 1,
+                      ".md": 2,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5,
+                  ".json": 1,
+                  ".md": 2,
+                  "": 1
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              ".md": 3,
+              ".js": 6,
+              "": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-typescript",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-import-resolver-typescript/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".map": 1,
+                  ".mjs": 1,
+                  ".cjs": 1,
+                  ".js": 1
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".map": 1,
+              ".mjs": 1,
+              ".cjs": 1,
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-module-utils",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-module-utils/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-module-utils/node_modules/debug",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-module-utils/node_modules/debug/src",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".json": 1,
+                      ".md": 2,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5,
+                  ".json": 1,
+                  ".md": 2,
+                  "": 1
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 15,
+              ".js": 19,
+              "": 3,
+              ".json": 3,
+              ".md": 3
+            },
+            "numFiles": 43
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/config",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/config/flat",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 12
+                },
+                "numFiles": 12
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/docs",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/docs/rules",
+                    "fullSubtreeExtensionCounts": {
+                      ".md": 46
+                    },
+                    "numFiles": 46
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".md": 46
+                },
+                "numFiles": 46
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/lib/core",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/lib/exportMap",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 11
+                    },
+                    "numFiles": 11
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/lib/rules",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 46
+                    },
+                    "numFiles": 46
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 65
+                },
+                "numFiles": 65
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/memo-parser",
+                "fullSubtreeExtensionCounts": {
+                  ".md": 1,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/debug",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/debug/src",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".json": 1,
+                      ".md": 2,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/doctrine",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/doctrine/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".esprima": 1,
+                      ".js": 3,
+                      ".json": 1,
+                      ".md": 2,
+                      ".closure-compiler": 1,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/semver",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-import/node_modules/semver/bin",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".bnf": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 2,
+                      "": 1
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 10,
+                  ".json": 3,
+                  ".md": 5,
+                  "": 3,
+                  ".bnf": 1,
+                  ".esprima": 1,
+                  ".closure-compiler": 1
+                },
+                "numFiles": 24
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 55,
+              ".ts": 1,
+              ".js": 88,
+              ".json": 4,
+              "": 5,
+              ".bnf": 1,
+              ".esprima": 1,
+              ".closure-compiler": 1
+            },
+            "numFiles": 156
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__mocks__",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 8
+                },
+                "numFiles": 8
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/__util__",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/__util__/helpers",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/src",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/src/rules",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 39
+                        },
+                        "numFiles": 39
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/src/util",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/__tests__/src/util/implicitRoles",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 27
+                        },
+                        "numFiles": 27
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 66
+                    },
+                    "numFiles": 66
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 72
+                },
+                "numFiles": 72
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/docs",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/docs/rules",
+                    "fullSubtreeExtensionCounts": {
+                      ".md": 39
+                    },
+                    "numFiles": 39
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".md": 39
+                },
+                "numFiles": 39
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/lib/configs",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/lib/rules",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 39
+                    },
+                    "numFiles": 39
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/lib/util",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-jsx-a11y/lib/util/implicitRoles",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 37
+                        },
+                        "numFiles": 37
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 62
+                    },
+                    "numFiles": 62
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 104
+                },
+                "numFiles": 104
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 184,
+              ".json": 1,
+              ".md": 42,
+              "": 2
+            },
+            "numFiles": 229
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/configs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/lib/rules",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 104,
+                      ".ts": 104,
+                      ".map": 104
+                    },
+                    "numFiles": 312
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/lib/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 28,
+                      ".map": 28,
+                      ".js": 28
+                    },
+                    "numFiles": 84
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 132,
+                  ".ts": 133,
+                  ".map": 132
+                },
+                "numFiles": 397
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/doctrine",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/doctrine/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".esprima": 1,
+                      ".js": 3,
+                      ".json": 1,
+                      ".md": 2,
+                      ".closure-compiler": 1,
+                      "": 1
+                    },
+                    "numFiles": 9
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/.github",
+                        "fullSubtreeExtensionCounts": {
+                          ".yml": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/bin",
+                        "fullSubtreeExtensionCounts": {
+                          "": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/example",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/dotdot",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/dotdot/abc",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/xmodules",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/xmodules/aaa",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/ymodules",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/ymodules/aaa",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/zmodules",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/module_dir/zmodules/bbb",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".json": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 2
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 3
+                            },
+                            "numFiles": 4
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/x",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/x/aaa",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/x/ccc",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/y",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/y/bbb",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/node_path/y/ccc",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4
+                            },
+                            "numFiles": 4
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/pathfilter",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/pathfilter/deep_ref",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/precedence",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/precedence/aaa",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/precedence/bbb",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5
+                            },
+                            "numFiles": 5
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/baz",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 2
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/browser_field",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".json": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/dot_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/dot_slash_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/empty_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/false_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/incorrect_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/invalid_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/missing_index",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/missing_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/multirepo",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/multirepo/packages",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/multirepo/packages/package-a",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".json": 1,
+                                          ".js": 1
+                                        },
+                                        "numFiles": 2
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/multirepo/packages/package-b",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".json": 1,
+                                          ".js": 1
+                                        },
+                                        "numFiles": 2
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".json": 2,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 4
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 4,
+                                  ".js": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/nested_symlinks",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/nested_symlinks/mylib",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".json": 1,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 3
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 2
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/null_main",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/other_path",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/other_path/lib",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/quux",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/quux/foo",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/same_names",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/same_names/foo",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/symlinked",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/symlinked/_",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/symlinked/_/node_modules",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 1
+                                        },
+                                        "numFiles": 1
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/symlinked/_/symlink_target",
+                                        "fullSubtreeExtensionCounts": {
+                                          "": 1
+                                        },
+                                        "numFiles": 1
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      "": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 2
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/symlinked/package",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1,
+                                      ".json": 1
+                                    },
+                                    "numFiles": 2
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".json": 1,
+                                  "": 1
+                                },
+                                "numFiles": 4
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/resolver/without_basedir",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 25,
+                              ".json": 17,
+                              "": 1,
+                              ".coffee": 2
+                            },
+                            "numFiles": 45
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/shadowed_core",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/shadowed_core/node_modules",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/resolve/test/shadowed_core/node_modules/util",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 61,
+                          ".json": 18,
+                          "": 1,
+                          ".coffee": 2
+                        },
+                        "numFiles": 82
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".md": 1,
+                      ".js": 72,
+                      ".mjs": 1,
+                      ".yml": 1,
+                      ".json": 19,
+                      ".markdown": 1,
+                      "": 5,
+                      ".coffee": 2
+                    },
+                    "numFiles": 102
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/semver",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react/node_modules/semver/bin",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".bnf": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 2,
+                      "": 1
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".bnf": 1,
+                  ".json": 21,
+                  ".md": 4,
+                  ".js": 77,
+                  "": 7,
+                  ".esprima": 1,
+                  ".closure-compiler": 1,
+                  ".mjs": 1,
+                  ".yml": 1,
+                  ".markdown": 1,
+                  ".coffee": 2
+                },
+                "numFiles": 117
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".map": 133,
+              ".ts": 134,
+              ".js": 213,
+              ".json": 22,
+              ".md": 5,
+              ".bnf": 1,
+              "": 8,
+              ".esprima": 1,
+              ".closure-compiler": 1,
+              ".mjs": 1,
+              ".yml": 1,
+              ".markdown": 1,
+              ".coffee": 2
+            },
+            "numFiles": 523
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react-hooks",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-plugin-react-hooks/cjs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-scope",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-scope/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-scope/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 9
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              ".json": 1,
+              ".md": 1,
+              ".cjs": 1,
+              "": 1
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-visitor-keys",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-visitor-keys/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 2,
+                  ".cjs": 1,
+                  ".cts": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/eslint-visitor-keys/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 1,
+              ".ts": 2,
+              ".cjs": 1,
+              ".cts": 1,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/espree",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/espree/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/espree/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".json": 1,
+              ".md": 1,
+              ".cjs": 1,
+              "": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/esquery",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/esquery/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6,
+                  ".map": 3
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 7,
+              ".txt": 1,
+              ".json": 1,
+              ".md": 1,
+              ".map": 3
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/esrecurse",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".js": 2,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/estraverse",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".BSD": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/esutils",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/esutils/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".json": 1,
+              ".BSD": 1,
+              ".md": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-deep-equal",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-deep-equal/es6",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 2,
+                  ".js": 2
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 4,
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/node_modules/glob-parent",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1,
+                      ".md": 2,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".md": 2,
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/managers",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/providers",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/providers/filters",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3,
+                          ".ts": 3
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/providers/matchers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 2,
+                          ".js": 2
+                        },
+                        "numFiles": 4
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/providers/transformers",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 10,
+                      ".js": 10
+                    },
+                    "numFiles": 20
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/readers",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 4,
+                      ".js": 4
+                    },
+                    "numFiles": 8
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/types",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-glob/out/utils",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 8,
+                      ".ts": 8
+                    },
+                    "numFiles": 16
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 26,
+                  ".ts": 26
+                },
+                "numFiles": 52
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              ".md": 3,
+              ".js": 27,
+              "": 2,
+              ".ts": 26
+            },
+            "numFiles": 60
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-json-stable-stringify",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-json-stable-stringify/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-json-stable-stringify/benchmark",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-json-stable-stringify/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-json-stable-stringify/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 3,
+              ".ts": 1,
+              ".json": 2,
+              ".md": 1,
+              ".js": 10,
+              "": 1
+            },
+            "numFiles": 18
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fast-levenshtein",
+            "fullSubtreeExtensionCounts": {
+              ".js": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fastq",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fastq/test",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".ts": 1,
+                  ".js": 2
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 2,
+              ".js": 6,
+              ".ts": 2,
+              ".json": 2,
+              ".mjs": 1,
+              "": 1
+            },
+            "numFiles": 14
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/file-entry-cache",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fill-range",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/find-up",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flat-cache",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flat-cache/src",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted/cjs",
+                "fullSubtreeExtensionCounts": {
+                  ".json": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted/esm",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted/php",
+                "fullSubtreeExtensionCounts": {
+                  ".php": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted/python",
+                "fullSubtreeExtensionCounts": {
+                  ".py": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/flatted/types",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              ".js": 6,
+              ".md": 1,
+              ".php": 1,
+              ".py": 1,
+              "": 1,
+              ".ts": 1
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/for-each",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/for-each/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".md": 1,
+                  ".yml": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/for-each/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".md": 3,
+              ".yml": 1,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/foreground-child",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/foreground-child/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/foreground-child/dist/commonjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4,
+                      ".map": 8,
+                      ".ts": 4,
+                      ".json": 1
+                    },
+                    "numFiles": 17
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/foreground-child/dist/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4,
+                      ".map": 8,
+                      ".ts": 4,
+                      ".json": 1
+                    },
+                    "numFiles": 17
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 8,
+                  ".map": 16,
+                  ".ts": 8,
+                  ".json": 2
+                },
+                "numFiles": 34
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 1,
+              ".js": 8,
+              ".map": 16,
+              ".ts": 8,
+              "": 1
+            },
+            "numFiles": 37
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fraction.js",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fraction.js/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2,
+                  ".mjs": 1
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fraction.js/examples",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 10
+                },
+                "numFiles": 10
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fraction.js/src",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fraction.js/tests",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 14,
+              ".ts": 1,
+              ".json": 1,
+              ".md": 2,
+              ".mjs": 1,
+              "": 1,
+              ".mts": 1
+            },
+            "numFiles": 21
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/fs.realpath",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function-bind",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function-bind/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".md": 1,
+                  ".yml": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function-bind/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1,
+                  "": 1
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              "": 4,
+              ".md": 3,
+              ".yml": 1,
+              ".json": 1
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function.prototype.name",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function.prototype.name/.github",
+                "childrenFiles": [
+                  {
+                    "name": "FUNDING.yml"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function.prototype.name/helpers",
+                "childrenFiles": [
+                  {
+                    "name": "functionsHaveNames.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/function.prototype.name/test",
+                "childrenFiles": [
+                  {
+                    "name": "implementation.js"
+                  },
+                  {
+                    "name": "index.js"
+                  },
+                  {
+                    "name": "shimmed.js"
+                  },
+                  {
+                    "name": "tests.js"
+                  },
+                  {
+                    "name": "uglified.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": ".editorconfig"
+              },
+              {
+                "name": ".eslintrc"
+              },
+              {
+                "name": ".nycrc"
+              },
+              {
+                "name": "auto.js"
+              },
+              {
+                "name": "CHANGELOG.md"
+              },
+              {
+                "name": "implementation.js"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "polyfill.js"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "shim.js"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/functions-have-names",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/functions-have-names/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/functions-have-names/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/generator-function",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/generator-function/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/generator-function/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".mjs": 2,
+              ".ts": 1,
+              "": 2,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 3,
+              ".js": 3,
+              ".mts": 1
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-intrinsic",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-intrinsic/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-intrinsic/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-proto",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-proto/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-proto/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 3,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 4
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-symbol-description",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-symbol-description/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-symbol-description/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 3
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-tsconfig",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/get-tsconfig/dist",
+                "childrenFiles": [
+                  {
+                    "name": "index.cjs"
+                  },
+                  {
+                    "name": "index.d.cts"
+                  },
+                  {
+                    "name": "index.d.mts"
+                  },
+                  {
+                    "name": "index.mjs"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "README.md"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/dist/commonjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 14,
+                      ".ts": 7,
+                      ".js": 7,
+                      ".json": 1
+                    },
+                    "numFiles": 29
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/dist/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 16,
+                      ".ts": 7,
+                      ".js": 7,
+                      ".json": 1,
+                      ".mjs": 1,
+                      ".mts": 1
+                    },
+                    "numFiles": 33
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 30,
+                  ".ts": 14,
+                  ".js": 14,
+                  ".json": 2,
+                  ".mjs": 1,
+                  ".mts": 1
+                },
+                "numFiles": 62
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/brace-expansion",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/brace-expansion/.github",
+                        "fullSubtreeExtensionCounts": {
+                          ".yml": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/minimatch",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/minimatch/dist",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/minimatch/dist/commonjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 12,
+                              ".js": 6,
+                              ".ts": 6,
+                              ".json": 1
+                            },
+                            "numFiles": 25
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob/node_modules/minimatch/dist/esm",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 12,
+                              ".js": 6,
+                              ".ts": 6,
+                              ".json": 1
+                            },
+                            "numFiles": 25
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 24,
+                          ".js": 12,
+                          ".ts": 12,
+                          ".json": 2
+                        },
+                        "numFiles": 50
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 3,
+                      ".md": 1,
+                      ".map": 24,
+                      ".js": 12,
+                      ".ts": 12,
+                      "": 1
+                    },
+                    "numFiles": 53
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 4,
+                  ".md": 2,
+                  ".map": 24,
+                  ".js": 13,
+                  ".ts": 12,
+                  "": 2,
+                  ".yml": 1
+                },
+                "numFiles": 58
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 7,
+              ".md": 3,
+              ".map": 54,
+              ".ts": 26,
+              ".js": 27,
+              ".mjs": 1,
+              ".mts": 1,
+              "": 3,
+              ".yml": 1
+            },
+            "numFiles": 123
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/glob-parent",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/globals",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 2,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/globalthis",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/globalthis/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 11,
+              "": 3,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/gopd",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/gopd/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/gopd/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 3,
+              "": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/graceful-fs",
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/graphemer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/graphemer/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".map": 5,
+                  ".js": 5,
+                  ".ts": 5
+                },
+                "numFiles": 15
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".map": 5,
+              ".js": 5,
+              ".ts": 5,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 19
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-bigints",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-bigints/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-bigints/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-flag",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-property-descriptors",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-property-descriptors/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-property-descriptors/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-proto",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-proto/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-proto/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 6,
+              "": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-symbols",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-symbols/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-symbols/test",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-symbols/test/shams",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 6
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-tostringtag",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-tostringtag/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-tostringtag/test",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/has-tostringtag/test/shams",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 6
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/hasown",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/hasown/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ignore",
+            "fullSubtreeExtensionCounts": {
+              "": 1,
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 2
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/import-fresh",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/imurmurhash",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/inflight",
+            "childrenFiles": [
+              {
+                "name": "inflight.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "README.md"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/inherits",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/internal-slot",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/internal-slot/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/internal-slot/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 3,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-array-buffer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-array-buffer/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-array-buffer/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-async-function",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-async-function/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".md": 2,
+              ".js": 3
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-bigint",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-bigint/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-bigint/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-binary-path",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-boolean-object",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-boolean-object/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-boolean-object/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-bun-module",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-bun-module/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2,
+                  ".mjs": 1,
+                  ".ts": 2
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 2,
+              ".mjs": 1,
+              ".ts": 2,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-callable",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-callable/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-callable/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-core-module",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-core-module/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 3,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-data-view",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-data-view/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-data-view/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-date-object",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-date-object/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-date-object/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2,
+              ".yml": 1
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-extglob",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-finalizationregistry",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-finalizationregistry/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-finalizationregistry/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-fullwidth-code-point",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-generator-function",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-generator-function/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".md": 2,
+              ".js": 4
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-glob",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-map",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-map/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-map/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 5,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-negative-zero",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-negative-zero/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-negative-zero/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-number",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-number-object",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-number-object/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-number-object/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-path-inside",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-regex",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-regex/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-set",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-set/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-set/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 5,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-shared-array-buffer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-shared-array-buffer/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-shared-array-buffer/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-string",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-string/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-string/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-symbol",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-symbol/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-symbol/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-typed-array",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-typed-array/.github",
+                "childrenFiles": [
+                  {
+                    "name": "FUNDING.yml"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-typed-array/test",
+                "childrenFiles": [
+                  {
+                    "name": "index.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": ".editorconfig"
+              },
+              {
+                "name": ".eslintrc"
+              },
+              {
+                "name": ".nycrc"
+              },
+              {
+                "name": "CHANGELOG.md"
+              },
+              {
+                "name": "index.d.ts"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "tsconfig.json"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakmap",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakmap/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakmap/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakref",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakref/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakref/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakset",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakset/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/is-weakset/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 5,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/isarray",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/isexe",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/isexe/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 2
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/iterator.prototype",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/iterator.prototype/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/iterator.prototype/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 2,
+              "": 2
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jackspeak",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jackspeak/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jackspeak/dist/commonjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 6,
+                      ".ts": 2,
+                      ".json": 1,
+                      ".js": 2
+                    },
+                    "numFiles": 11
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jackspeak/dist/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 4,
+                      ".ts": 2,
+                      ".json": 1,
+                      ".js": 2
+                    },
+                    "numFiles": 9
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 10,
+                  ".ts": 4,
+                  ".json": 2,
+                  ".js": 4
+                },
+                "numFiles": 20
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 2,
+              ".map": 10,
+              ".ts": 4,
+              ".js": 4
+            },
+            "numFiles": 23
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jiti",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jiti/bin",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jiti/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jiti/dist/plugins",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 6,
+                  ".js": 2
+                },
+                "numFiles": 8
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jiti/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".json": 1,
+              ".md": 1,
+              ".ts": 6,
+              "": 1
+            },
+            "numFiles": 14
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-tokens",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml/bin",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".mjs": 1,
+                  ".js": 2
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml/lib/schema",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/js-yaml/lib/type",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 13
+                    },
+                    "numFiles": 13
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 24
+                },
+                "numFiles": 24
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 28,
+              ".json": 1,
+              ".md": 1,
+              ".mjs": 1,
+              "": 1
+            },
+            "numFiles": 32
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-buffer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-buffer/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-schema-traverse",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-schema-traverse/spec",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-schema-traverse/spec/fixtures",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2,
+                  ".yml": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 3,
+              ".json": 1,
+              ".md": 1,
+              ".js": 3,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-stable-stringify-without-jsonify",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-stable-stringify-without-jsonify/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json-stable-stringify-without-jsonify/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".markdown": 1,
+              ".js": 11,
+              "": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json5",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json5/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/json5/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 8
+                },
+                "numFiles": 8
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/__tests__",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/__tests__/src",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 11
+                    },
+                    "numFiles": 11
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 12
+                },
+                "numFiles": 12
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/lib/values",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/lib/values/expressions",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 25
+                        },
+                        "numFiles": 25
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 30
+                    },
+                    "numFiles": 30
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 37
+                },
+                "numFiles": 37
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/src",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/src/values",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/jsx-ast-utils/src/values/expressions",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 25
+                        },
+                        "numFiles": 25
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 30
+                    },
+                    "numFiles": 30
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 37
+                },
+                "numFiles": 37
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 96,
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 3
+            },
+            "numFiles": 104
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/keyv",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/keyv/src",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 1,
+              ".json": 1,
+              ".md": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/language-subtag-registry",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/language-subtag-registry/data",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/language-subtag-registry/data/json",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 14
+                    },
+                    "numFiles": 14
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 14
+                },
+                "numFiles": 14
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 15,
+              ".md": 1
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/language-tags",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/language-tags/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/levn",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/levn/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lilconfig",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lilconfig/src",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lines-and-columns",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lines-and-columns/build",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/locate-path",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lodash.merge",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/loose-envify",
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lru-cache",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lru-cache/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lru-cache/dist/commonjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 3,
+                      ".js": 2,
+                      ".ts": 1,
+                      ".json": 1
+                    },
+                    "numFiles": 7
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/lru-cache/dist/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 3,
+                      ".js": 2,
+                      ".ts": 1,
+                      ".json": 1
+                    },
+                    "numFiles": 7
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 6,
+                  ".js": 4,
+                  ".ts": 2,
+                  ".json": 2
+                },
+                "numFiles": 14
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 1,
+              ".map": 6,
+              ".js": 4,
+              ".ts": 2,
+              "": 1
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/math-intrinsics",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/math-intrinsics/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/math-intrinsics/constants",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3,
+                  ".ts": 3
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/math-intrinsics/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 16,
+              ".ts": 15,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              "": 2
+            },
+            "numFiles": 38
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/merge2",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/micromatch",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minimatch",
+            "fullSubtreeExtensionCounts": {
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minimist",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minimist/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minimist/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minimist/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 15
+                },
+                "numFiles": 15
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              ".js": 17
+            },
+            "numFiles": 24
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minipass",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minipass/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minipass/dist/commonjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 2,
+                      ".ts": 1,
+                      ".json": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/minipass/dist/esm",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 2,
+                      ".ts": 1,
+                      ".json": 1,
+                      ".js": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 4,
+                  ".ts": 2,
+                  ".json": 2,
+                  ".js": 2
+                },
+                "numFiles": 10
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 1,
+              ".map": 4,
+              ".ts": 2,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ms",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/mz",
+            "fullSubtreeExtensionCounts": {
+              ".js": 7,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/nanoid",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/nanoid/async",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 3,
+                  ".cjs": 2,
+                  ".json": 1
+                },
+                "numFiles": 7
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/nanoid/bin",
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/nanoid/non-secure",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".cjs": 1,
+                  ".json": 1,
+                  ".js": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/nanoid/url-alphabet",
+                "fullSubtreeExtensionCounts": {
+                  ".cjs": 1,
+                  ".json": 1,
+                  ".js": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 3,
+              ".js": 8,
+              ".cjs": 7,
+              ".json": 4,
+              ".md": 1,
+              ".cts": 1,
+              "": 1
+            },
+            "numFiles": 25
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/napi-postinstall",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/napi-postinstall/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 7,
+                  ".ts": 7,
+                  ".map": 7
+                },
+                "numFiles": 21
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 7,
+              ".ts": 7,
+              ".map": 7,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 24
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/natural-compare",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1
+            },
+            "numFiles": 3
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/compat",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/api",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 15,
+                      ".js": 15,
+                      ".ts": 15
+                    },
+                    "numFiles": 45
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/bin",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".map": 1,
+                      "": 1
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/analysis",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3,
+                          ".map": 3,
+                          ".ts": 3
+                        },
+                        "numFiles": 9
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/babel",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/babel/loader",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4,
+                              ".ts": 5,
+                              ".map": 4
+                            },
+                            "numFiles": 13
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/babel/plugins",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 9,
+                              ".map": 9,
+                              ".ts": 9
+                            },
+                            "numFiles": 27
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 15,
+                          ".js": 14,
+                          ".map": 14
+                        },
+                        "numFiles": 43
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/jest",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/jest/__mocks__",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4,
+                              ".map": 4,
+                              ".ts": 4
+                            },
+                            "numFiles": 12
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 6,
+                          ".map": 6,
+                          ".js": 6
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/manifests",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/manifests/formatter",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 1,
+                              ".map": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".map": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/output",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 3,
+                          ".map": 3,
+                          ".js": 3
+                        },
+                        "numFiles": 9
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/polyfills",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/polyfills/fetch",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 2,
+                              ".map": 2,
+                              ".js": 2
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/polyfills/object.assign",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 5,
+                              ".js": 5,
+                              ".ts": 5
+                            },
+                            "numFiles": 15
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 9,
+                          ".js": 11,
+                          ".ts": 9
+                        },
+                        "numFiles": 29
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/swc",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 4,
+                          ".map": 4,
+                          ".js": 4
+                        },
+                        "numFiles": 12
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/templates",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 10,
+                          ".ts": 10,
+                          ".js": 10
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/turborepo-access-trace",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6,
+                          ".ts": 6,
+                          ".map": 6
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/alias",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4,
+                              ".map": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/config",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/config/blocks",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/config/blocks/css",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/config/blocks/css/loaders",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 7,
+                                          ".js": 7,
+                                          ".ts": 7
+                                        },
+                                        "numFiles": 21
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 10,
+                                      ".js": 10,
+                                      ".map": 10
+                                    },
+                                    "numFiles": 30
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/config/blocks/images",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2,
+                                      ".ts": 2
+                                    },
+                                    "numFiles": 6
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 13,
+                                  ".ts": 13,
+                                  ".js": 13
+                                },
+                                "numFiles": 39
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 16,
+                              ".map": 16,
+                              ".js": 16
+                            },
+                            "numFiles": 48
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/css-loader",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/css-loader/src",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/css-loader/src/plugins",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 4,
+                                          ".map": 4,
+                                          ".js": 4
+                                        },
+                                        "numFiles": 12
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 2,
+                                          ".js": 2,
+                                          ".map": 2
+                                        },
+                                        "numFiles": 6
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 10,
+                                      ".ts": 10,
+                                      ".js": 10
+                                    },
+                                    "numFiles": 30
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 10,
+                                  ".ts": 10,
+                                  ".js": 10
+                                },
+                                "numFiles": 30
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/lightningcss-loader",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/lightningcss-loader/src",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 6,
+                                      ".ts": 6,
+                                      ".map": 6
+                                    },
+                                    "numFiles": 18
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 6,
+                                  ".ts": 6,
+                                  ".map": 6
+                                },
+                                "numFiles": 18
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/metadata",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 4,
+                                  ".map": 3,
+                                  ".js": 3
+                                },
+                                "numFiles": 10
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-edge-app-route-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1,
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-edge-ssr-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 2,
+                                  ".map": 2,
+                                  ".js": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-flight-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 5,
+                                  ".ts": 5,
+                                  ".js": 5
+                                },
+                                "numFiles": 15
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-font-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".map": 2,
+                                  ".ts": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-image-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 2,
+                                  ".js": 2,
+                                  ".map": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-route-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1,
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-style-loader",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/next-style-loader/runtime",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 3,
+                                      ".ts": 3,
+                                      ".js": 3
+                                    },
+                                    "numFiles": 9
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 4,
+                                  ".map": 4,
+                                  ".js": 4
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/postcss-loader",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/postcss-loader/src",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 4,
+                                      ".map": 4,
+                                      ".js": 4
+                                    },
+                                    "numFiles": 12
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 4,
+                                  ".map": 4,
+                                  ".js": 4
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/resolve-url-loader",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/loaders/resolve-url-loader/lib",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 4,
+                                      ".ts": 4,
+                                      ".js": 4
+                                    },
+                                    "numFiles": 12
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 5,
+                                  ".map": 5,
+                                  ".js": 5
+                                },
+                                "numFiles": 15
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 67,
+                              ".js": 66,
+                              ".map": 66
+                            },
+                            "numFiles": 199
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/plugins",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/plugins/next-types-plugin",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".ts": 3,
+                                  ".map": 2
+                                },
+                                "numFiles": 7
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/plugins/terser-webpack-plugin",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/plugins/terser-webpack-plugin/src",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 2,
+                                      ".map": 2,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 6
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 2,
+                                  ".map": 2,
+                                  ".js": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack/plugins/wellknown-errors-plugin",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 13,
+                                  ".map": 13,
+                                  ".js": 13
+                                },
+                                "numFiles": 39
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 40,
+                              ".ts": 41,
+                              ".map": 40
+                            },
+                            "numFiles": 121
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 126,
+                          ".js": 128,
+                          ".map": 128
+                        },
+                        "numFiles": 382
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack-build",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 2,
+                          ".map": 2,
+                          ".js": 2
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/build/webpack-config-rules",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 1,
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 211,
+                      ".ts": 209,
+                      ".map": 209
+                    },
+                    "numFiles": 629
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/cli",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 7,
+                      ".ts": 7,
+                      ".js": 7
+                    },
+                    "numFiles": 21
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/compat",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1,
+                          ".map": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/app",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 2,
+                                  ".ts": 2,
+                                  ".js": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/CodeFrame",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 3,
+                                          ".ts": 3,
+                                          ".map": 3
+                                        },
+                                        "numFiles": 9
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/Dialog",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 6,
+                                          ".js": 6,
+                                          ".map": 6
+                                        },
+                                        "numFiles": 18
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/hot-linked-text",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 1,
+                                          ".map": 1,
+                                          ".js": 1
+                                        },
+                                        "numFiles": 3
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 3,
+                                          ".ts": 3,
+                                          ".map": 3
+                                        },
+                                        "numFiles": 9
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/Overlay",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 5,
+                                          ".map": 5,
+                                          ".ts": 5
+                                        },
+                                        "numFiles": 15
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/Terminal",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 4,
+                                          ".ts": 4,
+                                          ".map": 4
+                                        },
+                                        "numFiles": 12
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/Toast",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 3,
+                                          ".ts": 3,
+                                          ".map": 3
+                                        },
+                                        "numFiles": 9
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/components/VersionStalenessInfo",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 3,
+                                          ".ts": 3,
+                                          ".map": 3
+                                        },
+                                        "numFiles": 9
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 29,
+                                      ".map": 29,
+                                      ".js": 29
+                                    },
+                                    "numFiles": 87
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/container",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/container/RuntimeError",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 5,
+                                          ".js": 5,
+                                          ".map": 5
+                                        },
+                                        "numFiles": 15
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 8,
+                                      ".map": 8,
+                                      ".ts": 8
+                                    },
+                                    "numFiles": 24
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/helpers",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 17,
+                                      ".ts": 17,
+                                      ".js": 17
+                                    },
+                                    "numFiles": 51
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/hooks",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 1,
+                                      ".ts": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 3
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/icons",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 3,
+                                      ".ts": 3,
+                                      ".js": 3
+                                    },
+                                    "numFiles": 9
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/internal/styles",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 3,
+                                      ".js": 3,
+                                      ".ts": 3
+                                    },
+                                    "numFiles": 9
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 61,
+                                  ".ts": 61,
+                                  ".js": 61
+                                },
+                                "numFiles": 183
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/pages",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 6,
+                                  ".map": 6,
+                                  ".js": 6
+                                },
+                                "numFiles": 18
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/react-dev-overlay/server",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 3,
+                                  ".map": 3,
+                                  ".ts": 3
+                                },
+                                "numFiles": 9
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 73,
+                              ".map": 73,
+                              ".js": 73
+                            },
+                            "numFiles": 219
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/router-reducer",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/components/router-reducer/reducers",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 10,
+                                  ".ts": 11,
+                                  ".js": 10
+                                },
+                                "numFiles": 31
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 31,
+                              ".ts": 45,
+                              ".map": 31
+                            },
+                            "numFiles": 107
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 142,
+                          ".js": 142,
+                          ".ts": 159
+                        },
+                        "numFiles": 443
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/dev",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/dev/error-overlay",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1,
+                              ".ts": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 7,
+                          ".map": 7,
+                          ".ts": 7
+                        },
+                        "numFiles": 21
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/legacy",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1,
+                          ".map": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/portal",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".map": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/client/tracing",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 2,
+                          ".map": 2,
+                          ".js": 2
+                        },
+                        "numFiles": 6
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 212,
+                      ".map": 195,
+                      ".js": 195
+                    },
+                    "numFiles": 602
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@ampproject",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@ampproject/toolbox-optimizer",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@babel",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@babel/runtime",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@babel/runtime/helpers",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@babel/runtime/helpers/esm",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 103,
+                                      ".json": 1
+                                    },
+                                    "numFiles": 104
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 206,
+                                  ".json": 1
+                                },
+                                "numFiles": 207
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@babel/runtime/regenerator",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 207,
+                              ".json": 2,
+                              ".md": 1,
+                              "": 1
+                            },
+                            "numFiles": 211
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 207,
+                          ".json": 2,
+                          ".md": 1,
+                          "": 1
+                        },
+                        "numFiles": 211
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@edge-runtime",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@edge-runtime/cookies",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 1,
+                              ".json": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@edge-runtime/ponyfill",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 1,
+                              ".json": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@edge-runtime/primitives",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 11,
+                              ".js": 11,
+                              ".txt": 11,
+                              ".json": 1
+                            },
+                            "numFiles": 34
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 13,
+                          ".json": 3,
+                          ".js": 13,
+                          ".txt": 11
+                        },
+                        "numFiles": 40
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@hapi",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@hapi/accept",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@mswjs",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@mswjs/interceptors",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@mswjs/interceptors/ClientRequest",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1,
+                                  "": 1
+                                },
+                                "numFiles": 3
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1,
+                              "": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@napi-rs",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@napi-rs/triples",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1,
+                              "": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/dist",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/dist/fontkit",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1
+                                    },
+                                    "numFiles": 1
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/dist/google",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 18,
+                                      ".ts": 18,
+                                      ".json": 1
+                                    },
+                                    "numFiles": 37
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/dist/local",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 8,
+                                      ".ts": 8
+                                    },
+                                    "numFiles": 16
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 30,
+                                  ".js": 31,
+                                  ".json": 1
+                                },
+                                "numFiles": 62
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/google",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".ts": 2
+                                },
+                                "numFiles": 4
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/font/local",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".ts": 2
+                                },
+                                "numFiles": 4
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 2,
+                              ".js": 35,
+                              ".ts": 34
+                            },
+                            "numFiles": 71
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/react-refresh-utils",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/react-refresh-utils/dist",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@next/react-refresh-utils/dist/internal",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2
+                                    },
+                                    "numFiles": 2
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 5
+                                },
+                                "numFiles": 5
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5
+                            },
+                            "numFiles": 5
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 2,
+                          ".js": 40,
+                          ".ts": 34
+                        },
+                        "numFiles": 76
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@opentelemetry",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@opentelemetry/api",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1,
+                              "": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/nft",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1,
+                              "": 1
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/og",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/og/emoji",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/og/figma",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/og/language",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/@vercel/og/satori",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1,
+                                  "": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 8,
+                              ".ttf": 1,
+                              "": 2,
+                              ".js": 2,
+                              ".wasm": 2,
+                              ".json": 1
+                            },
+                            "numFiles": 16
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 8,
+                          ".ttf": 1,
+                          "": 3,
+                          ".js": 3,
+                          ".wasm": 2,
+                          ".json": 2
+                        },
+                        "numFiles": 19
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/acorn",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/amphtml-validator",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/anser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/arg",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/assert",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          "": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/async-retry",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/async-sema",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/babel",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 28,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/babel-packages",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/browserify-zlib",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/browserslist",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/buffer",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/bytes",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/ci-info",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/cli-select",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/client-only",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 2
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/commander",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/comment-json",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/compression",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/conf",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/constants-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/content-disposition",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/content-type",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/cookie",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/cross-spawn",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/crypto-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/css.escape",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/cssnano-simple",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/data-uri-to-buffer",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/debug",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/devalue",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/domain-browser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/edge-runtime",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/events",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          "": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/find-cache-dir",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/find-up",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/fresh",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/get-orientation",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/glob",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/gzip-size",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/http-proxy",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/http-proxy-agent",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/https-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/https-proxy-agent",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/icss-utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/ignore-loader",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/image-size",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/is-animated",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/is-docker",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/is-wsl",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/jest-worker",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 3,
+                          "": 1
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/json5",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/jsonwebtoken",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/loader-runner",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/loader-utils2",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/loader-utils3",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/lodash.curry",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/lru-cache",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/mini-css-extract-plugin",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/mini-css-extract-plugin/hmr",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 4,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/nanoid",
+                        "fullSubtreeExtensionCounts": {
+                          ".cjs": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/native-url",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/neo-async",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/next-server",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 19,
+                          ".js": 19
+                        },
+                        "numFiles": 38
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/node-fetch",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/node-html-parser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/ora",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/os-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/p-limit",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/path-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/path-to-regexp",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/picomatch",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/platform",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-flexbugs-fixes",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-modules-extract-imports",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-modules-local-by-default",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-modules-scope",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-modules-values",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-plugin-stub-for-cssnano-simple",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-preset-env",
+                        "fullSubtreeExtensionCounts": {
+                          ".cjs": 1,
+                          ".json": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-safe-parser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          "": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-scss",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/postcss-value-parser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/process",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/punycode",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/querystring-es3",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/raw-body",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 19
+                            },
+                            "numFiles": 19
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 24,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 26
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-dom",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-dom/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 28
+                            },
+                            "numFiles": 28
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 38,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 40
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-dom-experimental",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-dom-experimental/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 31
+                            },
+                            "numFiles": 31
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 41,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 43
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-experimental",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-experimental/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 19
+                            },
+                            "numFiles": 19
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 24,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 26
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-is",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-is/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-is/umd",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5,
+                          ".json": 1,
+                          ".md": 1,
+                          "": 1
+                        },
+                        "numFiles": 8
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-refresh",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-refresh/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4
+                            },
+                            "numFiles": 4
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6,
+                          ".json": 1,
+                          ".md": 1,
+                          "": 1
+                        },
+                        "numFiles": 9
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-turbopack",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-turbopack/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 25
+                            },
+                            "numFiles": 25
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 37,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 39
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-turbopack-experimental",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-turbopack-experimental/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 25
+                            },
+                            "numFiles": 25
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 37,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 39
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-webpack",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-webpack/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 26
+                            },
+                            "numFiles": 26
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 39,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 41
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-webpack-experimental",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/react-server-dom-webpack-experimental/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 26
+                            },
+                            "numFiles": 26
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 39,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 41
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/regenerator-runtime",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".json": 1,
+                          ".md": 1,
+                          "": 1
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/sass-loader",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 4
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/scheduler",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/scheduler/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 12
+                            },
+                            "numFiles": 12
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 16,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/scheduler-experimental",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/scheduler-experimental/cjs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 12
+                            },
+                            "numFiles": 12
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 16,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/schema-utils2",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/schema-utils3",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/semver",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/send",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/server-only",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 2
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/setimmediate",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/shell-quote",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/source-map",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/source-map08",
+                        "fullSubtreeExtensionCounts": {
+                          ".wasm": 1,
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 4
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/stacktrace-parser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/stream-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/stream-http",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/string_decoder",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/string-hash",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/strip-ansi",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/superstruct",
+                        "fullSubtreeExtensionCounts": {
+                          ".cjs": 1,
+                          ".json": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/tar",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/terser",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/text-table",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/timers-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/tty-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/ua-parser-js",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/unistore",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/util",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          "": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/vm-browserify",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/watchpack",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/web-vitals",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/web-vitals-attribution",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/webpack",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 24,
+                          ".json": 1,
+                          "": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 27
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/webpack-sources1",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/webpack-sources3",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/ws",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/compiled/zod",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1,
+                          "": 1
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 143,
+                      ".js": 784,
+                      "": 109,
+                      ".ts": 56,
+                      ".ttf": 1,
+                      ".wasm": 3,
+                      ".md": 4,
+                      ".txt": 11,
+                      ".map": 19,
+                      ".cjs": 3
+                    },
+                    "numFiles": 1133
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/api",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 15,
+                          ".js": 15
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/analysis",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".map": 3
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/babel",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/babel/loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 4,
+                                  ".map": 4,
+                                  ".ts": 1
+                                },
+                                "numFiles": 9
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/babel/plugins",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 9,
+                                  ".map": 9
+                                },
+                                "numFiles": 18
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 14,
+                              ".map": 14,
+                              ".ts": 1
+                            },
+                            "numFiles": 29
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/manifests",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/manifests/formatter",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/output",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 3,
+                              ".js": 3
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/polyfills",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/polyfills/fetch",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 2,
+                                  ".js": 2
+                                },
+                                "numFiles": 4
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/polyfills/object.assign",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 5,
+                                  ".js": 5
+                                },
+                                "numFiles": 10
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 9,
+                              ".js": 9
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/swc",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/templates",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 10,
+                              ".js": 10
+                            },
+                            "numFiles": 20
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/turborepo-access-trace",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 6,
+                              ".map": 6
+                            },
+                            "numFiles": 12
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/alias",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 4,
+                                  ".map": 4
+                                },
+                                "numFiles": 8
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/config",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/config/blocks",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/config/blocks/css",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/config/blocks/css/loaders",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".map": 7,
+                                              ".js": 7
+                                            },
+                                            "numFiles": 14
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 10,
+                                          ".map": 10
+                                        },
+                                        "numFiles": 20
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/config/blocks/images",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 2,
+                                          ".map": 2
+                                        },
+                                        "numFiles": 4
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 13,
+                                      ".js": 13
+                                    },
+                                    "numFiles": 26
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 16,
+                                  ".js": 16
+                                },
+                                "numFiles": 32
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/css-loader",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/css-loader/src",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/css-loader/src/plugins",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".map": 4,
+                                              ".js": 4
+                                            },
+                                            "numFiles": 8
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/css-loader/src/runtime",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 2,
+                                              ".map": 2
+                                            },
+                                            "numFiles": 4
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 10,
+                                          ".js": 10
+                                        },
+                                        "numFiles": 20
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 10,
+                                      ".js": 10
+                                    },
+                                    "numFiles": 20
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/lightningcss-loader",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/lightningcss-loader/src",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 6,
+                                          ".map": 6
+                                        },
+                                        "numFiles": 12
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 6,
+                                      ".map": 6
+                                    },
+                                    "numFiles": 12
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/metadata",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 3,
+                                      ".js": 3
+                                    },
+                                    "numFiles": 6
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-edge-app-route-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 2
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-edge-ssr-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 2,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-flight-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 5,
+                                      ".map": 5
+                                    },
+                                    "numFiles": 10
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-font-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-image-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-route-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 2
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-style-loader",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/next-style-loader/runtime",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 3,
+                                          ".js": 3
+                                        },
+                                        "numFiles": 6
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 4,
+                                      ".js": 4
+                                    },
+                                    "numFiles": 8
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/postcss-loader",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/postcss-loader/src",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 4,
+                                          ".js": 4
+                                        },
+                                        "numFiles": 8
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 4,
+                                      ".js": 4
+                                    },
+                                    "numFiles": 8
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/resolve-url-loader",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/loaders/resolve-url-loader/lib",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 4,
+                                          ".js": 4
+                                        },
+                                        "numFiles": 8
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 5,
+                                      ".js": 5
+                                    },
+                                    "numFiles": 10
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 66,
+                                  ".map": 66
+                                },
+                                "numFiles": 132
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/plugins",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/plugins/next-types-plugin",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/plugins/terser-webpack-plugin",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/plugins/terser-webpack-plugin/src",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 2,
+                                          ".js": 2
+                                        },
+                                        "numFiles": 4
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 2,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack/plugins/wellknown-errors-plugin",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 13,
+                                      ".js": 13
+                                    },
+                                    "numFiles": 26
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 40,
+                                  ".map": 40
+                                },
+                                "numFiles": 80
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 128,
+                              ".map": 128
+                            },
+                            "numFiles": 256
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack-build",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 2,
+                              ".js": 2
+                            },
+                            "numFiles": 4
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/build/webpack-config-rules",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 203,
+                          ".map": 203,
+                          ".ts": 1
+                        },
+                        "numFiles": 407
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/compat",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1,
+                              ".map": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/app",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 2,
+                                      ".js": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/CodeFrame",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 3,
+                                              ".map": 3
+                                            },
+                                            "numFiles": 6
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/Dialog",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 6,
+                                              ".map": 6
+                                            },
+                                            "numFiles": 12
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/hot-linked-text",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".map": 1,
+                                              ".js": 1
+                                            },
+                                            "numFiles": 2
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/LeftRightDialogHeader",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 3,
+                                              ".map": 3
+                                            },
+                                            "numFiles": 6
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/Overlay",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 5,
+                                              ".map": 5
+                                            },
+                                            "numFiles": 10
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/Terminal",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 4,
+                                              ".map": 4
+                                            },
+                                            "numFiles": 8
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/Toast",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 3,
+                                              ".map": 3
+                                            },
+                                            "numFiles": 6
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/components/VersionStalenessInfo",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 3,
+                                              ".map": 3
+                                            },
+                                            "numFiles": 6
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 29,
+                                          ".js": 29
+                                        },
+                                        "numFiles": 58
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/container",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/container/RuntimeError",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 5,
+                                              ".map": 5
+                                            },
+                                            "numFiles": 10
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 8,
+                                          ".map": 8
+                                        },
+                                        "numFiles": 16
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/helpers",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 17,
+                                          ".js": 17
+                                        },
+                                        "numFiles": 34
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/hooks",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 1,
+                                          ".js": 1
+                                        },
+                                        "numFiles": 2
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/icons",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 3,
+                                          ".js": 3
+                                        },
+                                        "numFiles": 6
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/internal/styles",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 3,
+                                          ".js": 3
+                                        },
+                                        "numFiles": 6
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 61,
+                                      ".map": 61
+                                    },
+                                    "numFiles": 122
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/pages",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 6,
+                                      ".js": 6
+                                    },
+                                    "numFiles": 12
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/react-dev-overlay/server",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 3,
+                                      ".map": 3
+                                    },
+                                    "numFiles": 6
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 73,
+                                  ".js": 73
+                                },
+                                "numFiles": 146
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/router-reducer",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/components/router-reducer/reducers",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 10,
+                                      ".js": 10
+                                    },
+                                    "numFiles": 20
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 31,
+                                  ".map": 31
+                                },
+                                "numFiles": 62
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 142,
+                              ".map": 142
+                            },
+                            "numFiles": 284
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/dev",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/dev/error-overlay",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 7,
+                              ".map": 7
+                            },
+                            "numFiles": 14
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/legacy",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1,
+                              ".map": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/portal",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/client/tracing",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 2,
+                              ".js": 2
+                            },
+                            "numFiles": 4
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 195,
+                          ".js": 195
+                        },
+                        "numFiles": 390
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/export",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/export/helpers",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/export/routes",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 12,
+                          ".js": 12
+                        },
+                        "numFiles": 24
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/eslint",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 6,
+                              ".map": 6
+                            },
+                            "numFiles": 12
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/fs",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2,
+                              ".map": 2
+                            },
+                            "numFiles": 4
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/helpers",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 7,
+                              ".map": 7
+                            },
+                            "numFiles": 14
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/memory",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/metadata",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/metadata/generate",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 6,
+                                  ".map": 6
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/metadata/resolvers",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 5,
+                                  ".map": 5
+                                },
+                                "numFiles": 10
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/metadata/types",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 9,
+                                  ".js": 9
+                                },
+                                "numFiles": 18
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 27,
+                              ".map": 27
+                            },
+                            "numFiles": 54
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/lib/typescript",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 7,
+                              ".js": 7
+                            },
+                            "numFiles": 14
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 116,
+                          ".js": 116,
+                          ".json": 2
+                        },
+                        "numFiles": 234
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/pages",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3,
+                          ".map": 3
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/api-utils",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/api-utils/node",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 3,
+                                  ".map": 3
+                                },
+                                "numFiles": 6
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 6,
+                              ".js": 6
+                            },
+                            "numFiles": 12
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/app-render",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/app-render/rsc",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 3,
+                                  ".map": 3
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/app-render/static",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 38,
+                              ".js": 38
+                            },
+                            "numFiles": 76
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/async-storage",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/base-http",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 3,
+                              ".js": 3
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/dev",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/dev/turbopack",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 3,
+                                  ".map": 3
+                                },
+                                "numFiles": 6
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 15,
+                              ".js": 15
+                            },
+                            "numFiles": 30
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/helpers",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/helpers/module-loader",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 3,
+                                      ".js": 3
+                                    },
+                                    "numFiles": 6
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 5,
+                                  ".js": 5
+                                },
+                                "numFiles": 10
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/normalizers",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/normalizers/built",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/normalizers/built/app",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 5,
+                                          ".js": 5
+                                        },
+                                        "numFiles": 10
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/normalizers/built/pages",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 5,
+                                          ".js": 5
+                                        },
+                                        "numFiles": 10
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 10,
+                                      ".js": 10
+                                    },
+                                    "numFiles": 20
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/normalizers/request",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 9,
+                                      ".js": 9
+                                    },
+                                    "numFiles": 18
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 26,
+                                  ".map": 26
+                                },
+                                "numFiles": 52
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-definitions",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 6,
+                                  ".js": 6
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-managers",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 3,
+                                  ".js": 3
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers/dev",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers/dev/helpers",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers/dev/helpers/file-reader",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".map": 3,
+                                              ".js": 3
+                                            },
+                                            "numFiles": 6
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 3,
+                                          ".js": 3
+                                        },
+                                        "numFiles": 6
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 8,
+                                      ".js": 8
+                                    },
+                                    "numFiles": 16
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers/helpers",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matcher-providers/helpers/manifest-loaders",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 3,
+                                          ".map": 3
+                                        },
+                                        "numFiles": 6
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 4,
+                                      ".map": 4
+                                    },
+                                    "numFiles": 8
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 18,
+                                  ".js": 18
+                                },
+                                "numFiles": 36
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matchers",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 6,
+                                  ".js": 6
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-matches",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 6,
+                                  ".js": 6
+                                },
+                                "numFiles": 12
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-page",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-page/vendored",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-page/vendored/contexts",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 11,
+                                              ".map": 11
+                                            },
+                                            "numFiles": 22
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-page/vendored/rsc",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 9,
+                                              ".map": 9
+                                            },
+                                            "numFiles": 18
+                                          },
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-page/vendored/ssr",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 8,
+                                              ".map": 8
+                                            },
+                                            "numFiles": 16
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 28,
+                                          ".map": 28
+                                        },
+                                        "numFiles": 56
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 1,
+                                      ".js": 31,
+                                      ".map": 31
+                                    },
+                                    "numFiles": 63
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-route",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/app-route/helpers",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 5,
+                                          ".js": 5
+                                        },
+                                        "numFiles": 10
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 1,
+                                      ".js": 8,
+                                      ".map": 8
+                                    },
+                                    "numFiles": 17
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/helpers",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 1,
+                                      ".map": 1
+                                    },
+                                    "numFiles": 2
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/pages",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/pages/builtin",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".map": 1,
+                                          ".js": 1
+                                        },
+                                        "numFiles": 2
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/pages/vendored",
+                                        "childrenDirs": [
+                                          {
+                                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/pages/vendored/contexts",
+                                            "fullSubtreeExtensionCounts": {
+                                              ".js": 11,
+                                              ".map": 11
+                                            },
+                                            "numFiles": 22
+                                          }
+                                        ],
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 11,
+                                          ".map": 11
+                                        },
+                                        "numFiles": 22
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 1,
+                                      ".js": 15,
+                                      ".map": 15
+                                    },
+                                    "numFiles": 31
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/future/route-modules/pages-api",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 1,
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 5
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 59,
+                                  ".map": 59,
+                                  ".ts": 4
+                                },
+                                "numFiles": 122
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 130,
+                              ".js": 130,
+                              ".ts": 4
+                            },
+                            "numFiles": 264
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/incremental-cache",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 4,
+                                  ".map": 4
+                                },
+                                "numFiles": 8
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/router-utils",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 7,
+                                  ".js": 7
+                                },
+                                "numFiles": 14
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/server-ipc",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 4,
+                                  ".map": 4
+                                },
+                                "numFiles": 8
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh/avif",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 2,
+                                      ".js": 2,
+                                      ".ts": 1
+                                    },
+                                    "numFiles": 5
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh/mozjpeg",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2,
+                                      ".ts": 1
+                                    },
+                                    "numFiles": 5
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh/png",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 4
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh/resize",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 1,
+                                      ".js": 1
+                                    },
+                                    "numFiles": 2
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/squoosh/webp",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 1,
+                                      ".js": 2,
+                                      ".map": 2
+                                    },
+                                    "numFiles": 5
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 14,
+                                  ".js": 14,
+                                  ".ts": 4
+                                },
+                                "numFiles": 32
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/lib/trace",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".map": 2
+                                },
+                                "numFiles": 4
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 53,
+                              ".js": 53,
+                              ".ts": 4
+                            },
+                            "numFiles": 110
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/og",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1,
+                              ".map": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/response-cache",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 4,
+                              ".js": 4
+                            },
+                            "numFiles": 8
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/stream-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".map": 3
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/typescript",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/typescript/rules",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 7,
+                                  ".map": 7
+                                },
+                                "numFiles": 14
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 10,
+                              ".js": 10
+                            },
+                            "numFiles": 20
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/web",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/web/exports",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/web/sandbox",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 5,
+                                  ".map": 5
+                                },
+                                "numFiles": 10
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/web/spec-extension",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/server/web/spec-extension/adapters",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 4,
+                                      ".map": 4
+                                    },
+                                    "numFiles": 8
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 14,
+                                  ".js": 14
+                                },
+                                "numFiles": 28
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 30,
+                              ".map": 30
+                            },
+                            "numFiles": 60
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 338,
+                          ".js": 338,
+                          ".ts": 8
+                        },
+                        "numFiles": 684
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/i18n",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 3,
+                                  ".map": 3
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/isomorphic",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 1,
+                                  ".js": 1,
+                                  ".ts": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/lazy-dynamic",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 5,
+                                  ".map": 5
+                                },
+                                "numFiles": 10
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/page-path",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 8,
+                                  ".map": 8
+                                },
+                                "numFiles": 16
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/router",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/router/utils",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 34,
+                                      ".js": 34
+                                    },
+                                    "numFiles": 68
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 37,
+                                  ".js": 37
+                                },
+                                "numFiles": 74
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/esm/shared/lib/utils",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1,
+                                  ".map": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 97,
+                              ".js": 97,
+                              ".ts": 3
+                            },
+                            "numFiles": 197
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 97,
+                          ".js": 97,
+                          ".ts": 3
+                        },
+                        "numFiles": 197
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 979,
+                      ".js": 979,
+                      ".ts": 12,
+                      ".json": 2
+                    },
+                    "numFiles": 1972
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/experimental",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/experimental/testmode",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/experimental/testmode/playwright",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 8,
+                              ".map": 8,
+                              ".js": 8
+                            },
+                            "numFiles": 24
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/experimental/testmode/proxy",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4,
+                              ".ts": 4,
+                              ".map": 4
+                            },
+                            "numFiles": 12
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 17,
+                          ".js": 17,
+                          ".ts": 17
+                        },
+                        "numFiles": 51
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 17,
+                      ".js": 17,
+                      ".ts": 17
+                    },
+                    "numFiles": 51
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/export",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/export/helpers",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 4,
+                          ".ts": 4,
+                          ".js": 4
+                        },
+                        "numFiles": 12
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/export/routes",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 4,
+                          ".map": 4,
+                          ".js": 4
+                        },
+                        "numFiles": 12
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 12,
+                      ".ts": 12,
+                      ".js": 12
+                    },
+                    "numFiles": 36
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/eslint",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6,
+                          ".map": 6,
+                          ".ts": 6
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/fs",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 2,
+                          ".js": 2,
+                          ".map": 2
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/helpers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 7,
+                          ".js": 7,
+                          ".map": 7
+                        },
+                        "numFiles": 21
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/memory",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 4,
+                          ".js": 4,
+                          ".ts": 4
+                        },
+                        "numFiles": 12
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/metadata",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/metadata/generate",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 6,
+                              ".js": 6,
+                              ".map": 6
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/metadata/resolvers",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5,
+                              ".map": 5,
+                              ".ts": 8
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/metadata/types",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 9,
+                              ".js": 9,
+                              ".ts": 9
+                            },
+                            "numFiles": 27
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 27,
+                          ".ts": 31,
+                          ".map": 27
+                        },
+                        "numFiles": 85
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/lib/typescript",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 7,
+                          ".js": 7,
+                          ".ts": 7
+                        },
+                        "numFiles": 21
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 116,
+                      ".js": 116,
+                      ".ts": 123,
+                      ".json": 2
+                    },
+                    "numFiles": 357
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/pages",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3,
+                      ".js": 3,
+                      ".map": 3
+                    },
+                    "numFiles": 9
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/api-utils",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/api-utils/node",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".map": 3,
+                              ".ts": 3
+                            },
+                            "numFiles": 9
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 6,
+                          ".js": 6,
+                          ".ts": 6
+                        },
+                        "numFiles": 18
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/app-render",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/app-render/rsc",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".map": 3,
+                              ".ts": 3
+                            },
+                            "numFiles": 9
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/app-render/static",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1,
+                              ".ts": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 38,
+                          ".map": 38,
+                          ".ts": 40
+                        },
+                        "numFiles": 116
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/async-storage",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 4,
+                          ".js": 4,
+                          ".ts": 4
+                        },
+                        "numFiles": 12
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/base-http",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 3,
+                          ".map": 3,
+                          ".js": 3
+                        },
+                        "numFiles": 9
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/dev",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/dev/turbopack",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3,
+                              ".map": 3,
+                              ".ts": 3
+                            },
+                            "numFiles": 9
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 15,
+                          ".ts": 16,
+                          ".js": 15
+                        },
+                        "numFiles": 46
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/helpers",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/helpers/module-loader",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 3,
+                                  ".ts": 3,
+                                  ".js": 3
+                                },
+                                "numFiles": 9
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 5,
+                              ".ts": 7,
+                              ".js": 5
+                            },
+                            "numFiles": 17
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/normalizers",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/normalizers/built",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/normalizers/built/app",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 5,
+                                      ".map": 5,
+                                      ".js": 5
+                                    },
+                                    "numFiles": 15
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/normalizers/built/pages",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 5,
+                                      ".map": 5,
+                                      ".js": 5
+                                    },
+                                    "numFiles": 15
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 10,
+                                  ".map": 10,
+                                  ".js": 10
+                                },
+                                "numFiles": 30
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/normalizers/request",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 14,
+                                  ".map": 9,
+                                  ".js": 9
+                                },
+                                "numFiles": 32
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 26,
+                              ".map": 26,
+                              ".ts": 32
+                            },
+                            "numFiles": 84
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-definitions",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 6,
+                              ".ts": 6,
+                              ".map": 6
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-managers",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 3,
+                              ".js": 3,
+                              ".ts": 4
+                            },
+                            "numFiles": 10
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers/dev",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers/dev/helpers/file-reader",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".ts": 4,
+                                          ".map": 3,
+                                          ".js": 3
+                                        },
+                                        "numFiles": 10
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 4,
+                                      ".map": 3,
+                                      ".js": 3
+                                    },
+                                    "numFiles": 10
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 8,
+                                  ".ts": 13,
+                                  ".js": 8
+                                },
+                                "numFiles": 29
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers/helpers",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matcher-providers/helpers/manifest-loaders",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 3,
+                                      ".ts": 3,
+                                      ".map": 3
+                                    },
+                                    "numFiles": 9
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 4,
+                                  ".ts": 4,
+                                  ".map": 4
+                                },
+                                "numFiles": 12
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 18,
+                              ".ts": 27,
+                              ".js": 18
+                            },
+                            "numFiles": 63
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matchers",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 6,
+                              ".ts": 6,
+                              ".js": 6
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-matches",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 6,
+                              ".js": 6,
+                              ".ts": 6
+                            },
+                            "numFiles": 18
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-page",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-page/vendored",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-page/vendored/contexts",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 11,
+                                          ".ts": 11,
+                                          ".map": 11
+                                        },
+                                        "numFiles": 33
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 9,
+                                          ".map": 9,
+                                          ".ts": 9
+                                        },
+                                        "numFiles": 27
+                                      },
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 8,
+                                          ".map": 8,
+                                          ".ts": 8
+                                        },
+                                        "numFiles": 24
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 28,
+                                      ".map": 28,
+                                      ".ts": 28
+                                    },
+                                    "numFiles": 84
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 31,
+                                  ".js": 31,
+                                  ".map": 31
+                                },
+                                "numFiles": 93
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-route",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/app-route/helpers",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".ts": 5,
+                                      ".map": 5,
+                                      ".js": 5
+                                    },
+                                    "numFiles": 15
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 8,
+                                  ".js": 8,
+                                  ".map": 8
+                                },
+                                "numFiles": 24
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/helpers",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 1,
+                                  ".js": 1,
+                                  ".map": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/pages",
+                                "childrenDirs": [
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/pages/builtin",
+                                    "fullSubtreeExtensionCounts": {
+                                      ".map": 1,
+                                      ".js": 1,
+                                      ".ts": 1
+                                    },
+                                    "numFiles": 3
+                                  },
+                                  {
+                                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/pages/vendored",
+                                    "childrenDirs": [
+                                      {
+                                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/pages/vendored/contexts",
+                                        "fullSubtreeExtensionCounts": {
+                                          ".js": 11,
+                                          ".ts": 11,
+                                          ".map": 11
+                                        },
+                                        "numFiles": 33
+                                      }
+                                    ],
+                                    "fullSubtreeExtensionCounts": {
+                                      ".js": 11,
+                                      ".ts": 11,
+                                      ".map": 11
+                                    },
+                                    "numFiles": 33
+                                  }
+                                ],
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 15,
+                                  ".js": 15,
+                                  ".map": 15
+                                },
+                                "numFiles": 45
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/future/route-modules/pages-api",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 2,
+                                  ".js": 2,
+                                  ".map": 2
+                                },
+                                "numFiles": 6
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 59,
+                              ".js": 59,
+                              ".map": 59
+                            },
+                            "numFiles": 177
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 148,
+                          ".map": 130,
+                          ".js": 130
+                        },
+                        "numFiles": 408
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/incremental-cache",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 5,
+                              ".js": 4,
+                              ".map": 4
+                            },
+                            "numFiles": 13
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/router-utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 7,
+                              ".map": 7,
+                              ".js": 7
+                            },
+                            "numFiles": 21
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/server-ipc",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 4,
+                              ".ts": 4,
+                              ".map": 4
+                            },
+                            "numFiles": 12
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/avif",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 2,
+                                  ".js": 2,
+                                  ".ts": 1,
+                                  ".wasm": 2
+                                },
+                                "numFiles": 7
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/mozjpeg",
+                                "fullSubtreeExtensionCounts": {
+                                  ".wasm": 2,
+                                  ".js": 2,
+                                  ".map": 2,
+                                  ".ts": 1
+                                },
+                                "numFiles": 7
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/png",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2,
+                                  ".map": 2,
+                                  ".wasm": 2
+                                },
+                                "numFiles": 6
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/resize",
+                                "fullSubtreeExtensionCounts": {
+                                  ".wasm": 1,
+                                  ".map": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 3
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/rotate",
+                                "fullSubtreeExtensionCounts": {
+                                  ".wasm": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/squoosh/webp",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 2,
+                                  ".ts": 1,
+                                  ".js": 2,
+                                  ".wasm": 2
+                                },
+                                "numFiles": 7
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 14,
+                              ".ts": 9,
+                              ".js": 14,
+                              ".wasm": 10
+                            },
+                            "numFiles": 47
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/lib/trace",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 2,
+                              ".js": 2,
+                              ".map": 2
+                            },
+                            "numFiles": 6
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 51,
+                          ".map": 53,
+                          ".js": 53,
+                          ".wasm": 10
+                        },
+                        "numFiles": 167
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/og",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1,
+                          ".map": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/response-cache",
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 4,
+                          ".ts": 4,
+                          ".js": 4
+                        },
+                        "numFiles": 12
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/stream-utils",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 3,
+                          ".js": 3,
+                          ".map": 3
+                        },
+                        "numFiles": 9
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/typescript",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/typescript/rules",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 7,
+                              ".ts": 7,
+                              ".map": 7
+                            },
+                            "numFiles": 21
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".map": 10,
+                          ".ts": 10,
+                          ".js": 10
+                        },
+                        "numFiles": 30
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/web",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/web/exports",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 1,
+                              ".map": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/web/sandbox",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5,
+                              ".map": 5,
+                              ".ts": 5
+                            },
+                            "numFiles": 15
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/web/spec-extension",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/server/web/spec-extension/adapters",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 6,
+                                  ".map": 4,
+                                  ".js": 4
+                                },
+                                "numFiles": 14
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 14,
+                              ".js": 14,
+                              ".ts": 16
+                            },
+                            "numFiles": 44
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 30,
+                          ".map": 30,
+                          ".ts": 33
+                        },
+                        "numFiles": 93
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 363,
+                      ".map": 338,
+                      ".js": 338,
+                      ".json": 1,
+                      ".wasm": 10
+                    },
+                    "numFiles": 1050
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/i18n",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 3,
+                              ".js": 3,
+                              ".map": 3
+                            },
+                            "numFiles": 9
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/isomorphic",
+                            "fullSubtreeExtensionCounts": {
+                              ".map": 1,
+                              ".js": 1,
+                              ".ts": 1
+                            },
+                            "numFiles": 3
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/lazy-dynamic",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 5,
+                              ".js": 5,
+                              ".map": 5
+                            },
+                            "numFiles": 15
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/page-path",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 8,
+                              ".ts": 8,
+                              ".map": 8
+                            },
+                            "numFiles": 24
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/router",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/router/utils",
+                                "fullSubtreeExtensionCounts": {
+                                  ".map": 34,
+                                  ".ts": 36,
+                                  ".js": 34
+                                },
+                                "numFiles": 104
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 40,
+                              ".map": 37,
+                              ".js": 37
+                            },
+                            "numFiles": 114
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/shared/lib/utils",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 1,
+                              ".js": 1,
+                              ".map": 1
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 103,
+                          ".map": 97,
+                          ".js": 97
+                        },
+                        "numFiles": 297
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 103,
+                      ".map": 97,
+                      ".js": 97
+                    },
+                    "numFiles": 297
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/src",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/src/compiled",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/src/compiled/@ampproject",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/src/compiled/@ampproject/toolbox-optimizer",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  "": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              "": 1
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1,
+                      "": 1
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/styled-jsx",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/styled-jsx/types",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 5
+                        },
+                        "numFiles": 5
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 5
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/telemetry",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/telemetry/events",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 7,
+                          ".js": 7,
+                          ".map": 7
+                        },
+                        "numFiles": 21
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 14,
+                      ".ts": 14,
+                      ".map": 14
+                    },
+                    "numFiles": 42
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/trace",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/dist/trace/report",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5,
+                          ".ts": 5,
+                          ".map": 5
+                        },
+                        "numFiles": 15
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 12,
+                      ".js": 12,
+                      ".map": 12
+                    },
+                    "numFiles": 36
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 149,
+                  "": 111,
+                  ".ts": 1164,
+                  ".map": 2034,
+                  ".js": 2800,
+                  ".ttf": 1,
+                  ".wasm": 13,
+                  ".md": 4,
+                  ".txt": 11,
+                  ".cjs": 3
+                },
+                "numFiles": 6290
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/experimental",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/experimental/testmode",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/experimental/testmode/playwright",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1,
+                          ".ts": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3,
+                      ".js": 3
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3,
+                  ".js": 3
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/font",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/font/google",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".js": 1,
+                      ".css": 1
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/font/local",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".js": 1,
+                      ".css": 1
+                    },
+                    "numFiles": 3
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3,
+                  ".js": 2,
+                  ".css": 2
+                },
+                "numFiles": 7
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/image-types",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/legacy",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/navigation-types",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/navigation-types/compat",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/node_modules/postcss",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/node_modules/postcss/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 28,
+                          ".ts": 22,
+                          ".mjs": 1,
+                          ".mts": 1
+                        },
+                        "numFiles": 52
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 28,
+                      ".ts": 22,
+                      ".mjs": 1,
+                      ".mts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      "": 1
+                    },
+                    "numFiles": 55
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 28,
+                  ".ts": 22,
+                  ".mjs": 1,
+                  ".mts": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 55
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/next/types",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 2856,
+              ".ts": 1221,
+              ".css": 2,
+              ".json": 151,
+              ".md": 7,
+              "": 112,
+              ".map": 2034,
+              ".mjs": 1,
+              ".mts": 1,
+              ".ttf": 1,
+              ".wasm": 13,
+              ".txt": 11,
+              ".cjs": 3
+            },
+            "numFiles": 6413
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/node-releases",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/node-releases/data",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/node-releases/data/processed",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/node-releases/data/release-schedule",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/normalize-path",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-assign",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-hash",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-hash/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".markdown": 1,
+              ".js": 2,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-inspect",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-inspect/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-inspect/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-inspect/test",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-inspect/test/browser",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 19
+                },
+                "numFiles": 19
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              "": 3,
+              ".js": 26,
+              ".yml": 1,
+              ".markdown": 1,
+              ".md": 1
+            },
+            "numFiles": 34
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-keys",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object-keys/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2,
+              "": 3
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.assign",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.assign/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.assign/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.assign/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 13,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 21
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.entries",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.entries/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5,
+                  "": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 10,
+              "": 5,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 18
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.fromentries",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.fromentries/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.groupby",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.groupby/.github",
+                "childrenFiles": [
+                  {
+                    "name": "FUNDING.yml"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.groupby/test",
+                "childrenFiles": [
+                  {
+                    "name": "implementation.js"
+                  },
+                  {
+                    "name": "index.js"
+                  },
+                  {
+                    "name": "shimmed.js"
+                  },
+                  {
+                    "name": "tests.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": ".eslintrc"
+              },
+              {
+                "name": ".nycrc"
+              },
+              {
+                "name": "auto.js"
+              },
+              {
+                "name": "CHANGELOG.md"
+              },
+              {
+                "name": "implementation.js"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "polyfill.js"
+              },
+              {
+                "name": "README.md"
+              },
+              {
+                "name": "shim.js"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.values",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/object.values/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4,
+                  "": 1
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 5,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/once",
+            "fullSubtreeExtensionCounts": {
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/optionator",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/optionator/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/own-keys",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/own-keys/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/own-keys/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/p-limit",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/p-locate",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/parent-module",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-exists",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-is-absolute",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-key",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-parse",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-scurry",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-scurry/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-scurry/dist/commonjs",
+                    "childrenFiles": [
+                      {
+                        "name": "index.d.ts"
+                      },
+                      {
+                        "name": "index.d.ts.map"
+                      },
+                      {
+                        "name": "index.js"
+                      },
+                      {
+                        "name": "index.js.map"
+                      },
+                      {
+                        "name": "package.json"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/path-scurry/dist/esm",
+                    "childrenFiles": [
+                      {
+                        "name": "index.d.ts"
+                      },
+                      {
+                        "name": "index.d.ts.map"
+                      },
+                      {
+                        "name": "index.js"
+                      },
+                      {
+                        "name": "index.js.map"
+                      },
+                      {
+                        "name": "package.json"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "LICENSE.md"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "README.md"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/picocolors",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".js": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/picomatch",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/picomatch/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/pify",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/pirates",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/pirates/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/possible-typed-array-names",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/possible-typed-array-names/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/possible-typed-array-names/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2,
+              "": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 28,
+                  ".ts": 22,
+                  ".mjs": 1,
+                  ".mts": 1
+                },
+                "numFiles": 52
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 28,
+              ".ts": 22,
+              ".mjs": 1,
+              ".mts": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 55
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-import",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-import/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 8
+                },
+                "numFiles": 8
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-js",
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".mjs": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-load-config",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-load-config/src",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 4
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-nested",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-selector-parser",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-selector-parser/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-selector-parser/dist/selectors",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 19
+                    },
+                    "numFiles": 19
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-selector-parser/dist/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 30
+                },
+                "numFiles": 30
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              "": 1,
+              ".json": 1,
+              ".md": 3,
+              ".ts": 1,
+              ".js": 30
+            },
+            "numFiles": 36
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-value-parser",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/postcss-value-parser/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5,
+                  ".ts": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 5,
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/prelude-ls",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/prelude-ls/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 6,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/prop-types",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/prop-types/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/punycode",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".txt": 1,
+              ".js": 2
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/queue-microtask",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react/cjs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 10
+                },
+                "numFiles": 10
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react/umd",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 17,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 20
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-dom",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-dom/cjs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 13
+                },
+                "numFiles": 13
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-dom/umd",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 9
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 29,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 32
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-is",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-is/cjs",
+                "childrenFiles": [
+                  {
+                    "name": "react-is.development.js"
+                  },
+                  {
+                    "name": "react-is.production.min.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/react-is/umd",
+                "childrenFiles": [
+                  {
+                    "name": "react-is.development.js"
+                  },
+                  {
+                    "name": "react-is.production.min.js"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "build-info.json"
+              },
+              {
+                "name": "index.js"
+              },
+              {
+                "name": "LICENSE"
+              },
+              {
+                "name": "package.json"
+              },
+              {
+                "name": "README.md"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/read-cache",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/readdirp",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reflect.getprototypeof",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reflect.getprototypeof/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 3,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/regexp.prototype.flags",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/regexp.prototype.flags/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 10,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".md": 2,
+                  ".yml": 1
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 8,
+                  ".json": 1
+                },
+                "numFiles": 9
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/dotdot",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/dotdot/abc",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/xmodules",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/xmodules/aaa",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/ymodules",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/ymodules/aaa",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/zmodules",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/module_dir/zmodules/bbb",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1,
+                      ".js": 3
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/x",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/x/aaa",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/x/ccc",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/y",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/y/bbb",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/node_path/y/ccc",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4
+                    },
+                    "numFiles": 4
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/pathfilter",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/pathfilter/deep_ref",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/precedence",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/precedence/aaa",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/precedence/bbb",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/baz",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 2
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/browser_field",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".json": 1
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/dot_main",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/dot_slash_main",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/false_main",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/incorrect_main",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 1
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/invalid_main",
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/multirepo",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/multirepo/packages",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/multirepo/packages/package-a",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/multirepo/packages/package-b",
+                                "fullSubtreeExtensionCounts": {
+                                  ".json": 1,
+                                  ".js": 1
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 2,
+                              ".js": 2
+                            },
+                            "numFiles": 4
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 4,
+                          ".js": 2
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/nested_symlinks",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/nested_symlinks/mylib",
+                            "fullSubtreeExtensionCounts": {
+                              ".json": 1,
+                              ".js": 2
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".json": 1,
+                          ".js": 2
+                        },
+                        "numFiles": 3
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/other_path",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/other_path/lib",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/quux",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/quux/foo",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/same_names",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/same_names/foo",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/symlinked",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/symlinked/_",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/symlinked/_/node_modules",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 1
+                                },
+                                "numFiles": 1
+                              },
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/symlinked/_/symlink_target",
+                                "fullSubtreeExtensionCounts": {
+                                  "": 1
+                                },
+                                "numFiles": 1
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              "": 1,
+                              ".js": 1
+                            },
+                            "numFiles": 2
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/symlinked/package",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1,
+                              ".json": 1
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".json": 1,
+                          "": 1
+                        },
+                        "numFiles": 4
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/resolver/without_basedir",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".coffee": 2,
+                      ".js": 22,
+                      ".json": 13,
+                      "": 1
+                    },
+                    "numFiles": 38
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/shadowed_core",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/shadowed_core/node_modules",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve/test/shadowed_core/node_modules/util",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 1
+                            },
+                            "numFiles": 1
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 58,
+                  ".coffee": 2,
+                  ".json": 14,
+                  "": 1
+                },
+                "numFiles": 75
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 3,
+              ".js": 71,
+              ".json": 16,
+              ".yml": 1,
+              ".markdown": 1,
+              "": 5,
+              ".coffee": 2
+            },
+            "numFiles": 99
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve-from",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve-pkg-maps",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/resolve-pkg-maps/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".mjs": 1,
+                  ".cjs": 1,
+                  ".cts": 1,
+                  ".mts": 1
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".mjs": 1,
+              ".cjs": 1,
+              ".cts": 1,
+              ".mts": 1,
+              "": 1
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reusify",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reusify/.github",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reusify/.github/workflows",
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/reusify/benchmarks",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 2,
+              ".js": 6,
+              ".json": 2,
+              ".ts": 1,
+              ".yml": 2,
+              "": 1
+            },
+            "numFiles": 14
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/rimraf",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/rimraf/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/rimraf/node_modules/glob",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 3,
+                      ".json": 1,
+                      ".md": 1,
+                      "": 1
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3,
+                  ".json": 1,
+                  ".md": 1,
+                  "": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 2,
+              ".md": 3,
+              ".js": 5,
+              "": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/run-parallel",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-array-concat",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-array-concat/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-array-concat/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-push-apply",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-push-apply/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-push-apply/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-regex-test",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-regex-test/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/safe-regex-test/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/scheduler",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/scheduler/cjs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/scheduler/umd",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 14,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver/bin",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver/classes",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver/functions",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 24
+                },
+                "numFiles": 24
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver/internal",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/semver/ranges",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 11
+                },
+                "numFiles": 11
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".bnf": 1,
+              ".js": 48,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 52
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-function-length",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-function-length/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-function-name",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-function-name/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 1,
+              "": 2
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-proto",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-proto/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/set-proto/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 3,
+              "": 3,
+              ".json": 2,
+              ".md": 2,
+              ".yml": 1,
+              ".js": 4
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/shebang-command",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/shebang-regex",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-list",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-list/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-list/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-map",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-map/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-map/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-weakmap",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-weakmap/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/side-channel-weakmap/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/signal-exit",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/signal-exit/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/signal-exit/dist/cjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 6,
+                      ".ts": 3,
+                      ".js": 3,
+                      ".json": 1
+                    },
+                    "numFiles": 13
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/signal-exit/dist/mjs",
+                    "fullSubtreeExtensionCounts": {
+                      ".map": 6,
+                      ".ts": 3,
+                      ".js": 3,
+                      ".json": 1
+                    },
+                    "numFiles": 13
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 12,
+                  ".ts": 6,
+                  ".js": 6,
+                  ".json": 2
+                },
+                "numFiles": 26
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".txt": 1,
+              ".json": 3,
+              ".md": 1,
+              ".map": 12,
+              ".ts": 6,
+              ".js": 6
+            },
+            "numFiles": 29
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/source-map-js",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/source-map-js/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 10,
+                  ".ts": 3
+                },
+                "numFiles": 13
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 4,
+              ".js": 11,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 18
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/stable-hash",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/stable-hash/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".mjs": 1,
+                  ".js": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".ts": 1,
+              ".mjs": 1,
+              ".js": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/stop-iteration-iterator",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/stop-iteration-iterator/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/stop-iteration-iterator/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/streamsearch",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/streamsearch/.github",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/streamsearch/.github/workflows",
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 2
+                    },
+                    "numFiles": 2
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/streamsearch/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/streamsearch/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".yml": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width/node_modules/ansi-regex",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width/node_modules/strip-ansi",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 2,
+                  ".json": 2,
+                  ".md": 2,
+                  ".js": 2,
+                  "": 2
+                },
+                "numFiles": 10
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 3,
+              ".json": 3,
+              ".md": 3,
+              ".js": 3,
+              "": 3
+            },
+            "numFiles": 15
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width-cjs",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width-cjs/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width-cjs/node_modules/emoji-regex",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string-width-cjs/node_modules/emoji-regex/es2015",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4,
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".txt": 1
+                    },
+                    "numFiles": 8
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4,
+                  ".ts": 1,
+                  ".json": 1,
+                  ".md": 1,
+                  ".txt": 1
+                },
+                "numFiles": 8
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 2,
+              ".json": 2,
+              ".md": 2,
+              ".js": 5,
+              ".txt": 1,
+              "": 1
+            },
+            "numFiles": 13
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.includes",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.includes/.github",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.includes/.github/workflows",
+                    "fullSubtreeExtensionCounts": {
+                      ".yml": 6
+                    },
+                    "numFiles": 6
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 6
+                },
+                "numFiles": 6
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.includes/tests",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 8,
+              ".yml": 7,
+              "": 4,
+              ".json": 1,
+              ".md": 1
+            },
+            "numFiles": 21
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.matchall",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.matchall/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.matchall/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 10,
+              "": 4,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 18
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.repeat",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.repeat/tests",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 8,
+              ".yml": 1,
+              "": 2,
+              ".json": 1,
+              ".md": 1,
+              ".txt": 1
+            },
+            "numFiles": 14
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trim",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trim/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trimend",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trimend/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trimstart",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/string.prototype.trimstart/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 9,
+              "": 4,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/strip-ansi",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/strip-ansi-cjs",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/strip-bom",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/strip-json-comments",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx/dist/babel",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx/dist/index",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx/dist/webpack",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/styled-jsx/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 2
+                },
+                "numFiles": 2
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 5,
+              ".js": 12,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 20
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser/plugins",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser/plugins/jsx",
+                                "fullSubtreeExtensionCounts": {
+                                  ".js": 2
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 5
+                            },
+                            "numFiles": 5
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser/tokenizer",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 6
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser/traverser",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 6
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/parser/util",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 3
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 21
+                        },
+                        "numFiles": 21
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/transformers",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 13
+                        },
+                        "numFiles": 13
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/esm/util",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 14
+                        },
+                        "numFiles": 14
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 59
+                    },
+                    "numFiles": 59
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser/plugins",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser/plugins/jsx",
+                            "fullSubtreeExtensionCounts": {
+                              ".js": 2
+                            },
+                            "numFiles": 2
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser/tokenizer",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser/traverser",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 6
+                        },
+                        "numFiles": 6
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/parser/util",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 3
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 21
+                    },
+                    "numFiles": 21
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/transformers",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 13
+                    },
+                    "numFiles": 13
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser",
+                        "childrenDirs": [
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser/plugins",
+                            "childrenDirs": [
+                              {
+                                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser/plugins/jsx",
+                                "fullSubtreeExtensionCounts": {
+                                  ".ts": 2
+                                },
+                                "numFiles": 2
+                              }
+                            ],
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 5
+                            },
+                            "numFiles": 5
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser/tokenizer",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 6
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser/traverser",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 6
+                            },
+                            "numFiles": 6
+                          },
+                          {
+                            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/parser/util",
+                            "fullSubtreeExtensionCounts": {
+                              ".ts": 3
+                            },
+                            "numFiles": 3
+                          }
+                        ],
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 21
+                        },
+                        "numFiles": 21
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/transformers",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 13
+                        },
+                        "numFiles": 13
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/types/util",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 14
+                        },
+                        "numFiles": 14
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 59
+                    },
+                    "numFiles": 59
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/dist/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 14
+                    },
+                    "numFiles": 14
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 118,
+                  ".ts": 59
+                },
+                "numFiles": 177
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/register",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 7
+                },
+                "numFiles": 7
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/sucrase/ts-node-plugin",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".js": 126,
+              ".md": 1,
+              ".ts": 59,
+              "": 3
+            },
+            "numFiles": 190
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/supports-color",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/supports-preserve-symlinks-flag",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/supports-preserve-symlinks-flag/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/supports-preserve-symlinks-flag/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              "": 3,
+              ".yml": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/cli",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/cli/build",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/cli/help",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/cli/init",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 8
+                    },
+                    "numFiles": 8
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/css",
+                    "fullSubtreeExtensionCounts": {
+                      ".css": 1,
+                      "": 1
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/lib",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 22
+                    },
+                    "numFiles": 22
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/postcss-plugins",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/postcss-plugins/nesting",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".md": 1
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2,
+                      ".md": 1
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/public",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 6
+                    },
+                    "numFiles": 6
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 47
+                    },
+                    "numFiles": 47
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/lib/value-parser",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 6,
+                      ".md": 1,
+                      "": 1
+                    },
+                    "numFiles": 8
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 99,
+                  ".md": 2,
+                  "": 2,
+                  ".css": 1
+                },
+                "numFiles": 104
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/nesting",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".js": 1
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/peers",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/scripts",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/cli",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/cli/build",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5
+                        },
+                        "numFiles": 5
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/cli/help",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      },
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/cli/init",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 1
+                        },
+                        "numFiles": 1
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 8
+                    },
+                    "numFiles": 8
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/css",
+                    "fullSubtreeExtensionCounts": {
+                      ".css": 1,
+                      "": 1
+                    },
+                    "numFiles": 2
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/lib",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 21,
+                      ".ts": 1
+                    },
+                    "numFiles": 22
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/postcss-plugins",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/postcss-plugins/nesting",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2,
+                          ".md": 1
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 2,
+                      ".md": 1
+                    },
+                    "numFiles": 3
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/public",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 6
+                    },
+                    "numFiles": 6
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/util",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 46,
+                      ".ts": 1
+                    },
+                    "numFiles": 47
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/src/value-parser",
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 5,
+                      ".ts": 1,
+                      ".md": 1,
+                      "": 1
+                    },
+                    "numFiles": 8
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 96,
+                  ".ts": 3,
+                  ".md": 2,
+                  "": 2,
+                  ".css": 1
+                },
+                "numFiles": 104
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/stubs",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 4,
+                  ".cjs": 2,
+                  ".json": 1,
+                  ".ts": 1,
+                  "": 1
+                },
+                "numFiles": 9
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/types",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tailwindcss/types/generated",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 3,
+                      "": 1
+                    },
+                    "numFiles": 4
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 5,
+                  "": 1
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 213,
+              ".ts": 16,
+              ".md": 5,
+              "": 7,
+              ".css": 8,
+              ".json": 2,
+              ".cjs": 2
+            },
+            "numFiles": 253
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/text-table",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/text-table/example",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5
+                },
+                "numFiles": 5
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/text-table/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".yml": 1,
+              ".json": 1,
+              ".markdown": 1,
+              ".js": 12,
+              "": 1
+            },
+            "numFiles": 16
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/thenify",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/thenify-all",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 2,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".mjs": 1,
+                  ".cjs": 1,
+                  ".cts": 1,
+                  ".mts": 1
+                },
+                "numFiles": 4
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/node_modules/fdir",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/node_modules/fdir/dist",
+                        "fullSubtreeExtensionCounts": {
+                          ".mjs": 1,
+                          ".cjs": 1,
+                          ".cts": 1,
+                          ".mts": 1
+                        },
+                        "numFiles": 4
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1,
+                      ".md": 1,
+                      ".mjs": 1,
+                      ".cjs": 1,
+                      ".cts": 1,
+                      ".mts": 1,
+                      "": 1
+                    },
+                    "numFiles": 7
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/node_modules/picomatch",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tinyglobby/node_modules/picomatch/lib",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 5
+                        },
+                        "numFiles": 5
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 7,
+                      ".json": 1,
+                      ".md": 1,
+                      "": 1
+                    },
+                    "numFiles": 10
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".json": 2,
+                  ".md": 2,
+                  ".mjs": 1,
+                  ".cjs": 1,
+                  ".cts": 1,
+                  ".mts": 1,
+                  "": 2,
+                  ".js": 7
+                },
+                "numFiles": 17
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 3,
+              ".mjs": 2,
+              ".cjs": 2,
+              ".cts": 2,
+              ".mts": 2,
+              "": 3,
+              ".js": 7
+            },
+            "numFiles": 24
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/to-regex-range",
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ts-api-utils",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ts-api-utils/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".cjs": 1,
+                  ".js": 1,
+                  ".cts": 1
+                },
+                "numFiles": 4
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".cjs": 1,
+              ".js": 1,
+              ".cts": 1,
+              ".json": 1,
+              ".md": 2
+            },
+            "numFiles": 7
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ts-interface-checker",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/ts-interface-checker/dist",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3,
+                  ".js": 3
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".md": 1,
+              ".ts": 3,
+              ".js": 3,
+              "": 1
+            },
+            "numFiles": 9
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/lib/__tests__",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/lib/__tests__/data",
+                        "fullSubtreeExtensionCounts": {
+                          ".ts": 1,
+                          ".js": 1,
+                          ".map": 1
+                        },
+                        "numFiles": 3
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 8,
+                      ".map": 8,
+                      ".js": 8
+                    },
+                    "numFiles": 24
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".map": 18,
+                  ".ts": 18,
+                  ".js": 18
+                },
+                "numFiles": 54
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/src",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/src/__tests__",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tsconfig-paths/src/__tests__/data",
+                        "childrenFiles": [
+                          {
+                            "name": "match-path-data.ts"
+                          }
+                        ],
+                        "childrenWereProcessed": true
+                      }
+                    ],
+                    "childrenFiles": [
+                      {
+                        "name": "filesystem.test.ts"
+                      },
+                      {
+                        "name": "tsconfig-loader.test.ts"
+                      },
+                      {
+                        "name": "tsconfig-named.json"
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 5
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "childrenFiles": [
+                  {
+                    "name": "config-loader.ts"
+                  },
+                  {
+                    "name": "filesystem.ts"
+                  },
+                  {
+                    "name": "index.ts"
+                  },
+                  {
+                    "name": "mapping-entry.ts"
+                  },
+                  {
+                    "name": "options.ts"
+                  },
+                  {
+                    "name": "register.ts"
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 9
+                },
+                "numFiles": 9
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 27,
+              ".map": 18,
+              ".js": 19,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 68
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tslib",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/tslib/modules",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 1,
+                  ".json": 1,
+                  ".js": 1
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 2,
+              ".html": 2,
+              ".mjs": 1,
+              ".ts": 2,
+              ".json": 2,
+              ".js": 3,
+              ".txt": 2
+            },
+            "numFiles": 14
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/type-check",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/type-check/lib",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 3
+                },
+                "numFiles": 3
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".js": 3,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/type-fest",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/type-fest/source",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 31
+                },
+                "numFiles": 31
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/type-fest/ts41",
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 6
+                },
+                "numFiles": 6
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 39,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 42
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-buffer",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-buffer/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-buffer/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-length",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-length/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-length/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-offset",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-offset/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-byte-offset/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-length",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-length/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typed-array-length/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 2
+                },
+                "numFiles": 2
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/cs",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/de",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/es",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/fr",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/it",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/ja",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/ko",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/pl",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/pt-br",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/ru",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/tr",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/zh-cn",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/typescript/lib/zh-tw",
+                    "fullSubtreeExtensionCounts": {
+                      ".json": 1
+                    },
+                    "numFiles": 1
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 102,
+                  ".json": 14,
+                  ".js": 9
+                },
+                "numFiles": 125
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".md": 2,
+              ".txt": 2,
+              ".ts": 102,
+              ".json": 15,
+              ".js": 9,
+              "": 2
+            },
+            "numFiles": 132
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/unbox-primitive",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/unbox-primitive/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/unbox-primitive/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/undici-types",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 38,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 41
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/unrs-resolver",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/update-browserslist-db",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".js": 4,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 8
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/uri-js",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/uri-js/dist",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/uri-js/dist/es5",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 2,
+                      ".js": 2,
+                      ".map": 2
+                    },
+                    "numFiles": 6
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/uri-js/dist/esnext",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/uri-js/dist/esnext/schemes",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 7,
+                          ".ts": 7,
+                          ".map": 7
+                        },
+                        "numFiles": 21
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 12,
+                      ".map": 12,
+                      ".ts": 12
+                    },
+                    "numFiles": 36
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 14,
+                  ".map": 14,
+                  ".ts": 14
+                },
+                "numFiles": 42
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".lock": 1,
+              ".md": 1,
+              ".js": 14,
+              ".map": 14,
+              ".ts": 14,
+              "": 1
+            },
+            "numFiles": 46
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/util-deprecate",
+            "fullSubtreeExtensionCounts": {
+              ".js": 2,
+              ".json": 1,
+              ".md": 2,
+              "": 1
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which/bin",
+                "fullSubtreeExtensionCounts": {
+                  "": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 1,
+              ".js": 1,
+              ".md": 2,
+              "": 2
+            },
+            "numFiles": 6
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-boxed-primitive",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-boxed-primitive/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-boxed-primitive/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-builtin-type",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-builtin-type/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 10
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-collection",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-collection/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-collection/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 3,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 11
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-typed-array",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-typed-array/.github",
+                "fullSubtreeExtensionCounts": {
+                  ".yml": 1
+                },
+                "numFiles": 1
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/which-typed-array/test",
+                "fullSubtreeExtensionCounts": {
+                  ".js": 1
+                },
+                "numFiles": 1
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              "": 4,
+              ".json": 2,
+              ".yml": 1,
+              ".md": 2,
+              ".js": 2
+            },
+            "numFiles": 12
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/word-wrap",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi/node_modules/ansi-regex",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi/node_modules/ansi-styles",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi/node_modules/strip-ansi",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".ts": 3,
+                  ".json": 3,
+                  ".md": 3,
+                  ".js": 3,
+                  "": 3
+                },
+                "numFiles": 15
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".ts": 4,
+              ".json": 4,
+              ".md": 4,
+              ".js": 4,
+              "": 4
+            },
+            "numFiles": 20
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi-cjs",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi-cjs/node_modules",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi-cjs/node_modules/emoji-regex",
+                    "childrenDirs": [
+                      {
+                        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi-cjs/node_modules/emoji-regex/es2015",
+                        "fullSubtreeExtensionCounts": {
+                          ".js": 2
+                        },
+                        "numFiles": 2
+                      }
+                    ],
+                    "fullSubtreeExtensionCounts": {
+                      ".js": 4,
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".txt": 1
+                    },
+                    "numFiles": 8
+                  },
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrap-ansi-cjs/node_modules/string-width",
+                    "fullSubtreeExtensionCounts": {
+                      ".ts": 1,
+                      ".json": 1,
+                      ".md": 1,
+                      ".js": 1,
+                      "": 1
+                    },
+                    "numFiles": 5
+                  }
+                ],
+                "fullSubtreeExtensionCounts": {
+                  ".js": 5,
+                  ".ts": 2,
+                  ".json": 2,
+                  ".md": 2,
+                  ".txt": 1,
+                  "": 1
+                },
+                "numFiles": 13
+              }
+            ],
+            "fullSubtreeExtensionCounts": {
+              ".json": 3,
+              ".md": 3,
+              ".js": 6,
+              ".ts": 2,
+              ".txt": 1,
+              "": 2
+            },
+            "numFiles": 17
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/wrappy",
+            "fullSubtreeExtensionCounts": {
+              ".js": 1,
+              ".json": 1,
+              ".md": 1,
+              "": 1
+            },
+            "numFiles": 4
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/node_modules/yocto-queue",
+            "fullSubtreeExtensionCounts": {
+              ".ts": 1,
+              ".json": 1,
+              ".md": 1,
+              ".js": 1,
+              "": 1
+            },
+            "numFiles": 5
+          }
+        ],
+        "fullSubtreeExtensionCounts": {
+          ".ts": 2708,
+          ".json": 827,
+          ".md": 624,
+          ".js": 10162,
+          ".map": 2433,
+          ".yml": 118,
+          "": 731,
+          ".cjs": 126,
+          ".cts": 26,
+          ".flow": 2,
+          ".css": 10,
+          ".mjs": 131,
+          ".mts": 30,
+          ".markdown": 8,
+          ".txt": 26,
+          ".html": 2,
+          ".php": 1,
+          ".py": 1,
+          ".coffee": 4,
+          ".jst": 25,
+          ".def": 5,
+          ".node": 2,
+          ".bnf": 3,
+          ".esprima": 3,
+          ".closure-compiler": 3,
+          ".tsbuildinfo": 10,
+          ".ttf": 1,
+          ".wasm": 13,
+          ".sh": 1,
+          ".BSD": 2,
+          ".1": 1,
+          ".lock": 1
+        },
+        "numFiles": 18040
+      },
+      {
+        "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src",
+        "childrenDirs": [
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app",
+            "childrenDirs": [
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api",
+                "childrenDirs": [
+                  {
+                    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/api/waitlist",
+                    "childrenFiles": [
+                      {
+                        "name": "route.ts"
+                      }
+                    ],
+                    "childrenWereProcessed": true
+                  }
+                ],
+                "childrenWereProcessed": true
+              },
+              {
+                "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist",
+                "childrenFiles": [
+                  {
+                    "name": "page.tsx"
+                  }
+                ],
+                "childrenWereProcessed": true
+              }
+            ],
+            "childrenFiles": [
+              {
+                "name": "globals.css"
+              },
+              {
+                "name": "layout.tsx"
+              },
+              {
+                "name": "page.tsx"
+              }
+            ],
+            "childrenWereProcessed": true
+          },
+          {
+            "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components",
+            "childrenFiles": [
+              {
+                "name": "CTAButton.tsx"
+              },
+              {
+                "name": "Footer.tsx"
+              },
+              {
+                "name": "Header.tsx"
+              },
+              {
+                "name": "TabNav.tsx"
+              },
+              {
+                "name": "WaitlistForm.tsx"
+              },
+              {
+                "name": "WaitlistModal.tsx"
+              },
+              {
+                "name": "WaitlistModalProvider.tsx"
+              },
+              {
+                "name": "WaitlistPageClient.tsx"
+              }
+            ],
+            "childrenWereProcessed": true
+          }
+        ],
+        "childrenWereProcessed": true
+      }
+    ],
+    "childrenFiles": [
+      {
+        "name": ".cursorindexingignore"
+      },
+      {
+        "name": "스크린샷 2026-02-12 오후 4.36.30.png"
+      },
+      {
+        "name": "best_waitlist_page_biz_pt"
+      },
+      {
+        "name": "next-env.d.ts"
+      },
+      {
+        "name": "next.config.js"
+      },
+      {
+        "name": "package-lock.json"
+      },
+      {
+        "name": "package.json"
+      },
+      {
+        "name": "postcss.config.mjs"
+      },
+      {
+        "name": "README.md"
+      },
+      {
+        "name": "tailwind.config.ts"
+      },
+      {
+        "name": "tsconfig.json"
+      }
+    ],
+    "fullSubtreeExtensionCounts": {
+      ".ts": 2708,
+      ".json": 827,
+      ".md": 624,
+      ".js": 10162,
+      ".map": 2433,
+      ".yml": 118,
+      "": 731,
+      ".cjs": 126,
+      ".cts": 26,
+      ".flow": 2,
+      ".css": 10,
+      ".mjs": 131,
+      ".mts": 30,
+      ".markdown": 8,
+      ".txt": 26,
+      ".html": 2,
+      ".php": 1,
+      ".py": 1,
+      ".coffee": 4,
+      ".jst": 25,
+      ".def": 5,
+      ".node": 2,
+      ".bnf": 3,
+      ".esprima": 3,
+      ".closure-compiler": 3,
+      ".tsbuildinfo": 10,
+      ".ttf": 1,
+      ".wasm": 13,
+      ".sh": 1,
+      ".BSD": 2,
+      ".1": 1,
+      ".lock": 1
+    },
+    "numFiles": 18040
+  }
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+Path does not exist: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/public
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+The user has a screenshot file in the project: "스크린샷 2026-02-12 오후 4.36.30.png" - this might be their "내 이미지" (my image). Let me check if there's a public folder - it doesn't exist. In Next.js, we need a public folder for static assets. Let me create it and use the user's screenshot as the founder image, or create a placeholder.
+
+Actually the user said "내 이미지" - my image. They might have their own image they want to use. The screenshot file in the project root might be a reference. Let me:
+1. Create public folder
+2. Use the screenshot path - the file is at project root: "스크린샷 2026-02-12 오후 4.36.30.png". We could copy it to public/founder.png or use it directly. Actually in Next.js, static files go in public/. So we need to either copy the user's image to public/ or tell them to put it there. I'll create a structure where the image path is /founder.png - they can add their image there. If the screenshot is their image, we could reference it. Let me check the path - the file is in the project root. For Next.js, we'd typically put images in public/. I'll create public/founder.jpg as a placeholder - the user can replace it with their image. Or we could try to use the screenshot - but it might not be a headshot, it could be a screenshot of something else. The filename suggests it's a screenshot. I'll create a HeroBanner component that: 1. Has dark charcoal/black gradient background with subtle geometric patterns
+2. Left side: large white text (3 lines) + smaller subtitle (founder name)
+3. Right side: image (using /founder.jpg - user can add their image to public/)
+4. Layout: flex, left 2/3 text, right 1/3 image
+
+Let me create the banner component and update both pages. For the main page hero and waitlist page hero.
+
+First image style:
+- "조용히 돈 쓸어모으는" / "사람들의" / "'유튜브 성공 공식'"
+- "비즈니스 PT 전속 강사 주언규 PD" (smaller)
+- Right: headshot
+
+For Leviosa AI:
+- "조용히 매출 늘리는" / "온라인 셀러들의" / "'AI 에이전트'"
+- "레비오사 AI 창업자 주하담" (from founder story)
+- Right: user's image
+
+I'll use Next.js Image component for the image. The user needs to add their image to public/founder.jpg or we use a placeholder. I'll add a placeholder div with background that they can replace with an img tag when they add their image. Or use an img with src="/founder.jpg" and add fallback/placeholder styling if the image doesn't load. Let me create public folder and add a note. Actually I'll just use <img src="/founder.jpg" /> - if the file doesn't exist, it will show broken image. Better to use a conditional or a placeholder. I'll use:
+- If /founder.jpg exists, show it
+- Otherwise show a placeholder div with "이미지를 추가하려면 public/founder.jpg에 배치하세요" or a styled placeholder
+
+Actually the simplest is to just use <img src="/founder.jpg" alt="..." /> - Next.js serves from public/. The user can add their image. If they don't, we'll get a 404 - maybe use onError to show a placeholder. Or we could use the screenshot they have - copy it to public. Let me check - the screenshot filename has Korean characters. I could reference it as /스크린샷%202026-02-12%20오후%204.36.30.png - that might work if we put it in public. But that's probably a screenshot of the page, not a headshot. I'll create a proper structure with /founder.jpg and a placeholder.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/스크린샷 2026-02-12 오후 4.36.30.png</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="ripgrep_raw_search">
+<details>
+<summary>Tool use: **ripgrep_raw_search**</summary>
+
+
+Parameters:
+
+```json
+{
+  "pattern": "Hero|hero|banner",
+  "path": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src",
+  "caseInsensitive": false
+}
+```
+Result:
+
+```json
+{
+  "success": {
+    "pattern": "Hero|hero|banner",
+    "path": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src",
+    "outputMode": "content",
+    "workspaceResults": {
+      "/Users/joohadam/Documents/dev/leviosa_ai_waitlist": {
+        "content": {
+          "matches": [
+            {
+              "file": "src/components/WaitlistPageClient.tsx",
+              "matches": [
+                {
+                  "lineNumber": 37,
+                  "content": "        {/* Hero */}"
+                }
+              ]
+            }
+          ],
+          "totalLines": 1,
+          "totalMatchedLines": 1
+        }
+      }
+    }
+  }
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+So the screenshot "스크린샷 2026-02-12 오후 4.36.30.png" shows two men with an award - one could be the user (주하담). The man on the right wearing a dark grey suit and black turtleneck - this could be "내 이미지" (my image) that the user wants to use in the banner.
+
+So the user wants:
+1. Banner style like the first reference (dark charcoal background, white text left, image right)
+2. Use their image - possibly a crop from this photo (the man on the right) or they have another headshot
+
+I'll:
+1. Create a HeroBanner component with the dark style
+2. Copy or reference the user's image - the screenshot is in the project root. I could suggest they crop the headshot and put it in public/founder.jpg. Or I could try to use the screenshot - but it's a wide image of two people. For the banner we need a portrait/headshot on the right.
+
+I'll create:
+1. public folder
+2. HeroBanner component with dark charcoal gradient, white text on left, image on right
+3. Use /founder.jpg for the image - user can add their headshot there. As a fallback, I could use the screenshot - but it would need to be cropped. Let me just create the structure and use a placeholder. The user can replace public/founder.jpg with their image.
+
+Actually, let me copy the screenshot to public/ and use it - the user might want to use a cropped version. I'll use the screenshot as a temporary image - they can replace it. The path would be tricky with Korean characters. Let me just create public/founder.jpg as a placeholder - I can't create binary image files. So I'll create the HTML/component structure and use src="/founder.jpg" - the user will need to add their image. I'll add a nice placeholder div that shows when the image fails to load, or use a gradient placeholder.
+
+Let me create:
+1. HeroBanner component - dark charcoal/black gradient, subtle geometric patterns, left-aligned white text (3 lines + subtitle), right side image
+2. Update main page and waitlist page to use it
+3. For the image - use Next.js Image with src="/founder.jpg" and a placeholder/fallback. I'll use object-fit: cover and a minimum size so it looks good. If the image doesn't exist, we could use a placeholder with initials or a silhouette.
+</details></think>
+
+---
+
+
+첫 번째 이미지 스타일(어두운 배경, 왼쪽 흰색 텍스트, 오른쪽 인물 사진)로 배너를 적용합니다. public 폴더와 HeroBanner 컴포넌트를 만듭니다.
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: mkdir -p /Users/joohadam/Documents/dev/leviosa_ai_waitlist/public</summary>
+
+```bash
+mkdir -p /Users/joohadam/Documents/dev/leviosa_ai_waitlist/public
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+The HeroBanner component uses Next.js Image. For the onError fallback to work with the placeholder, the structure needs to be different - the placeholder should be a sibling. Let me fix the HeroBanner - the onError hides the img but Next.js Image renders an img. The placeholder div is a sibling. I need to wrap them properly. Actually with Next.js Image, the component renders an img. So we have:
+```
+<Image ... onError={...} />
+<div className="placeholder" style={{display:none}} />
+```
+
+When onError fires, we hide the Image (target) and show the placeholder. But Next.js Image - the target in onError would be the img element. Let me check - e.target as HTMLImageElement should work. And target.nextElementSibling would be the placeholder div. Good.
+
+But wait - we need the placeholder to be a sibling of the img. The Image component renders an img. So the structure would be:
+<div>
+  <Image />  // renders <img>
+  <div placeholder />
+</div>
+
+When Image fails to load, the img fires onError. We hide the img and show the next sibling (placeholder). Good.
+
+But actually Next.js Image might need unoptimized if we're using a local file that might not exist. Let me also add unoptimized for local images. And we need to configure next.config.js to allow the image domain if needed. For local /founder.jpg, it should work.
+
+Let me also fix the placeholder - we need it to be a sibling that's initially visible when image fails. The issue is the Image fills the parent, and the placeholder is a sibling. So they're both in the same parent. When image loads, we see the image. When it fails, we hide image and show placeholder. But the placeholder has `display: none` initially, and we set `display: flex` on error. Good.
+
+Actually there's another approach - use a wrapper with background-image fallback. Or use regular img instead of Next.js Image for more control. Let me use regular img for simplicity since we're dealing with a user-provided image that might not exist.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I need to copy the user's screenshot to public/founder.jpg. The screenshot is a photo of two people - we could use it. But the filename has Korean characters. Let me try to copy it. Actually I can't easily copy binary files. Let me check - the user has "스크린샷 2026-02-12 오후 4.36.30.png" in the project. I could add a next.config to allow this image, or copy it. The run_terminal_cmd could copy: cp "스크린샷 2026-02-12 오후 4.36.30.png" public/founder.jpg. Let me try that - but png to jpg conversion might need a tool. Let me just copy as founder.png and update the component to use /founder.png.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cp "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/스크린샷 2026-02-12 오후 4.36.30.png" "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public/founder.png" 2>/dev/null || echo "Copy failed"</summary>
+
+```bash
+cp "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/스크린샷 2026-02-12 오후 4.36.30.png" "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public/founder.png" 2>/dev/null || echo "Copy failed"
+```
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good, the copy succeeded. Now I need to update the HeroBanner to use /founder.png as default, and update the main page and waitlist page to use the HeroBanner component.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/WaitlistPageClient.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I need to fix the placeholder text in HeroBanner - it says founder.jpg but we're using founder.png now. Let me update that.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good. The main page has HeroBanner. The user's screenshot image was a photo of two men at an award ceremony - it's a wide image. When we use object-cover object-top, it will crop to fit the banner. The image might show both people or just part of it. The user can replace public/founder.png with a proper headshot if they want.
+
+Let me run the build to verify everything works.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    9.5 kB          101 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            4.63 kB        96.2 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-bde8c795999afe41.js       31.6 kB
+  ├ chunks/fd9d1056-1f723dc9829e03b9.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints">
+<details>
+<summary>Tool use: **read_lints**</summary>
+
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx"
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeded. Let me provide a summary for the user. I should also mention that they can replace the image with a proper headshot - the current image is the screenshot they had which shows two people. They might want to crop it to just show one person (the founder) or use a different headshot.
+</details></think>
+
+---
+
+
+배너를 비즈니스 PT 스타일(어두운 배경, 흰색 텍스트, 오른쪽 인물 이미지)로 적용했습니다.
+
+## 변경 사항
+
+### 1. **HeroBanner 컴포넌트**
+- 어두운 다크 그레이(#1a1a1a ~ #0d0d0d) 그라데이션 배경
+- 미세한 기하학적 패턴
+- 왼쪽: 큰 흰색 텍스트 3줄 + 부제목 (예: "레비오사 AI 창업자 주하담")
+- 오른쪽: 인물 이미지 (둥근 모서리, 그림자)
+
+### 2. **적용된 페이지**
+- **메인 페이지** (`/`): "조용히 매출 늘리는 / 온라인 셀러들의 / 'AI 에이전트'"
+- **웨이트리스트 페이지** (`/waitlist`): 동일한 배너 구성
+
+### 3. **이미지**
+- `스크린샷 2026-02-12 오후 4.36.30.png`를 `public/founder.png`로 복사해 사용 중입니다.
+- 다른 **정면 인물 사진**을 쓰려면, 해당 이미지를 `public/founder.png`에 넣어 덮어쓰면 됩니다. (권장: 세로 비율이 긴 헤드샷)
+
+---
+
+
+
+---
+
+_**User**_
+
+founder.png 이미지를 배너 백그라운드로 하거나 조금 더 넓은 영역을 해주기를 바래 그리고 이 이미지를 활용하면 좋을 듯
+@biz-pt.png 
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user wants:
+1. Use founder.png as the banner background OR make the founder image area wider
+2. Use biz-pt.png image - they think it would be good to utilize it
+
+Let me understand: 
+- biz-pt.png is described as a dark, minimal abstract background with diagonal lines, soft shadows, charcoal/black tones
+- founder.png is the person's photo
+
+So the user wants:
+- Either: founder.png as background (unusual - usually founder is the person photo, not background)
+- Or: make the founder image area wider
+- Use biz-pt.png - probably as the banner background since it's described as a dark abstract background
+
+I think the user means:
+1. Use biz-pt.png as the banner background (the dark abstract image)
+2. Make the founder.png (person photo) area wider - show more of it
+3. The biz-pt.png would be perfect as the dark background for the banner
+
+Let me read the current HeroBanner to understand the layout and make the changes.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I understand the current structure:
+1. The banner has a dark gradient background with geometric patterns
+2. Left side: text
+3. Right side: founder.png image in a fixed-size box (320px on md, 360px on lg)
+
+The user wants:
+1. Use biz-pt.png as the banner background (instead of the gradient/geometric pattern)
+2. Make the founder image area wider (show more of the person)
+
+So I need to:
+1. Add biz-pt.png as the background image for the banner section - need to copy it to public first
+2. Make the image area wider - perhaps increase the width ratio (currently it takes about 1/2 or less on md), maybe make it flex-1 or give it more width like 45% of the container
+3. The biz-pt.png should be in public folder to be served - let me check if it exists
+
+Actually biz-pt.png is at /Users/joohadam/Documents/dev/leviosa_ai_waitlist/biz-pt.png - it's in the project root, not in public. I need to copy it to public/biz-pt.png so it can be used as a background image.
+
+Let me:
+1. Copy biz-pt.png to public/biz-pt.png
+2. Update HeroBanner to use biz-pt.png as background
+3. Make the founder image area wider - use a larger flex ratio or percentage
+
+For the background, I'll use biz-pt.png with background-size: cover so it fills the whole banner. Maybe add a slight overlay to keep text readable.
+
+For the image area, I can:
+- Increase the box size: from 320/360px to something like 400px or 50% of width
+- Or make it take more of the right side - like w-1/2 on md so it takes half the banner
+- Or use min-w-[400px] and flex-1 so it expands
+
+Let me make the image area take up more space - perhaps 45-50% of the width on larger screens, and keep it responsive.
+</details></think>
+
+---
+
+
+biz-pt.png를 배너 배경으로 사용하고, founder 이미지 영역을 넓히는 중입니다.
+
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="list_dir_v2">
+<details>
+<summary>Tool use: **list_dir_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "targetDirectory": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public"
+}
+```
+Result:
+
+```json
+{
+  "directoryTreeRoot": {
+    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public",
+    "childrenFiles": [
+      {
+        "name": "founder.png"
+      }
+    ],
+    "childrenWereProcessed": true
+  }
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/biz-pt.png</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I need to:
+1. Copy biz-pt.png to public/biz-pt.png so it can be served
+2. Update HeroBanner to:
+   - Use biz-pt.png as the background image (instead of gradient)
+   - Make the founder image area wider - give it more space (e.g., 45-50% width, larger dimensions)
+
+Let me do this.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cp /Users/joohadam/Documents/dev/leviosa_ai_waitlist/biz-pt.png /Users/joohadam/Documents/dev/leviosa_ai_waitlist/public/biz-pt.png</summary>
+
+```bash
+cp /Users/joohadam/Documents/dev/leviosa_ai_waitlist/biz-pt.png /Users/joohadam/Documents/dev/leviosa_ai_waitlist/public/biz-pt.png
+```
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good, the file is copied. Now let me update HeroBanner.tsx to:
+1. Use biz-pt.png as the background
+2. Make the founder image area wider - perhaps take 45-50% of the width on larger screens
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good. Now let me also update the image container - make the rounded corners maybe a bit softer to fit the biz-pt style, and ensure the image displays well in the wider area. Let me read the file to verify the changes.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+The layout looks good. On mobile, the text block takes 50% max, but actually I set md:max-w-[50%] which might cause issues. Let me think...
+
+Actually on md and up:
+- Left text: flex-1, max-w-[50%] - so it takes up to half
+- Right image: md:min-w-[45%], md:flex-1 - so it takes at least 45% and can flex to fill
+
+The overlay gradient goes from left (darker) to right (transparent), which helps text on the left and lets the biz-pt background and founder image show through on the right. Good.
+
+Let me run build to verify.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="shell" data-tool-name="run_terminal_command_v2">
+<details><summary>Tool use: **run_terminal_command_v2** • Run command: cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1</summary>
+
+```bash
+cd /Users/joohadam/Documents/dev/leviosa_ai_waitlist && npm run build 2>&1
+```
+
+```
+npm warn Unknown env config "devdir". This will stop working in the next major version of npm.
+
+&gt; leviosa-ai-waitlist@0.1.0 build
+&gt; next build
+
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+  ▲ Next.js 14.2.18
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/6) ...
+   Generating static pages (1/6) 
+   Generating static pages (2/6) 
+   Generating static pages (4/6) 
+ ✓ Generating static pages (6/6)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    9.39 kB         101 kB
+├ ○ /_not-found                          875 B            88 kB
+├ ƒ /api/waitlist                        0 B                0 B
+└ ƒ /waitlist                            4.51 kB        96.1 kB
++ First Load JS shared by all            87.1 kB
+  ├ chunks/117-bde8c795999afe41.js       31.6 kB
+  ├ chunks/fd9d1056-1f723dc9829e03b9.js  53.7 kB
+  └ other shared chunks (total)          1.88 kB
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+```
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="read_lints">
+<details>
+<summary>Tool use: **read_lints**</summary>
+
+
+Parameters:
+
+```json
+{
+  "paths": [
+    "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx"
+  ]
+}
+```
+Result:
+
+```json
+{
+  "linterErrorsByFile": [
+    {
+      "relativeWorkspacePath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx"
+    }
+  ]
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Build succeeded and no linter errors. The HeroBanner component now has:
+
+1. biz-pt.png as the full background
+2. founder.png in a wider image area on the right
+3. Dark overlay for text readability (gradient from left dark to right transparent)
+4. Responsive heights: 220px mobile, 360px md, 400px lg
+5. Image takes 45% min width on md+ with flex-1 for flexible growth
+
+The user asked for:
+- founder.png as banner background OR wider area - we went with wider area + biz-pt as background
+- Use biz-pt.png - done, it's the full section background
+
+Everything looks good. Let me give a brief summary to the user.
+</details></think>
+
+---
+
+
+요청하신 대로 반영해 두었습니다.
+
+## 변경 사항
+
+### 1. `biz-pt.png` 배경 사용
+- 전체 배너 섹션 배경으로 `biz-pt.png` 적용
+- `bg-cover`로 화면을 채우고, 다크 톤 유지
+
+### 2. 인물 이미지 영역 확대
+- **모바일**: 높이 220px
+- **태블릿(md)**: 높이 360px, 최소 너비 45%, `flex-1`로 여유 공간 활용
+- **데스크톱(lg)**: 높이 400px
+
+### 3. 레이아웃
+- 왼쪽: 텍스트
+- 오른쪽: `founder.png` 인물 이미지
+- 왼쪽 텍스트 가독을 위해 `from-black/70 via-black/40 to-transparent` 그라데이션 오버레이 적용
+
+`biz-pt.png`를 배경으로 쓰고, `founder.png`는 오른쪽 넓은 영역에 배치해 다크 배경과 함께 보이도록 구성했습니다.
+
+---
+
+_**User**_
+
+0) 상단 히어로(제목+리드)
+
+제목(강조색):
+“매출이 오를수록 더 바빠지는 셀러, 그건 성장이 아니라 ‘병목’입니다”
+
+리드 문단:
+많은 셀러가 미래를 불안해한다. 나 역시 그랬다.
+매출은 늘었는데, 이상하게 시간은 더 사라졌다.
+그러던 어느 날, 운영을 사람 손에서 빼고 ‘시스템’으로 옮기는 공식을 적용했고,
+매출은 유지되는데 실수·클레임·CS 스트레스가 급감했다.
+이 글은 그 전환점에 대한 이야기다. 그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.
+
+(이미지 2장 영역)
+
+[이미지] “셀러 운영 화면 / 주문 폭주 / 엑셀 지옥”
+
+[이미지] “자동화 대시보드 / 안정화된 운영”
+
+1) 내 이야기(신뢰용 배경) — “왜 이 문제를 파고들었는가”
+
+처음엔 단순했다.
+상품 10개, 주문 하루 5건. 사람 손으로도 됐다.
+
+문제는 매출이 오르는 순간 시작됐다.
+상품이 늘고, 채널이 늘고, 주문이 늘수록
+운영은 ‘노력’이 아니라 구조적 병목이 됐다.
+
+나는 그걸 실제로 겪었다.
+
+상품 등록/수정이 하루를 잡아먹고
+
+가격/재고 실수로 클레임이 터지고
+
+배송/CS 누락이 매출을 갉아먹고
+
+“오늘도 운영만 하다 끝났다”가 반복됐다
+
+2) 사건(의문) — “이게 맞나?”
+
+당시 가장 자주 들었던 말이 있었다.
+
+“매출이 늘면 바빠지는 게 당연하죠.”
+
+근데 현실은 다르다.
+잘 되는 셀러일수록 오히려 운영이 더 안정적이다.
+이게 말이 되나 싶어서, 나는 질문을 바꿨다.
+
+“바쁜 건 성장이 아니라, 시스템이 없다는 신호 아닐까?”
+
+3) 깨달음(핵심 문장 2~3개)
+
+결론은 명확했다.
+
+‘운영’을 사람으로 하면, 매출이 커질수록 망가진다.
+
+‘자동화’는 편의가 아니라 생존이다.
+
+‘노출(트래픽)’이 아니라, ‘운영 시스템’이 수익을 만든다.
+
+4) 현실(공감) — “대부분의 셀러가 겪는 지옥”
+
+매출이 커질수록 반복되는 패턴이 있다.
+
+상품 100개 → 수정 요청 폭증 → 누락
+
+주문 50건 → 송장/배송 실수 → 클레임
+
+가격 변경 → 수동 체크 → 패널티 위험
+
+CS 폭주 → 감정 소모 → 운영 품질 붕괴
+
+사람 중심 운영은 결국 이렇게 된다.
+동시에 여러 일을 못함 → 피로 누적 → 실수 증가 → 신뢰 하락 → 매출 하락
+이커머스에서 실수는 치명적이다.
+
+5) “90%가 막히는 이유” 섹션(허상 깨기)
+
+새로 시작한 셀러의 90%가 특정 구간에서 멈춘다.
+노하우가 없어서가 아니다. 의지가 약해서도 아니다.
+
+그냥 “운영을 수동으로 시작”했기 때문이다.
+
+초반엔 된다.
+하지만 어느 순간부터는
+상품/주문/CS가 늘어나는 속도가
+사람이 처리 가능한 속도를 이긴다.
+
+6) 패러다임 전환 — “성공은 매출이 아니라 시스템”
+
+여기서 방향을 바꾸면 결과가 달라진다.
+
+“내가 더 열심히” → “반복을 없애기”
+
+“실수 안 하기” → “실수가 나올 수 없는 구조”
+
+“운영 잘 하기” → “운영을 자동으로 굴리기”
+
+이때부터 매출은 목표가 아니라 결과가 된다.
+
+(이미지 1장 영역)
+
+[이미지] “운영이 자동으로 돌아가는 흐름도(상품/가격/재고/주문/CS)”
+
+7) 오크통 법칙(셀러 버전) — “가장 낮은 판자를 올려라”
+
+셀러 운영도 오크통이다.
+아무리 소싱을 잘해도, 아무리 마케팅을 잘해도
+한 판자(병목) 하나가 전체를 새게 만든다.
+
+예를 들어 이런 판자들이다.
+
+상품 등록 속도
+
+가격/재고 싱크 정확도
+
+주문 처리 누락률
+
+CS 응답 속도
+
+플랫폼별 정책/제재 리스크
+
+목표는 “월매출 1억”이 아니라,
+내 오크통에서 가장 낮은 판자를 자동화로 끌어올리는 것이다.
+
+8) 해결책(제품) — 레비오사 AI는 뭐냐?
+
+레비오사 AI는 셀러들을 위한 AI 자동화 프로그램이다.
+셀러가 매일 반복하는 운영 업무를 조건 기반으로 자동 실행해,
+실수와 시간을 줄이고, 매출이 커져도 운영이 무너지지 않게 만든다.
+
+예시(기대효과를 “장점 나열”이 아니라 “문제 해결”로):
+
+상품 대량 등록/수정 자동화
+
+가격/재고 변화 감지 → 자동 반영
+
+주문/배송 처리 루틴 자동화
+
+반복 CS 템플릿/분류 자동화
+
+“사람이 마지막 승인만 하는” 운영 구조
+
+9) Waitlist 혜택(무료 리워드) — “신청만 해도 받는 것”
+
+대기 신청을 하면, 아래를 먼저 준다.
+
+셀러 운영 병목 진단 체크리스트(오크통 버전)
+
+자동화 우선순위 로드맵(무엇부터 자동화할지)
+
+레비오사 AI 초기 기능 우선 사용 권한(순차 오픈)
+
+10) 최종 CTA(버튼 문구 + 한 줄)
+
+중앙 문구(2줄):
+대기 신청만 하셔도,
+셀러 운영 병목 진단 자료를 바로 받아볼 수 있습니다.
+직접 적용해보세요. 👇
+
+버튼 텍스트:
+무료 진단 자료 받고 Waitlist 신청하기
+
+11) 보너스: 버튼 위 “마지막 한 방” 문장(선택 3개)
+
+“사람으로 버티는 순간, 성장은 리스크가 됩니다.”
+
+---
+
+_**Agent (model default, mode Agent)**_
+
+<think><details><summary>Thought Process</summary>
+
+The user has provided a detailed content outline for the waitlist page. This appears to be a comprehensive structure for a landing page with:
+
+0. Hero section (title + lead)
+1. My story (trust background)
+2. Event/Question section
+3. Realization (key sentences)
+4. Reality (empathy)
+5. "90% get stuck" section
+6. Paradigm shift
+7. Oak barrel law (seller version)
+8. Solution (product) - Leviosa AI
+9. Waitlist benefits
+10. Final CTA
+11. Bonus button text
+
+The user wants me to implement this content structure into the page. Let me first look at the current page structure and components to understand how to best integrate this.
+</details></think>
+
+---
+
+
+페이지 구조와 컴포넌트 확인 중입니다.
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/waitlist/page.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="list_dir_v2">
+<details>
+<summary>Tool use: **list_dir_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "targetDirectory": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components"
+}
+```
+Result:
+
+```json
+{
+  "directoryTreeRoot": {
+    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components",
+    "childrenFiles": [
+      {
+        "name": "CTAButton.tsx"
+      },
+      {
+        "name": "Footer.tsx"
+      },
+      {
+        "name": "Header.tsx"
+      },
+      {
+        "name": "HeroBanner.tsx"
+      },
+      {
+        "name": "TabNav.tsx"
+      },
+      {
+        "name": "WaitlistForm.tsx"
+      },
+      {
+        "name": "WaitlistModal.tsx"
+      },
+      {
+        "name": "WaitlistModalProvider.tsx"
+      },
+      {
+        "name": "WaitlistPageClient.tsx"
+      }
+    ],
+    "childrenWereProcessed": true
+  }
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+The user wants me to restructure the page content according to their detailed outline. This is a comprehensive content update. Let me map the outline to the page structure:
+
+0) Hero - title + lead + 2 images
+1) 내 이야기 (trust background)
+2) 사건(의문) — "이게 맞나?"
+3) 깨달음 (핵심 문장)
+4) 현실(공감) — "대부분의 셀러가 겪는 지옥"
+5) "90%가 막히는 이유" 섹션
+6) 패러다임 전환
+7) 오크통 법칙
+8) 해결책(제품) — 레비오사 AI
+9) Waitlist 혜택
+10) 최종 CTA
+11) 보너스 문장
+
+I need to:
+1. Update HeroBanner with new title and lead (maybe extend HeroBanner to support lead text, or add lead as subtitle)
+2. Add 2 image slots in hero - need to check HeroBanner structure
+3. Create/reorganize all sections with the new content
+
+Let me read HeroBanner and CTAButton to understand the current structure better.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="unknown" data-tool-name="list_dir_v2">
+<details>
+<summary>Tool use: **list_dir_v2**</summary>
+
+
+Parameters:
+
+```json
+{
+  "targetDirectory": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public"
+}
+```
+Result:
+
+```json
+{
+  "directoryTreeRoot": {
+    "absPath": "/Users/joohadam/Documents/dev/leviosa_ai_waitlist/public",
+    "childrenFiles": [
+      {
+        "name": "biz-pt.png"
+      },
+      {
+        "name": "founder.png"
+      }
+    ],
+    "childrenWereProcessed": true
+  }
+}
+```
+Status: **completed**
+
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I have a clear picture. The user wants me to completely restructure the page content according to their detailed outline. I need to:
+
+1. Update HeroBanner to support:
+   - New title: "매출이 오를수록 더 바빠지는 셀러, 그건 성장이 아니라 '병목'입니다"
+   - Lead paragraph (multi-line)
+   - 2 image slots: "셀러 운영 화면 / 주문 폭주 / 엑셀 지옥" and "자동화 대시보드 / 안정화된 운영"
+   - The HeroBanner currently has one image (founder.png). The user outline says "이미지 2장 영역" - two images. I might need to extend HeroBanner to support 2 images, or use placeholder divs for now. We don't have those specific images - we have founder.png and biz-pt.png. I'll add 2 image slots and use placeholders or founder.png for now. The user can replace with actual images later.
+
+2. Create all the content sections in page.tsx based on the outline.
+
+3. Update CTAButton text to "무료 진단 자료 받고 Waitlist 신청하기" where appropriate.
+
+Let me create a todo list and implement this. I'll structure the page with:
+- Hero (0) - update HeroBanner with title, lead, 2 images
+- Section 1 - 내 이야기
+- Section 2 - 사건(의문)
+- Section 3 - 깨달음
+- Section 4 - 현실(공감)
+- Section 5 - 90%가 막히는 이유
+- Section 6 - 패러다임 전환
+- Section 7 - 오크통 법칙
+- Section 8 - 해결책(제품) 레비오사 AI
+- Section 9 - Waitlist 혜택
+- Section 10 - 최종 CTA
+- Section 11 - 보너스 문장
+
+For images, we have founder.png. The outline mentions:
+- [이미지] "셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
+- [이미지] "자동화 대시보드 / 안정화된 운영"
+- [이미지] "운영이 자동으로 돌아가는 흐름도(상품/가격/재고/주문/CS)"
+
+We don't have these images. I'll create placeholder sections that the user can fill in. Or use founder.png as a temporary image for the hero. Let me check - the HeroBanner already has one image. The user said "이미지 2장 영역" - so two images in the hero. I could:
+- Add a second image slot to HeroBanner
+- Use two placeholder divs with captions for the two images (user can add images to public/ later)
+
+I'll update HeroBanner to support:
+- leadParagraph?: string[] (array of lines for the lead)
+- Support for 2 images with optional src/alt - if only one provided, show one; if two, show both in a grid
+
+Actually, re-reading the outline - the hero has:
+- 제목 (강조색)
+- 리드 문단
+- (이미지 2장 영역)
+- [이미지] "셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
+- [이미지] "자동화 대시보드 / 안정화된 운영"
+
+So the hero should have title, lead, and 2 images. The current HeroBanner has title, subtitle, and 1 image (founder). I'll extend it to have lead (multiple lines) and 2 images. For images we don't have - I'll add image1Src, image2Src as optional - if not provided, show placeholder boxes with the caption text. Or we could use founder.png for both as temp - that doesn't make sense. Better to have placeholder areas.
+
+I'll add:
+- leadLines?: string[]
+- image1Src?: string (default placeholder)
+- image1Alt?: string
+- image2Src?: string
+- image2Alt?: string
+
+And update the layout - maybe stack: title, lead, then 2 images side by side on desktop.
+
+Let me implement. I'll create a comprehensive update.
+</details></think>
+
+---
+
+
+개요대로 페이지 전체 구조를 새로 만들고 있습니다.
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [-] HeroBanner: 제목/리드/이미지 2장 영역 업데이트
+- [ ] 섹션 1~7: 내 이야기~오크통 법칙 콘텐츠 적용
+- [ ] 섹션 8~11: 해결책/Waitlist 혜택/CTA/보너스 문장
+- [ ] CTAButton 문구 및 Fixed CTA 업데이트
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Let me start implementing. I'll update HeroBanner first to support lead paragraph and 2 images, then update page.tsx with all sections.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/HeroBanner.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Good. Now I need to create the page content with all sections. I'll write a new page.tsx with the full content structure. Let me also add CTAButton support for different text variants.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="task" data-tool-name="todo_write">
+<details><summary>Tool use: **todo_write** • Todo List</summary>
+
+- [x] HeroBanner: 제목/리드/이미지 2장 영역 업데이트
+- [-] 섹션 1~7: 내 이야기~오크통 법칙 콘텐츠 적용
+- [ ] 섹션 8~11: 해결책/Waitlist 혜택/CTA/보너스 문장
+- [ ] CTAButton 문구 및 Fixed CTA 업데이트
+
+</details>
+</tool-use>
+
+---
+
+<tool-use data-tool-type="read" data-tool-name="read_file_v2">
+<details><summary>Tool use: **read_file_v2** • Read file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+I need to add a `label` or `children` prop to CTAButton so we can pass custom text like "무료 진단 자료 받고 Waitlist 신청하기". Let me update CTAButton to accept optional label prop.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/components/CTAButton.tsx</summary>
+
+</details>
+
+</tool-use>
+
+---
+
+<think><details><summary>Thought Process</summary>
+
+Now I need to completely rewrite page.tsx with all the new content sections. Let me write the full page content based on the outline.
+</details></think>
+
+---
+
+
+
+
+
+---
+
+<tool-use data-tool-type="write" data-tool-name="edit_file_v2">
+
+<details><summary>Tool use: **edit_file_v2** • Edit file: /Users/joohadam/Documents/dev/leviosa_ai_waitlist/src/app/page.tsx</summary>
+
+Status: **loading**
+
+</details>
+
 </tool-use>
 
 ---

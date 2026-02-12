@@ -1,8 +1,8 @@
 import Header from "@/components/Header";
 import TabNav from "@/components/TabNav";
 import CTAButton from "@/components/CTAButton";
-import WaitlistForm from "@/components/WaitlistForm";
 import Footer from "@/components/Footer";
+import HeroBanner from "@/components/HeroBanner";
 
 export default function Home() {
   return (
@@ -11,253 +11,286 @@ export default function Home() {
       <main>
         <TabNav />
 
-        {/* Success Area - 온라인 셀러 성공 공식 */}
+        {/* 0) 상단 히어로(제목+리드) */}
         <div id="success-area">
-          <article className="bg-black">
-            <div className="relative mx-auto h-[150px] max-w-[1502px] md:h-[340px]">
-              <div className="relative z-[3] flex h-full items-center px-4">
-                <h2 className="text-[26px] font-bold leading-[1.3] text-white md:text-[54px]">
-                  온라인 셀러의
-                  <br />
-                  업무를 바꾸는
-                  <br />
-                  AI 에이전트
-                </h2>
-              </div>
-              <div className="absolute inset-0 z-[1] overflow-hidden bg-gradient-to-br from-indigo-900/90 to-purple-900/90" />
-            </div>
-          </article>
-
-          <article className="bg-white">
-            <div className="relative mx-auto max-w-[900px] px-4 py-10 md:py-20">
-              <div className="flex flex-col gap-4">
-                <hr className="border-gray-500" />
-                <h3 className="text-[22px] font-bold text-[#EF5555] md:text-2xl">
-                  하루 10시간 이상 고객 응대하시나요? AI가 대신합니다
-                </h3>
-                <hr className="border-gray-500" />
-              </div>
-              <div className="mt-10 space-y-6">
-                <p className="text-lg leading-[1.8]">
-                  온라인 셀러분들의 가장 큰 고민은 <b>반복적인 고객 응대</b>입니다.
-                  &quot;배송什么时候到?&quot;, &quot;환불 어떻게 해요?&quot; 같은
-                  질문에 매일 수십 번, 수백 번 답변하시죠.
-                </p>
-                <p className="text-lg leading-[1.8]">
-                  <b>레비오사 AI</b>는 온라인 셀러를 위한 AI 에이전트입니다. 24시간
-                  자동으로 고객 문의에 답하고, 주문·배송·환불 업무를 처리합니다.
-                  당신은 상품 기획과 마케팅에만 집중하세요.
-                </p>
-                <ul className="rounded-lg bg-amber-50 p-6 font-bold">
-                  <li>· 24시간 자동 고객 응대</li>
-                  <li>· 다국어 지원 (한국어, 영어, 중국어 등)</li>
-                  <li>· 주문·배송·환불 자동 처리</li>
-                  <li>· 쇼핑몰·마켓플레이스 연동</li>
-                </ul>
-              </div>
-              <div className="mt-16 border-t border-gray-300 pt-10">
-                <p className="text-center text-xl font-bold">
-                  대기 신청만 하셔도, 레비오사 AI
-                  <br />
-                  무료 체험을 받아보실 수 있습니다.
-                  <br />
-                  직접 경험해보세요. 👇
-                </p>
-                <div className="mt-6 flex justify-center">
-                  <CTAButton variant="primary" size="lg" />
-                </div>
-              </div>
-            </div>
-          </article>
+          <HeroBanner
+            titleLines={[
+              "매출이 오를수록 더 바빠지는 셀러,",
+              "그건 성장이 아니라 '병목'입니다",
+            ]}
+            leadLines={[
+              "많은 셀러가 미래를 불안해한다. 나 역시 그랬다.",
+              "매출은 늘었는데, 이상하게 시간은 더 사라졌다.",
+              "그러던 어느 날, 운영을 사람 손에서 빼고 '시스템'으로 옮기는 공식을 적용했고,",
+              "매출은 유지되는데 실수·클레임·CS 스트레스가 급감했다.",
+              "이 글은 그 전환점에 대한 이야기다. 그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.",
+            ]}
+            image1Src="/seller-operations.png"
+            image1Alt="셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
+            image2Src="/automation-dashboard.png"
+            image2Alt="자동화 대시보드 / 안정화된 운영"
+          />
         </div>
 
-        {/* Intro Area - 레비오사 AI 소개 */}
-        <div id="intro-area">
-          <article className="bg-black">
-            <div className="relative mx-auto max-w-[900px] px-4 py-[40px] md:py-[120px]">
-              <h2 className="text-center text-[32px] font-bold leading-[1.3] text-white md:text-[50px]">
-                어떻게 해야 온라인에서
+        {/* 1) 내 이야기(신뢰용 배경) — "왜 이 문제를 파고들었는가" */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              왜 이 문제를 파고들었는가
+            </h3>
+            <div className="mt-8 space-y-5 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
+              <p>처음엔 단순했다.</p>
+              <p>상품 10개, 주문 하루 5건. 사람 손으로도 됐다.</p>
+              <p>
+                문제는 매출이 오르는 순간 시작됐다.
                 <br />
-                더 효율적으로 판매할 수 있을까?
-              </h2>
-              <div className="my-6 flex h-[50px] justify-center">
-                <div className="h-[50px] w-[2px] bg-[#FE5555]" />
-              </div>
-              <p className="text-center text-[18px] font-medium leading-[1.5] text-white md:text-2xl">
-                우리는 이 문제에 대한 답을 찾았습니다.
+                상품이 늘고, 채널이 늘고, 주문이 늘수록
                 <br />
-                AI 에이전트가 당신의 영업 사원이 됩니다.
-                <br />
-                결과가 궁금하다면 아래에서 확인하실 수 있습니다.
+                운영은 &apos;노력&apos;이 아니라 구조적 병목이 됐다.
+              </p>
+              <p className="font-semibold">나는 그걸 실제로 겪었다.</p>
+              <ul className="ml-4 list-disc space-y-2">
+                <li>상품 등록/수정이 하루를 잡아먹고</li>
+                <li>가격/재고 실수로 클레임이 터지고</li>
+                <li>배송/CS 누락이 매출을 갉아먹고</li>
+                <li>&quot;오늘도 운영만 하다 끝났다&quot;가 반복됐다</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* 2) 사건(의문) — "이게 맞나?" */}
+        <section className="bg-[#1a1a1a]">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              이게 맞나?
+            </h3>
+            <div className="mt-8 space-y-5 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
+              <p>당시 가장 자주 들었던 말이 있었다.</p>
+              <p className="rounded-lg bg-white/10 px-4 py-3 italic">
+                &quot;매출이 늘면 바빠지는 게 당연하죠.&quot;
+              </p>
+              <p>근데 현실은 다르다.</p>
+              <p>잘 되는 셀러일수록 오히려 운영이 더 안정적이다.</p>
+              <p className="font-semibold text-[#EF5555]">
+                이게 말이 되나 싶어서, 나는 질문을 바꿨다.
+              </p>
+              <p className="rounded-lg border border-[#EF5555]/60 bg-[#EF5555]/10 px-4 py-3 font-medium">
+                &quot;바쁜 건 성장이 아니라, 시스템이 없다는 신호 아닐까?&quot;
               </p>
             </div>
-          </article>
+          </div>
+        </section>
 
-          <article className="bg-[#2A2A2A]">
-            <div className="relative mx-auto max-w-[900px] px-4 py-[40px] md:py-[80px]">
-              <p className="text-center text-[18px] font-medium leading-[1.5] text-white md:text-xl md:leading-[1.8]">
-                화려한 마케팅 문구에 설레는 분들,
-                <br />
-                큰 기대를 하고 오시는 분들은 아래 내용에 실망할 수 있습니다.
-                <br />
-                <span className="border-b border-[#FE5555] font-semibold">
-                  저희는 있는 그대로만 얘기하기 때문입니다.
-                </span>
-                <br />
-                <br />
-                <span className="border-b border-[#FE5555] text-[20px] font-bold text-[#FE5555] md:text-[26px]">
-                  지금부터 보여드리는 것이 현실입니다.
-                </span>
+        {/* 3) 깨달음(핵심 문장 2~3개) */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              결론은 명확했다
+            </h3>
+            <div className="mt-8 space-y-6 text-[17px] font-semibold leading-[1.8] text-gray-900 md:text-[19px]">
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
+                &apos;운영&apos;을 사람으로 하면, 매출이 커질수록 망가진다.
+              </p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
+                &apos;자동화&apos;는 편의가 아니라 생존이다.
+              </p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
+                &apos;노출(트래픽)&apos;이 아니라, &apos;운영 시스템&apos;이
+                수익을 만든다.
               </p>
             </div>
-          </article>
+          </div>
+        </section>
 
-          <article className="bg-[#F6F6F6]">
-            <div className="relative mx-auto max-w-[900px] px-4 py-[40px] md:py-[70px]">
-              <p className="text-center text-[18px] font-medium leading-[1.5] md:text-xl md:leading-[1.8]">
-                레비오사 AI를 사용하는 셀러들은
-                <br />
-                <span className="border-b border-[#FE5555] font-semibold">
-                  고객 응대 시간을 <span className="text-[#FE5555]">70% 이상 절감</span>
-                  하고 있습니다.
-                </span>
+        {/* 4) 현실(공감) — "대부분의 셀러가 겪는 지옥" */}
+        <section className="bg-[#2A2A2A]">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              대부분의 셀러가 겪는 지옥
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
+              <p>매출이 커질수록 반복되는 패턴이 있다.</p>
+              <ul className="space-y-2">
+                <li>상품 100개 → 수정 요청 폭증 → 누락</li>
+                <li>주문 50건 → 송장/배송 실수 → 클레임</li>
+                <li>가격 변경 → 수동 체크 → 패널티 위험</li>
+                <li>CS 폭주 → 감정 소모 → 운영 품질 붕괴</li>
+              </ul>
+              <p>사람 중심 운영은 결국 이렇게 된다.</p>
+              <p className="text-[#EF5555]/90">
+                동시에 여러 일을 못함 → 피로 누적 → 실수 증가 → 신뢰 하락 → 매출
+                하락
               </p>
-              <p className="mt-12 text-center text-[18px] font-medium md:text-xl">
-                <span className="border-b border-[#FE5555] font-semibold">
-                  일반적인 성과는 많은 회원분들이{" "}
-                  <span className="text-[#FE5555]">지속적으로 달성</span>하고 있습니다.
-                </span>
+              <p className="font-semibold">이커머스에서 실수는 치명적이다.</p>
+            </div>
+          </div>
+        </section>
+
+        {/* 5) "90%가 막히는 이유" 섹션 */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              90%가 막히는 이유
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
+              <p>
+                새로 시작한 셀러의 90%가 특정 구간에서 멈춘다.
+                <br />
+                노하우가 없어서가 아니다. 의지가 약해서도 아니다.
+              </p>
+              <p className="rounded-lg border-2 border-[#EF5555] bg-[#EF5555]/5 px-4 py-3 font-semibold">
+                그냥 &quot;운영을 수동으로 시작&quot;했기 때문이다.
+              </p>
+              <p>
+                초반엔 된다.
+                <br />
+                하지만 어느 순간부터는
+                <br />
+                상품/주문/CS가 늘어나는 속도가
+                <br />
+                사람이 처리 가능한 속도를 이긴다.
               </p>
             </div>
-          </article>
+          </div>
+        </section>
 
-          <article className="bg-white">
-            <div className="relative mx-auto max-w-[900px] px-4 py-[40px] md:py-[70px]">
-              <p className="text-center text-[18px] font-semibold leading-[1.5] md:text-xl md:leading-[1.8]">
-                <span className="border-b border-[#FE5555]">
-                  레비오사 AI는{" "}
-                  <span className="text-[#FE5555]">
-                    온라인 셀러를 위한 AI 에이전트 서비스
-                  </span>
-                  입니다.
-                </span>
+        {/* 6) 패러다임 전환 — "성공은 매출이 아니라 시스템" */}
+        <section className="bg-[#1a1a1a]">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              성공은 매출이 아니라 시스템
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
+              <p>여기서 방향을 바꾸면 결과가 달라진다.</p>
+              <ul className="space-y-2">
+                <li>&quot;내가 더 열심히&quot; → &quot;반복을 없애기&quot;</li>
+                <li>
+                  &quot;실수 안 하기&quot; → &quot;실수가 나올 수 없는
+                  구조&quot;
+                </li>
+                <li>
+                  &quot;운영 잘 하기&quot; → &quot;운영을 자동으로 굴리기&quot;
+                </li>
+              </ul>
+              <p className="font-semibold text-[#EF5555]">
+                이때부터 매출은 목표가 아니라 결과가 된다.
               </p>
-              <p className="mt-10 text-center text-[20px] font-semibold text-[#FE5555] md:text-[26px]">
-                <span className="border-b border-[#FE5555]">
-                  AI가 24시간 고객 응대를 대신하고,
-                  <br />
-                  당신은 비즈니스 성장에만 집중하세요.
-                </span>
-              </p>
-
-              {/* 제공 혜택 */}
-              <div className="mt-16 rounded-lg border bg-white p-6 shadow-sm md:p-10">
-                <h3 className="text-center text-[18px] font-semibold text-[#FE5555] md:text-[26px]">
-                  레비오사 AI는 무엇을 제공하나요?
-                </h3>
-                <div className="my-6 h-px w-full bg-[#EF5555]" />
-                <div className="space-y-6 text-left">
-                  <p className="text-[18px] font-medium md:text-xl">
-                    · 24시간 자동 고객 응대 AI 에이전트
-                  </p>
-                  <p className="text-[18px] font-medium md:text-xl">
-                    · 다국어 실시간 번역 및 응대 (한국어, 영어, 중국어 등)
-                  </p>
-                  <p className="text-[18px] font-medium md:text-xl">
-                    · 주문·배송·환불 FAQ 자동 답변
-                  </p>
-                  <p className="text-[18px] font-medium md:text-xl">
-                    · 쇼핑몰·마켓플레이스 연동 지원
-                  </p>
-                  <p className="text-[18px] font-medium md:text-xl">
-                    · 맞춤형 상담 시나리오 설정
+              {/* 이미지 1장 영역 */}
+              <div className="mt-10 aspect-video overflow-hidden rounded-lg bg-neutral-800/80">
+                <div className="flex h-full w-full items-center justify-center text-center text-white/50">
+                  <p className="text-sm">
+                    운영이 자동으로 돌아가는 흐름도
+                    <br />
+                    (상품/가격/재고/주문/CS)
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
 
-              {/* CTA & Waitlist Form */}
-              <div className="mt-16 text-center">
-                <p className="text-[20px] font-bold md:text-[26px]">
-                  대기 신청을 원하는 분들은 아래에서 신청해 주세요.
-                </p>
-                <div className="mx-auto mt-10 max-w-md">
-                  <WaitlistForm />
-                </div>
-              </div>
+        {/* 7) 오크통 법칙(셀러 버전) */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              가장 낮은 판자를 올려라
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
+              <p>셀러 운영도 오크통이다.</p>
+              <p>
+                아무리 소싱을 잘해도, 아무리 마케팅을 잘해도
+                <br />한 판자(병목) 하나가 전체를 새게 만든다.
+              </p>
+              <p className="font-medium">예를 들어 이런 판자들이다.</p>
+              <ul className="ml-4 list-disc space-y-1">
+                <li>상품 등록 속도</li>
+                <li>가격/재고 싱크 정확도</li>
+                <li>주문 처리 누락률</li>
+                <li>CS 응답 속도</li>
+                <li>플랫폼별 정책/제재 리스크</li>
+              </ul>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold">
+                목표는 &quot;월매출 1억&quot;이 아니라,
+                <br />내 오크통에서 가장 낮은 판자를 자동화로 끌어올리는 것이다.
+              </p>
             </div>
-          </article>
-        </div>
+          </div>
+        </section>
 
-        {/* FAQ Area */}
-        <div id="faq-area">
-          <section className="bg-[#EDEDED]">
-            <div className="bg-black py-5 text-center text-[24px] font-bold text-white md:text-[26px]">
-              레비오사 AI FAQ
+        {/* 8) 해결책(제품) — 레비오사 AI */}
+        <section className="bg-[#2A2A2A]">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              레비오사 AI는 뭐냐?
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
+              <p>
+                레비오사 AI는 셀러들을 위한 AI 자동화 프로그램이다.
+                <br />
+                셀러가 매일 반복하는 운영 업무를 조건 기반으로 자동 실행해,
+                <br />
+                실수와 시간을 줄이고, 매출이 커져도 운영이 무너지지 않게 만든다.
+              </p>
+              <p className="font-medium text-white">예시 (기대효과):</p>
+              <ul className="ml-4 list-disc space-y-1">
+                <li>상품 대량 등록/수정 자동화</li>
+                <li>가격/재고 변화 감지 → 자동 반영</li>
+                <li>주문/배송 처리 루틴 자동화</li>
+                <li>반복 CS 템플릿/분류 자동화</li>
+                <li>&quot;사람이 마지막 승인만 하는&quot; 운영 구조</li>
+              </ul>
             </div>
-            <div className="mx-auto max-w-[900px] space-y-4 px-4 py-[40px] md:py-[70px]">
-              <div className="rounded-lg border bg-white p-6 shadow-sm md:p-12">
-                <h3 className="text-center text-[18px] font-semibold md:text-[26px]">
-                  레비오사 AI는 어떤 플랫폼을 지원하나요?
-                </h3>
-                <div className="my-6 h-px w-full bg-gray-800" />
-                <p className="text-[18px] font-medium leading-[1.5] md:text-xl">
-                  쿠팡, 네이버 스마트스토어, 11번가, G마켓 등 국내 주요
-                  마켓플레이스와 자체 쇼핑몰 연동을 지원합니다. 준비 중인
-                  플랫폼이 있다면 대기 신청 시 문의해 주세요.
-                </p>
-              </div>
-              <div className="rounded-lg border bg-white p-6 shadow-sm md:p-12">
-                <h3 className="text-center text-[18px] font-semibold md:text-[26px]">
-                  AI가 고객에게 잘못된 답변을 하면 어떻게 하나요?
-                </h3>
-                <div className="my-6 h-px w-full bg-gray-800" />
-                <p className="text-[18px] font-medium leading-[1.5] md:text-xl">
-                  레비오사 AI는 사전에 설정한 FAQ와 시나리오 기반으로 응대합니다.
-                  민감한 문의는 자동으로 상담원 연결이 가능하며, 응대 내용을
-                  지속적으로 학습해 정확도를 높입니다.
-                </p>
-              </div>
-              <div className="rounded-lg border bg-white p-6 shadow-sm md:p-12">
-                <h3 className="text-center text-[18px] font-semibold md:text-[26px]">
-                  비용은 얼마인가요?
-                </h3>
-                <div className="my-6 h-px w-full bg-gray-800" />
-                <p className="text-[18px] font-medium leading-[1.5] md:text-xl">
-                  요금제는 월 단위로 제공되며, 상품 수와 월 처리 문의량에 따라
-                  다릅니다. 정확한 가격은 오픈 시 대기 신청자에게 우선 안내
-                  드립니다.
-                </p>
-              </div>
-              <div className="rounded-lg border bg-white p-6 shadow-sm md:p-12">
-                <h3 className="text-center text-[18px] font-semibold md:text-[26px]">
-                  언제 서비스를 이용할 수 있나요?
-                </h3>
-                <div className="my-6 h-px w-full bg-gray-800" />
-                <p className="text-[18px] font-medium leading-[1.5] md:text-xl">
-                  현재 준비 중이며, 2025년 중 정식 오픈 예정입니다. 대기 신청을
-                  해두시면 오픈 시 가장 먼저 안내해 드립니다.
-                </p>
-              </div>
-            </div>
-          </section>
+          </div>
+        </section>
 
-          {/* Footer CTA - scrolls to form above */}
-          <section className="bg-[#2A2A2A]">
-            <div className="relative mx-auto max-w-[900px] px-4 py-[40px] md:py-[70px]">
-              <div className="text-center">
-                <p className="text-[20px] font-bold leading-[1.5] text-white md:text-[26px]">
-                  대기 신청을 원하는 분들은 아래 버튼을 클릭해 주세요.
-                </p>
-                <div className="mt-10">
-                  <CTAButton variant="primary" size="xl" />
-                </div>
-                <p className="mt-2 text-sm text-white/80 md:text-lg">
-                  ※ 대기 신청 시 알림톡과 문자메시지 수신에 동의합니다.
-                </p>
-              </div>
+        {/* 9) 대기 혜택 */}
+        <section className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
+            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+              대기 신청하면 받는 것
+            </h3>
+            <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold">
+                셀러 운영 병목 진단 체크리스트 (오크통 진단)
+                <br />
+                <br />
+                자동화 우선순위 로드맵 (무엇부터 해야할까?)
+                <br />
+                <br />
+                레비오사 AI 초기 기능 우선 사용 권한 (순차 오픈)
+              </p>
             </div>
-          </section>
-        </div>
+          </div>
+        </section>
+
+        {/* 10) 최종 CTA + 11) 보너스 문장 */}
+        <section className="bg-[#1a1a1a]">
+          <div className="mx-auto max-w-[720px] px-4 py-16 md:py-24">
+            {/* 보너스 문장 */}
+            <p className="mb-6 text-center text-[15px] font-medium italic text-white/80 md:text-[17px]">
+              &quot;사람으로 버티는 순간, 성장은 리스크가 됩니다.&quot;
+            </p>
+
+            {/* 중앙 문구(2줄) */}
+            <p className="text-center text-[18px] font-bold leading-[1.6] text-white md:text-[22px]">
+              대기 신청만 하셔도,
+              <br />
+              셀러 운영 병목 진단 자료를 바로 받아볼 수 있습니다.
+              <br />
+              직접 적용해보세요. 👇
+            </p>
+
+            {/* 버튼 */}
+            <div className="mt-10 flex justify-center">
+              <CTAButton
+                variant="primary"
+                size="xl"
+                label="무료 진단 자료 받고 대기 신청하기"
+              />
+            </div>
+          </div>
+        </section>
 
         {/* Fixed Bottom CTA */}
         <div className="fixed bottom-0 z-20 w-full md:bottom-[30px]">
@@ -265,13 +298,13 @@ export default function Home() {
             <div className="flex items-center justify-between gap-2">
               <div>
                 <p className="text-sm font-semibold text-white md:text-lg">
-                  레비오사 AI, 지금 신청하세요!
+                  무료 진단 자료 받고 대기 신청하기
                 </p>
                 <p className="text-sm font-medium text-[#DADADA]">
-                  (오픈 시 가장 먼저 안내해 드립니다)
+                  (셀러 운영 병목 진단 자료를 바로 받아볼 수 있습니다)
                 </p>
               </div>
-              <CTAButton variant="secondary" size="md" />
+              <CTAButton variant="secondary" size="md" label="대기 신청" />
             </div>
           </div>
         </div>

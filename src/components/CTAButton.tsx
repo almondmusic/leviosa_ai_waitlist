@@ -1,19 +1,22 @@
 "use client";
 
+import { useWaitlistModal } from "./WaitlistModalProvider";
+
 type CTAButtonProps = {
   variant?: "primary" | "secondary";
   size?: "md" | "lg" | "xl";
+  label?: string;
 };
 
 export default function CTAButton({
   variant = "primary",
   size = "lg",
+  label = "대기신청",
 }: CTAButtonProps) {
+  const { openModal } = useWaitlistModal();
+
   const handleClick = () => {
-    const formEl = document.getElementById("waitlist-form");
-    if (formEl) {
-      formEl.scrollIntoView({ behavior: "smooth" });
-    }
+    openModal();
   };
 
   const baseClass =
@@ -34,7 +37,7 @@ export default function CTAButton({
       className={`${baseClass} ${variantClass} ${sizeClass[size]} rounded-md`}
       id="landing-apply-button"
     >
-      대기신청
+      {label}
     </button>
   );
 }
