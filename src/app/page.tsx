@@ -161,7 +161,9 @@ export default function Home() {
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold text-gray-900">
                 이건 노력의 문제가 아니라 구조의 문제다.
                 <br />
-                감정과 집중력에 의존하는 운영은 언젠가 반드시 터진다.
+                감정과 집중력에 의존하는 운영은
+                <br />
+                언젠가 반드시 터진다.
               </p>
               <p>나는 개발자였다.</p>
               <p>그래서 방향은 명확했다.</p>
@@ -220,14 +222,17 @@ export default function Home() {
             </h3>
             <div className="mt-8 space-y-6 text-[17px] font-semibold leading-[1.8] text-gray-900 md:text-[19px]">
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
-                &apos;운영&apos;을 사람으로 하면, 매출이 커질수록 망가진다.
+                &apos;운영&apos;을 사람으로 하면,
+                <br />
+                매출이 커질수록 망가진다.
               </p>
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
                 &apos;자동화&apos;는 편의가 아니라 생존이다.
               </p>
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3">
-                &apos;노출(트래픽)&apos;이 아니라, &apos;운영 시스템&apos;이
-                수익을 만든다.
+                &apos;노출(트래픽)&apos;이 아니라,
+                <br />
+                &apos;운영 시스템&apos;이 수익을 만든다.
               </p>
             </div>
           </div>

@@ -13,6 +13,12 @@ export default function WaitlistPageClient({ params }: { params: Params }) {
   return (
     <>
       <div className="min-h-screen bg-white text-neutral-900">
+        {/* Success banner - 상단 노출 (직접 /waitlist?success=1 접속 시) */}
+        {p.success && (
+          <div className="w-full border-b border-green-200 bg-green-50 py-3 text-center text-sm font-semibold text-green-800">
+            대기 신청이 완료되었습니다. 베타 오픈 시 연락드리겠습니다.
+          </div>
+        )}
         {/* Top Nav */}
         <header className="sticky top-0 z-30 w-full border-b border-neutral-200 bg-white/90 backdrop-blur">
           <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
@@ -294,7 +300,7 @@ export default function WaitlistPageClient({ params }: { params: Params }) {
               <div className="text-center">
                 <div className="text-xl font-extrabold">레비오사 AI 대기 신청</div>
                 <div className="mt-2 text-sm text-neutral-600">
-                  아래 버튼을 누르면 4단계 신청 플로우가 진행됩니다.
+                  이메일과 연락처만 입력하면 됩니다.
                 </div>
               </div>
               <button

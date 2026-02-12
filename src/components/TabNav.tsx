@@ -11,7 +11,7 @@ export default function TabNav() {
   const tabs: { id: TabId; label: string; sectionId: string }[] = [
     {
       id: "success",
-      label: "온라인 셀러 성공 공식",
+      label: "온라인셀러 성공공식",
       sectionId: "success-area",
     },
     { id: "intro", label: "레비오사 AI 소개", sectionId: "intro-area" },
@@ -69,10 +69,7 @@ export default function TabNav() {
         <div className="relative mx-auto max-w-[900px]">
           <ul className="flex w-full" id="tab-area">
             {tabs.map((tab) => (
-              <li
-                key={tab.id}
-                className="relative flex flex-1"
-              >
+              <li key={tab.id} className="relative flex flex-1">
                 <button
                   type="button"
                   onClick={() => {
