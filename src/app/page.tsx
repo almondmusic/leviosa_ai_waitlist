@@ -25,17 +25,20 @@ export default function Home() {
               "매출은 유지되는데 실수·클레임·CS 스트레스가 급감했다.",
               "이 글은 그 전환점에 대한 이야기다. 그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.",
             ]}
-            image1Src="/seller-operations.png"
+            //     image1Src="/seller-operations.png"
             image1Alt="셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
-            image2Src="/automation-dashboard.png"
+            //     image2Src="/automation-dashboard.png"
             image2Alt="자동화 대시보드 / 안정화된 운영"
           />
         </div>
 
         {/* 1) 내 이야기(신뢰용 배경) — "왜 이 문제를 파고들었는가" */}
         <section className="bg-white">
-          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
-            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-10">
+            <h3
+              id="intro-area"
+              className="text-[20px] font-bold text-[#EF5555] md:text-[24px] py-6"
+            >
               왜 이 문제를 파고들었는가
             </h3>
             <div className="mt-8 space-y-5 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
@@ -220,8 +223,11 @@ export default function Home() {
 
         {/* 8) 해결책(제품) — 레비오사 AI */}
         <section className="bg-[#2A2A2A]">
-          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
-            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+          <div className="mx-auto max-w-[720px] px-4 py-6 md:py-20">
+            <h3
+              id="faq-area"
+              className="text-[20px] font-bold text-[#EF5555] md:text-[24px] py-6"
+            >
               레비오사 AI는 뭐냐?
             </h3>
             <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
@@ -232,7 +238,7 @@ export default function Home() {
                 <br />
                 실수와 시간을 줄이고, 매출이 커져도 운영이 무너지지 않게 만든다.
               </p>
-              <p className="font-medium text-white">예시 (기대효과):</p>
+              {/* <p className="font-medium text-white">예시 (기대효과):</p> */}
               <ul className="ml-4 list-disc space-y-1">
                 <li>상품 대량 등록/수정 자동화</li>
                 <li>가격/재고 변화 감지 → 자동 반영</li>
@@ -285,7 +291,7 @@ export default function Home() {
             <div className="mt-10 flex justify-center">
               <CTAButton
                 variant="primary"
-                size="xl"
+                size="lg"
                 label="무료 진단 자료 받고 대기 신청하기"
               />
             </div>

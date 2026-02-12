@@ -5,6 +5,32 @@
 :root {
   --top-nav-height: 50px;
   --md-top-nav-height: 60px;
+  /* 헤더 + 탭바 높이만큼 스크롤 앵커 여백 */
+  --scroll-margin-top: 120px;
+}
+
+/* 탭 앵커 스크롤 시 상단 고정 영역에 가리지 않도록 */
+#success-area {
+  scroll-margin-top: var(--scroll-margin-top);
+}
+
+/* 제목이 탭에 붙어 보이도록 여백 최소화 */
+#intro-area {
+  scroll-margin-top: 98px;
+}
+@media (min-width: 768px) {
+  #intro-area {
+    scroll-margin-top: 116px;
+  }
+}
+
+#faq-area {
+  scroll-margin-top: 100px;
+}
+@media (min-width: 768px) {
+  #faq-area {
+    scroll-margin-top: 120px;
+  }
 }
 
 body {

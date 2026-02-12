@@ -15,9 +15,7 @@ function HeroImage({ src, alt, fallbackText }: HeroImageProps) {
     return (
       <div className="flex h-full w-full flex-col items-center justify-center rounded-lg bg-neutral-800/80 text-center text-white/60">
         <p className="text-sm">{fallbackText || alt}</p>
-        {src && (
-          <p className="mt-1 text-xs">public/ 에 이미지 추가</p>
-        )}
+        {src && <p className="mt-1 text-xs">public/ 에 이미지 추가</p>}
       </div>
     );
   }

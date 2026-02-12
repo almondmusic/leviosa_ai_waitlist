@@ -6,7 +6,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-[10px] md:px-[30px]">
         <div className="block items-start justify-between xl:flex">
           <div className="order-2 grid max-w-full grid-cols-12 gap-2 text-xs text-gray-600 md:gap-x-6">
-            <Link href="/policy/privacy" className="col-span-6 whitespace-nowrap">
+            <Link
+              href="/policy/privacy"
+              className="col-span-6 whitespace-nowrap"
+            >
               개인정보 처리방침
             </Link>
             <Link href="/faq" className="col-span-3 whitespace-nowrap">
@@ -26,12 +29,14 @@ export default function Footer() {
               <span className="md:ml-4">온라인 셀러를 위한 AI 에이전트</span>
             </div>
             <div>
-              <a href="mailto:help@leviosa.ai">메일: help@leviosa.ai</a>
+              <a href="mailto:leviosa_ai@naver.com">
+                메일: leviosa_ai@naver.com
+              </a>
             </div>
           </div>
         </div>
         <div className="mt-3 text-xs text-gray-700">
-          © 2025 Leviosa AI. All Rights Reserved.
+          © 2026 Leviosa AI. All Rights Reserved.
         </div>
       </div>
     </footer>
