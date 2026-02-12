@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl px-[10px] md:px-[30px]">
         <div className="block items-start justify-between xl:flex">
           <div className="order-2 grid max-w-full grid-cols-12 gap-2 text-xs text-gray-600 md:gap-x-6">
-            <Link
+            {/* <Link
               href="/policy/privacy"
               className="col-span-6 whitespace-nowrap"
             >
@@ -20,7 +20,7 @@ export default function Footer() {
             </Link>
             <Link href="/policy/terms" className="col-span-3 whitespace-nowrap">
               이용약관
-            </Link>
+            </Link> */}
           </div>
           <div className="order-1 mt-5 space-y-1 text-xs text-gray-600 xl:mt-0">
             <div>

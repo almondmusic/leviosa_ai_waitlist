@@ -33,31 +33,154 @@ export default function Home() {
         </div>
 
         {/* 1) 내 이야기(신뢰용 배경) — "왜 이 문제를 파고들었는가" */}
-        <section className="bg-white">
-          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-10">
-            <h3
-              id="intro-area"
-              className="text-[20px] font-bold text-[#EF5555] md:text-[24px] py-6"
-            >
+        <section id="intro-area" className="bg-white">
+          <div className="mx-auto max-w-[720px] px-4 py-12 md:py-16">
+            <h3 className="py-6 text-[20px] font-bold text-[#EF5555] md:text-[24px]">
               왜 이 문제를 파고들었는가
             </h3>
-            <div className="mt-8 space-y-5 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
-              <p>처음엔 단순했다.</p>
-              <p>상품 10개, 주문 하루 5건. 사람 손으로도 됐다.</p>
+            <div className="mt-6 space-y-5 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
+              <p>2020년, 나의 연봉은 3,000만 원이었다.</p>
               <p>
-                문제는 매출이 오르는 순간 시작됐다.
+                개발자로 첫 커리어를 시작했고,
                 <br />
-                상품이 늘고, 채널이 늘고, 주문이 늘수록
-                <br />
-                운영은 &apos;노력&apos;이 아니라 구조적 병목이 됐다.
+                웹과 앱을 만들고, 배포를 하고, 서버를 운영했다.
               </p>
-              <p className="font-semibold">나는 그걸 실제로 겪었다.</p>
-              <ul className="ml-4 list-disc space-y-2">
-                <li>상품 등록/수정이 하루를 잡아먹고</li>
-                <li>가격/재고 실수로 클레임이 터지고</li>
-                <li>배송/CS 누락이 매출을 갉아먹고</li>
-                <li>&quot;오늘도 운영만 하다 끝났다&quot;가 반복됐다</li>
+              <p>안정적이었다.</p>
+              <p>하지만 빠르지는 않았다.</p>
+              <p>그 무렵, 세상은 달라지고 있었다.</p>
+              <p className="font-semibold text-gray-900">
+                2021년, 시장은 &apos;불장&apos;이었다.
+              </p>
+              <p>주위 사람들이 돈을 벌기 시작했다.</p>
+              <p>형들과 선배들은 말 그대로 분위기가 달라졌다.</p>
+              <p className="rounded-lg bg-gray-100 px-4 py-2 italic">
+                &quot;나 이번에 1억 넘겼어.&quot;
+                <br />
+                &quot;회사 연봉보다 코인이 더 낫다.&quot;
+              </p>
+              <p>그 말이 반복될수록 내 3,000만 원 연봉은 점점 작아 보였다.</p>
+              <p>나는 코드를 짜고 있었고, 그들은 차트를 보고 있었다.</p>
+              <p>그때 처음으로 비교가 시작됐다.</p>
+              <p className="font-medium">
+                내가 뒤처지고 있는 건 아닐까?
+                <br />
+                나는 너무 느리게 가는 건 아닐까?
+              </p>
+              <p>
+                돈이 어떻게 만들어지고, 어떻게 사라지는지에 대해서는
+                <br />
+                깊이 고민해본 적이 없었다.
+              </p>
+              <p>그런데 주변의 속도는 내 사고를 압도하기 시작했다.</p>
+              <p className="font-semibold text-gray-900">
+                결국 나도 들어갔다. 주식과 코인.
+              </p>
+              <p>처음엔 올랐다.</p>
+              <p>그래프는 계속 위로 향했다.</p>
+              <p>계좌가 커지는 걸 보며 나는 착각했다.</p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-[#EF5555]/5 px-4 py-2 font-medium">
+                이게 실력이라고.
+              </p>
+              <p>하지만 감정으로 들어간 돈은 감정으로 무너졌다.</p>
+              <p>하락장이 왔고, 나는 버티지 못했다.</p>
+              <p className="font-semibold text-[#EF5555]">
+                결과는 1억 원이 넘는 빚.
+              </p>
+              <p>그때 처음으로 깨달았다.</p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-medium">
+                열심히 일한 돈은 느리지만 단단했고,
+                <br />
+                감정으로 번 돈은 빠르지만 쉽게 무너졌다.
+                <br />
+                <span className="font-semibold text-gray-900">
+                  돈은 속도가 아니라 구조에서 나오는 거구나.
+                </span>
+              </p>
+              <p className="font-semibold text-gray-900">
+                2022년, 나는 두나무에 입사했다.
+              </p>
+              <p>
+                운명의 장난처럼, 나에게 빚을 안겨준 코인을 거래하는
+                <br />그 거래소에서 일하게 됐다.
+              </p>
+              <p>연봉 1억.</p>
+              <p>
+                나는 개발자로 일했고, 시스템을 만들었고, 안정적인 월급을 받았다.
+              </p>
+              <p>그 돈으로 빚을 갚았다.</p>
+              <p>분명 회복이었다.</p>
+              <p>하지만 또 하나의 질문이 남았다.</p>
+              <p className="italic">
+                야근을 하던 어느 날 문득 이런 생각이 들었다.
+              </p>
+              <p className="rounded-lg bg-gray-100 px-4 py-2 font-medium">
+                내가 내일 출근하지 않으면 이 돈은 들어오지 않는구나.
+              </p>
+              <p>연봉이 3,000만 원에서 1억이 되어도 구조는 같았다.</p>
+              <p className="font-semibold">노동을 멈추면, 수익은 멈춘다.</p>
+              <p>그때 두 번째로 깨달았다.</p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-medium">
+                고연봉은 안정일 뿐, 자유는 아니다.
+                <br />
+                <span className="font-semibold text-gray-900">
+                  자유는 내가 없어도 돌아가는 구조에서 나온다.
+                </span>
+              </p>
+              <p className="font-semibold text-gray-900">
+                2023년, 나는 다시 시작했다. 이번에는 셀러였다.
+              </p>
+              <p>
+                상품을 등록하고, 가격을 수정하고, 주문을 확인하고,
+                <br />
+                운송장을 입력하고, CS를 처리했다.
+              </p>
+              <p>처음에는 단순 노동처럼 보였다.</p>
+              <p>하지만 매출이 오르기 시작하자 상황이 달라졌다.</p>
+              <p>어느 날이었다.</p>
+              <p>하루 주문이 갑자기 50건을 넘었다.</p>
+              <p>
+                그날 밤 나는 배송 누락을 냈고, 가격 수정 타이밍을 놓쳤고, CS
+                응답이 밀렸다.
+              </p>
+              <p className="font-medium">그 순간 의문이 들었다.</p>
+              <p className="rounded-lg border border-[#EF5555]/60 bg-[#EF5555]/10 px-4 py-3 font-medium">
+                매출이 늘수록 왜 더 불안해지는 거지?
+              </p>
+              <p>며칠 뒤 계산을 해봤다.</p>
+              <p>상품 50000개 · 하루 주문 40~60건 · 가격 변동 수십 건</p>
+              <p>
+                이걸 사람이 붙잡고 관리한다는 것 자체가
+                <br />
+                이미 구조적으로 무너질 수밖에 없는 상태였다.
+              </p>
+              <p>그때 처음으로 강하게 깨달았다.</p>
+              <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold text-gray-900">
+                이건 노력의 문제가 아니라 구조의 문제다.
+                <br />
+                감정과 집중력에 의존하는 운영은 언젠가 반드시 터진다.
+              </p>
+              <p>나는 개발자였다.</p>
+              <p>그래서 방향은 명확했다.</p>
+              <p className="font-medium">
+                사람이 붙잡고 있는 것을 시스템이 처리하게 만들자.
+              </p>
+              <p>
+                반복을 코드로 바꾸고, 판단을 로직으로 만들고,
+                <br />
+                운영을 자동화 흐름으로 설계했다.
+              </p>
+              <p>그 결과는 단순했다.</p>
+              <ul className="space-y-2 rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-medium">
+                <li>수동 작업 시간 급감</li>
+                <li>가격 실수 0에 수렴</li>
+                <li>주문 처리 누락 감소</li>
+                <li>그리고 월매출 1억 돌파</li>
               </ul>
+              <p>이건 재능의 결과가 아니었다.</p>
+              <p>운의 결과도 아니었다.</p>
+              <p className="text-[18px] font-bold text-[#EF5555] md:text-[20px]">
+                구조의 결과였다.
+              </p>
             </div>
           </div>
         </section>
@@ -133,9 +256,13 @@ export default function Home() {
         {/* 5) "90%가 막히는 이유" 섹션 */}
         <section className="bg-white">
           <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
-            <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
-              90%가 막히는 이유
-            </h3>
+            <div className="flex flex-col gap-4">
+              <hr className="border-black-500" />
+              <h3 className="whitespace-pre-wrap text-2xl font-bold text-[#FF6E78]">
+                90%의 실패와 10%의 성공, 그 허상을 깨다
+              </h3>
+              <hr />
+            </div>
             <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
               <p>
                 새로 시작한 셀러의 90%가 특정 구간에서 멈춘다.
