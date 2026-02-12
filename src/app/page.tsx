@@ -23,7 +23,8 @@ export default function Home() {
               "매출은 늘었는데, 이상하게 시간은 더 사라졌다.",
               "그러던 어느 날, 운영을 사람 손에서 빼고 '시스템'으로 옮기는 공식을 적용했고,",
               "매출은 유지되는데 실수·클레임·CS 스트레스가 급감했다.",
-              "이 글은 그 전환점에 대한 이야기다. 그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.",
+              "이 글은 그 전환점에 대한 이야기다.",
+              "그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.",
             ]}
             //     image1Src="/seller-operations.png"
             image1Alt="셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
@@ -33,9 +34,12 @@ export default function Home() {
         </div>
 
         {/* 1) 내 이야기(신뢰용 배경) — "왜 이 문제를 파고들었는가" */}
-        <section id="intro-area" className="bg-white">
+        <section className="bg-white">
           <div className="mx-auto max-w-[720px] px-4 py-12 md:py-16">
-            <h3 className="py-6 text-[20px] font-bold text-[#EF5555] md:text-[24px]">
+            <h3
+              id="intro-area"
+              className="py-6 text-[20px] font-bold text-[#EF5555] md:text-[24px]"
+            >
               왜 이 문제를 파고들었는가
             </h3>
             <div className="mt-6 space-y-5 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
@@ -238,7 +242,7 @@ export default function Home() {
             <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-white/95 md:text-[18px]">
               <p>매출이 커질수록 반복되는 패턴이 있다.</p>
               <ul className="space-y-2">
-                <li>상품 100개 → 수정 요청 폭증 → 누락</li>
+                <li>상품 1000개 → 수정 요청 폭증 → 누락</li>
                 <li>주문 50건 → 송장/배송 실수 → 클레임</li>
                 <li>가격 변경 → 수동 체크 → 패널티 위험</li>
                 <li>CS 폭주 → 감정 소모 → 운영 품질 붕괴</li>
