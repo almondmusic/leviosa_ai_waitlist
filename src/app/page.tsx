@@ -28,9 +28,9 @@ export default function Home() {
               "그리고 지금도 통하는 '셀러 자동화 공식'에 대한",
               "이야기이기도 하다.",
             ]}
-            //     image1Src="/seller-operations.png"
+            image1Src="/seller-operations.png"
             image1Alt="셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
-            //     image2Src="/automation-dashboard.png"
+            image2Src="/automation-dashboard.png"
             image2Alt="자동화 대시보드 / 안정화된 운영"
           />
         </div>
@@ -117,6 +117,11 @@ export default function Home() {
               <p>
                 나는 개발자로 일했고, 시스템을 만들었고, 안정적인 월급을 받았다.
               </p>
+              <img
+                src="/dunamu_100k.png"
+                alt="두나무"
+                className="my-2 w-full max-w-[800px] rounded-lg"
+              />
               <p>그 돈으로 빚을 갚았다.</p>
               <p>분명 회복이었다.</p>
               <p>하지만 또 하나의 질문이 남았다.</p>
