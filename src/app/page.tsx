@@ -329,14 +329,12 @@ export default function Home() {
                 이때부터 매출은 목표가 아니라 결과가 된다.
               </p>
               {/* 이미지 1장 영역 */}
-              <div className="mt-10 aspect-video overflow-hidden rounded-lg bg-neutral-800/80">
-                <div className="flex h-full w-full items-center justify-center text-center text-white/50">
-                  <p className="text-sm">
-                    운영이 자동으로 돌아가는 흐름도
-                    <br />
-                    (상품/가격/재고/주문/CS)
-                  </p>
-                </div>
+              <div className="mt-10 overflow-hidden rounded-lg">
+                <img
+                  src="/automatic_operation.gif"
+                  alt="운영이 자동으로 돌아가는 흐름도 (상품/가격/재고/주문/CS)"
+                  className="w-full rounded-lg"
+                />
               </div>
             </div>
           </div>
