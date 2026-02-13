@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="min-h-[250px] bg-gray-200 py-[30px] pb-32 xl:pb-[120px]">
+    <footer className="min-h-[250px] bg-gray-200 py-[30px] xl:pb-[120px]">
       <div className="mx-auto max-w-7xl px-[10px] md:px-[30px]">
         <div className="block items-start justify-between xl:flex">
           <div className="order-2 grid max-w-full grid-cols-12 gap-2 text-xs text-gray-600 md:gap-x-6">
@@ -22,7 +22,7 @@ export default function Footer() {
               이용약관
             </Link> */}
           </div>
-          <div className="order-1 mt-5 space-y-1 text-xs text-gray-600 xl:mt-0">
+          <div className="order-1 space-y-1 text-xs text-gray-600 xl:mt-0">
             <div>
               <span>레비오사 AI</span>
               <br className="block md:hidden" />
@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-3 text-xs text-gray-700">
+        <div className="text-xs text-gray-700">
           © 2026 Leviosa AI. All Rights Reserved.
         </div>
       </div>

@@ -21,10 +21,12 @@ export default function Home() {
             leadLines={[
               "많은 셀러가 미래를 불안해한다. 나 역시 그랬다.",
               "매출은 늘었는데, 이상하게 시간은 더 사라졌다.",
-              "그러던 어느 날, 운영을 사람 손에서 빼고 '시스템'으로 옮기는 공식을 적용했고,",
+              "그러던 어느 날, 운영을 사람 손에서 빼고",
+              "'시스템'으로 옮기는 공식을 적용했고,",
               "매출은 유지되는데 실수·클레임·CS 스트레스가 급감했다.",
               "이 글은 그 전환점에 대한 이야기다.",
-              "그리고 지금도 통하는 셀러 자동화 공식에 대한 이야기이기도 하다.",
+              "그리고 지금도 통하는 '셀러 자동화 공식'에 대한",
+              "이야기이기도 하다.",
             ]}
             //     image1Src="/seller-operations.png"
             image1Alt="셀러 운영 화면 / 주문 폭주 / 엑셀 지옥"
@@ -62,7 +64,11 @@ export default function Home() {
                 <br />
                 &quot;회사 연봉보다 코인이 더 낫다.&quot;
               </p>
-              <p>그 말이 반복될수록 내 3,000만 원 연봉은 점점 작아 보였다.</p>
+              <p>
+                그 말들이 반복될수록 내 3,000만원 연봉은
+                <br />
+                점점 작아보였다.
+              </p>
               <p>나는 코드를 짜고 있었고, 그들은 차트를 보고 있었다.</p>
               <p>그때 처음으로 비교가 시작됐다.</p>
               <p className="font-medium">
@@ -118,7 +124,7 @@ export default function Home() {
                 야근을 하던 어느 날 문득 이런 생각이 들었다.
               </p>
               <p className="rounded-lg bg-gray-100 px-4 py-2 font-medium">
-                내가 내일 출근하지 않으면 이 돈은 들어오지 않는구나.
+                &quot;내가 출근하지 않으면 이 돈은 들어오지 않겠구나.&quot;
               </p>
               <p>연봉이 3,000만 원에서 1억이 되어도 구조는 같았다.</p>
               <p className="font-semibold">노동을 멈추면, 수익은 멈춘다.</p>
@@ -208,7 +214,9 @@ export default function Home() {
                 이게 말이 되나 싶어서, 나는 질문을 바꿨다.
               </p>
               <p className="rounded-lg border border-[#EF5555]/60 bg-[#EF5555]/10 px-4 py-3 font-medium">
-                &quot;바쁜 건 성장이 아니라, 시스템이 없다는 신호 아닐까?&quot;
+                &quot;바쁜 건 성장이 아니라,
+                <br />
+                시스템이 없다는 신호 아닐까?&quot;
               </p>
             </div>
           </div>
@@ -329,29 +337,79 @@ export default function Home() {
           </div>
         </section>
 
-        {/* 7) 오크통 법칙(셀러 버전) */}
+        {/* 7) 건물의 기초 비유 */}
         <section className="bg-white">
           <div className="mx-auto max-w-[720px] px-4 py-12 md:py-20">
             <h3 className="text-[20px] font-bold text-[#EF5555] md:text-[24px]">
-              가장 낮은 판자를 올려라
+              기초공사부터 탄탄히 하자
             </h3>
             <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
-              <p>셀러 운영도 오크통이다.</p>
+              <p>성공은 고층 빌딩과 같다.</p>
               <p>
-                아무리 소싱을 잘해도, 아무리 마케팅을 잘해도
-                <br />한 판자(병목) 하나가 전체를 새게 만든다.
+                높이를 올리고 싶다면 위를 쌓는 게 아니라
+                <br />
+                기초를 먼저 깊게 파야 한다.
               </p>
-              <p className="font-medium">예를 들어 이런 판자들이다.</p>
-              <ul className="ml-4 list-disc space-y-1">
-                <li>상품 등록 속도</li>
-                <li>가격/재고 싱크 정확도</li>
-                <li>주문 처리 누락률</li>
-                <li>CS 응답 속도</li>
-                <li>플랫폼별 정책/제재 리스크</li>
-              </ul>
+              <p>
+                겉으로 보이는 성과는 위층이다.
+                <br />
+                보이지 않는 역량이 기초다.
+              </p>
+              <p className="font-semibold">기초가 얕으면 높이는 제한된다.</p>
+              <p className="font-medium">예를 들어 이런 기초들이다.</p>
+              {/* 5가지 예시 + 이미지 (기초 판자처럼 이미지 주위에 5가지 배치) */}
+              <div className="flex flex-col gap-6 md:flex-row md:items-center md:gap-8">
+                <ul className="flex-1 space-y-2 text-[15px] md:text-[16px]">
+                  <li className="flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 shrink-0 rounded-full bg-[#EF5555]" />
+                    상품 등록 속도
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 shrink-0 rounded-full bg-[#EF5555]" />
+                    가격/재고 싱크 정확도
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 shrink-0 rounded-full bg-[#EF5555]" />
+                    주문 처리 누락률
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 shrink-0 rounded-full bg-[#EF5555]" />
+                    CS 응답 속도
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="inline-block h-2 w-2 shrink-0 rounded-full bg-[#EF5555]" />
+                    플랫폼별 정책/제재 리스크
+                  </li>
+                </ul>
+                <div className="relative mx-auto w-[200px] shrink-0 md:mx-0 md:w-[220px]">
+                  <img
+                    src="/building_design.jpg"
+                    alt="건물 기초 설계"
+                    className="w-full rounded-lg border border-neutral-200 shadow-md"
+                  />
+                  <span className="absolute -top-1 left-0 right-0 text-center text-[11px] font-semibold text-[#EF5555] md:text-xs">
+                    상품 등록 속도
+                  </span>
+                  <span className="absolute top-1/2 -right-8 max-w-[72px] text-right text-[10px] font-semibold text-neutral-600 md:-right-10 md:text-[11px]">
+                    가격/재고 싱크
+                  </span>
+                  <span className="absolute -bottom-1 left-0 right-0 text-center text-[10px] font-semibold text-neutral-600 md:text-[11px]">
+                    주문 처리 누락률
+                  </span>
+                  <span className="absolute bottom-1/3 -left-7 max-w-[56px] text-[10px] font-semibold text-neutral-600 md:-left-8 md:text-[11px]">
+                    CS 응답 속도
+                  </span>
+                  <span className="absolute right-0 bottom-2 -right-6 max-w-[64px] text-right text-[10px] font-semibold text-neutral-600 md:-right-8 md:text-[11px]">
+                    정책/제재 리스크
+                  </span>
+                </div>
+              </div>
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold">
                 목표는 &quot;월매출 1억&quot;이 아니라,
-                <br />내 오크통에서 가장 낮은 판자를 자동화로 끌어올리는 것이다.
+                <br />
+                기초를 먼저 깊게 파고,
+                <br />
+                가장 약한 기초를 자동화로 보강하는 것이다.
               </p>
             </div>
           </div>
@@ -370,9 +428,13 @@ export default function Home() {
               <p>
                 레비오사 AI는 셀러들을 위한 AI 자동화 프로그램이다.
                 <br />
-                셀러가 매일 반복하는 운영 업무를 조건 기반으로 자동 실행해,
+                셀러가 매일 반복하는 운영 업무를
                 <br />
-                실수와 시간을 줄이고, 매출이 커져도 운영이 무너지지 않게 만든다.
+                조건에 따라 자동 실행해,
+                <br />
+                실수와 시간을 줄이고, 매출이 커져도
+                <br />
+                운영이 무너지지 않게 만든다.
               </p>
               {/* <p className="font-medium text-white">예시 (기대효과):</p> */}
               <ul className="ml-4 list-disc space-y-1">
@@ -394,7 +456,7 @@ export default function Home() {
             </h3>
             <div className="mt-8 space-y-6 text-[16px] leading-[1.9] text-gray-800 md:text-[18px]">
               <p className="rounded-lg border-l-4 border-[#EF5555] bg-gray-50 px-4 py-3 font-semibold">
-                셀러 운영 병목 진단 체크리스트 (오크통 진단)
+                셀러 운영 병목 진단 체크리스트 (기초 진단)
                 <br />
                 <br />
                 자동화 우선순위 로드맵 (무엇부터 해야할까?)
@@ -418,7 +480,7 @@ export default function Home() {
             <p className="text-center text-[18px] font-bold leading-[1.6] text-white md:text-[22px]">
               대기 신청만 하셔도,
               <br />
-              셀러 운영 병목 진단 자료를 바로 받아볼 수 있습니다.
+              셀러 운영병목 진단자료를 바로 받아볼 수 있습니다.
               <br />
               직접 적용해보세요. 👇
             </p>
